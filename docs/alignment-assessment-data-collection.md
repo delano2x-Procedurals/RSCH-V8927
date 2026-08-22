@@ -2,7 +2,8 @@
 
 **Course context:** RSCH-V8927 Doctoral Project Development — Framework Development (building on BMGT8044)  
 **Project:** Generic qualitative inquiry (GQI) of U.S. SME IT/network managers’ disaster-recovery governance on external platforms (ITDRPaaS)  
-**Media applied:** *The Alignment Map: Guiding Questions* (courseroom interactive map: “Select each marker icon to learn about each component of the framework”) and *Project Plan Alignment Tracking*
+**Media applied:** *The Alignment Map: Guiding Questions* (courseroom interactive map: “Select each marker icon to learn about each component of the framework”) and *Project Plan Alignment Tracking*  
+**Paste-ready revisions:** [collection-analysis-revision-packet.md](collection-analysis-revision-packet.md) — detailed protocol, artifact pipeline, analysis bridge, citation repairs, language-drift swaps, and ethics SOPs. Items marked **NEW** did not exist as written steps in the prior draft.
 
 ---
 
@@ -251,7 +252,7 @@ This is the Alignment Map test for the Measures/Artifacts and Data Collection ma
 
 ## 4. Missing Data Collection Steps (Stakeholder-Salience Guide)
 
-The Alignment Map’s Data Collection marker has no written steps in the draft. Qualitative stakeholder-salience supplies them. This is the same study, made visible.
+The Alignment Map’s Data Collection marker has no written steps in the draft. Qualitative stakeholder-salience supplies them. The **detailed, paste-ready versions** — timed protocol, artifact pipeline, analysis bridge, citation table, language swaps, and ethics SOPs — are in [collection-analysis-revision-packet.md](collection-analysis-revision-packet.md). Each block labeled **NEW** is a new written effort. The short form below is the map-level summary only.
 
 ### 4.1 Interview protocol (Measures/Artifacts completed by the participant)
 
@@ -348,7 +349,7 @@ Analysis will reuse the four-step generic thematic reduction practiced in Data A
 ## 6. Conclusions and Next Actions
 
 1. Keep the official map’s top and right-hand column: GQI, CIT, SME population, criterion sample, artifact-as-context, recoverability-assurance definition.
-2. Fill the Data Collection marker. Where the plan has no steps, let qualitative stakeholder-salience guide the questions, then follow the incident into decision rights, escalation, and proof.
+2. Fill the Data Collection marker using the **NEW** protocol and artifact pipeline in [collection-analysis-revision-packet.md](collection-analysis-revision-packet.md). Where the plan has no steps, let qualitative stakeholder-salience guide the questions, then follow the incident into decision rights, escalation, and proof.
 3. Keep the seven labels on the Constructs node. Do not promote them to Data Analysis theme titles. Run Practice 2 Steps 1–4 on talk plus artifact maps. Answer PQ1 and PQ2 separately.
 4. Write the artifact fallback and the ethics paragraph; they are what make the Measures/Artifacts and Dependability markers collectable.
 5. Repair citations and GQI language so Methodology does not drift into phenomenology or audit.
