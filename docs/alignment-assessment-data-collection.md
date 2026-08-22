@@ -2,262 +2,267 @@
 
 **Course context:** RSCH-V8927 Doctoral Project Development — Framework Development (building on BMGT8044)  
 **Project:** Generic qualitative inquiry (GQI) of U.S. SME IT/network managers’ disaster-recovery governance on external platforms (ITDRPaaS)  
-**Purpose of this memo:** Apply Project Plan Alignment Tracking and The Alignment Map: Guiding Questions to judge whether the proposed instruments, procedures, trustworthiness plan, and the four-step analysis already practiced in Data Analysis Practice 2 can produce and reduce the data needed to close the stated gap.
+**Media applied:** *The Alignment Map: Guiding Questions* (courseroom interactive map: “Select each marker icon to learn about each component of the framework”) and *Project Plan Alignment Tracking*
 
 ---
 
 ## Executive Summary
 
-The collection design is **conceptually strong and operationally incomplete**. Stakeholder-salience theory, decision-rights governance, and recoverability assurance are the right constructs for the gap, and GQI plus critical-incident interviewing is the right methodological family. What is missing is the Alignment Map’s required demonstration that each gap element has a corresponding, answerable data source: an actual interview protocol, a workable artifact pipeline, ethics mitigations that protect those data, and an analysis path that does not collapse into confirmatory coding.
+Read against the official Alignment Map, the collection design is **conceptually strong and operationally incomplete**. The map requires a visible downward chain:
 
-Data Analysis Practice 2 (Walker, 16 August 2026) already operationalizes a four-step generic thematic reduction (Aronson, 1994; Taylor & Bogdan, 1998; Braun & Clarke, 2021). That method can close the gap **if** Power, Legitimacy, Urgency, Decision Rights, Escalation, Evidentiary Standards, and Recoverability Assurance stay **sensitizing probes**, not pre-named themes. Because the current collection draft does not display interview steps, this memo uses **qualitative stakeholder-salience** (Mitchell et al., 1997) to supply the missing guiding questions: who had power, whose claim was treated as legitimate, what made restoration urgent, who held decision rights, how escalation was triggered, and what counted as sufficient proof.
+**Topic/Problem → What We Know / What We Don’t Know → Gap → Questions → Constructs/Phenomena → Measures/Artifacts → Data Collection → Data Analysis**
 
-**Overall alignment rating: Partial.** The chain from gap to intended data is coherent. The chain from intended data to collectable, analyzable, defensible evidence is not yet shown.
+with a right-hand methodology column (**Methodology → Population → Sample → Recruitment**) and a left-hand quality column (**Procedures → Dependability**).
+
+Your gap, constructs, and intended measures sit in the right boxes. **Data Collection** is the weak node: the draft names instruments but does not show collection steps. Where those steps are missing, this memo does not invent a new framework. It uses **qualitative stakeholder-salience** (power, legitimacy, urgency) to guide the missing questions, then follows the same incident into decision rights, escalation, and recoverability assurance (Mitchell et al., 1997).
+
+Data Analysis Practice 2 already supplies the **Data Analysis** node (four-step generic thematic reduction). That node stays aligned only if the seven labels remain sensitizing probes, not pre-named themes.
+
+**Overall Alignment Map rating: Partial.** Gap → Questions → Constructs is coherent. Measures/Artifacts → Data Collection → Data Analysis is not yet shown as a collectable, reducible path.
 
 ---
 
-## 1. Alignment Media and Guiding Questions Used
+## 1. The Official Alignment Map
 
-Official Capella courseroom media — *Project Plan Alignment Tracking* and *The Alignment Map: Guiding Questions* — sit behind login and could not be retrieved verbatim. This memo applies the **same sequential chain those media enforce**, reconstructed from Capella’s published GQI and guiding-question guides, the course scoring language for Proposed Data Sources / Detailed Procedures / Trustworthiness, and the standard qualitative alignment road map (problem/gap → purpose/questions → methodology → methods → analysis → findings that address the gap).
-
-### 1.1 Primary public Capella sources
-
-| Source | What it requires of this project |
-| --- | --- |
-| [Writing Guiding Questions](https://campustools.capella.edu/BBCourse_Production/PhD_Colloquia_C4C/Track_3/phd_t3_u07s1_writeguide.html) | Interview items must be open-ended, answerable, assumption-explicit, written in participant language, and mapped to the research question. Topical guiding questions are used when the participant does not spontaneously raise a needed topic. |
-| [Qualitative Data Collection Methods – SOBT](https://campustools.capella.edu/BBCourse_Production/PhD_Colloquia/Track_3/SOBT/phd_t3_sobt_u02s6_h01_qualcoll.html) | GQI collects theoretically informed, semi-structured accounts of **external events, opinions, and practices**, not phenomenological essence. Questions may be built from existing theoretical constructs. |
-
-### 1.2 Alignment Map questions answered in this memo
-
-For each link in the chain below, the rating is **Strong**, **Partial**, or **Weak**.
+The courseroom media is an interactive flowchart. Each node has a marker icon; selecting the marker opens that component’s guiding questions. Nodes marked with an asterisk (*) on the map are the design/operations cluster (methodology, population, sample, recruitment, procedures, dependability, data collection).
 
 ```mermaid
-flowchart LR
-  gap[Gap_salience_to_assurance]
-  rqs[Implied_project_questions]
-  gqi[GQI_plus_CIT]
-  inst[Interview_and_artifacts]
-  proc[Recruit_interview_review_store]
-  anal[Practice2_MU_theme_synthesis]
-  data[Findings_that_can_close_gap]
-  gap --> rqs --> gqi --> inst --> proc --> anal --> data
+flowchart TB
+  topic[Topic_Problem]
+  known[What_We_Know]
+  unknown[What_We_Dont_Know]
+  gap[Gap]
+  questions[Questions]
+  constructs[Constructs_Phenomena_Variables]
+  methodology[Methodology]
+  measures[Measures_Artifacts]
+  procedures[Procedures]
+  dataCollection[Data_Collection]
+  population[Population]
+  dependability[Dependability]
+  dataAnalysis[Data_Analysis]
+  sample[Sample]
+  recruitment[Recruitment]
+  topic --> known
+  topic --> unknown
+  known --> gap
+  unknown --> gap
+  gap --> questions
+  questions --> constructs
+  questions --> methodology
+  constructs --> measures
+  measures --> procedures
+  measures --> dataCollection
+  methodology --> population
+  procedures --> dependability
+  dataCollection --> dataAnalysis
+  population --> sample
+  sample --> recruitment
 ```
 
-1. Does the gap name a phenomenon that qualitative data can actually capture?
-2. Do the implied project questions restated the gap without changing the unit of analysis?
-3. Is GQI (not phenomenology, case study, or a compliance audit) the congruent method?
-4. Can the named instruments generate evidence for every gap element?
-5. Do the procedures make those data obtainable, ethical, and stored?
-6. Can the practiced analysis reduce those data into findings that answer the questions without confirming the framework in advance?
-7. Do trustworthiness tactics protect the interpretive claims needed to close the gap?
+**Data Collection is not a free-standing choice.** On the map it is preceded by Measures/Artifacts, which are preceded by Constructs, which are preceded by Questions, which are preceded by the Gap. Laterally it must stay consistent with Procedures and Dependability, and with the Methodology → Population → Sample → Recruitment column.
 
-### 1.3 Fallback rule used in this memo
+**Fallback rule.** If a node has no written steps in the project-plan draft, qualitative stakeholder-salience guides that node: whose claim had power, whose claim was treated as legitimate, what made recovery urgent, who held the decision right, what triggered escalation, and what counted as enough proof (Mitchell et al., 1997; Lowry et al., 2025).
 
-Where the collection draft **does not display steps** (no numbered interview protocol, no artifact-request script, no analysis procedure in the project-plan data sections), this memo does not invent a new framework. It guides the missing steps with **qualitative stakeholder-salience**: power, legitimacy, and urgency as the mechanism by which managers decide whose claims count, then traces those shifts into decision rights, escalation, evidentiary standards, and recoverability assurance (Mitchell et al., 1997; Lowry et al., 2025).
+Supporting Capella guides (not a substitute for the map):
+
+- [Writing Guiding Questions](https://campustools.capella.edu/BBCourse_Production/PhD_Colloquia_C4C/Track_3/phd_t3_u07s1_writeguide.html) — open, answerable, assumption-explicit items mapped to the question.
+- [Qualitative Data Collection Methods – SOBT](https://campustools.capella.edu/BBCourse_Production/PhD_Colloquia/Track_3/SOBT/phd_t3_sobt_u02s6_h01_qualcoll.html) — GQI collects theoretically informed accounts of **external events and practices**, not phenomenological essence.
 
 ---
 
-## 2. The Gap and the Data It Requires
+## 2. Node-by-Node Alignment (Marker Walk)
 
-### 2.1 Gap restated as data needs
+Each marker below is scored **Strong / Partial / Weak** against the draft you supplied (gap, proposed data sources, detailed procedures, trustworthiness) and against Data Analysis Practice 2.
 
-The gap is not “SME disaster recovery is under-researched.” It is more precise:
+### 2.1 Topic / Problem — Strong
 
-> Stakeholder theory says organizations must manage competing claims and sustain legitimacy, but the literature does not explain **how SME IT managers operationalize that claim management inside ITDRPaaS governance when cyber disruption forces time-critical recovery choices**. Stakeholder-salience theory names the mechanism (power, legitimacy, urgency), yet research remains limited on how those salience shifts become **decision rights, escalation pathways, and evidence standards** that make **recoverability assurance** defensible to stakeholders (Donaldson & Preston, 1995; Freeman et al., 2004; Mitchell et al., 1997; Lowry et al., 2025; Dorobantu et al., 2024).
+The topic is SME IT disaster-recovery governance on external platforms during organizational disruption. The problem is not “recovery tools fail.” It is that managers must handle competing stakeholder claims under time pressure without a clear account of how authority and proof are enacted. That is a qualitative practice problem, not a variance problem.
 
-That gap creates five data requirements:
+### 2.2 What We Know — Strong
 
-| Gap element | Data the study must be able to produce |
+The draft correctly treats as known:
+
+- Organizations must manage competing stakeholder claims and sustain legitimacy (Donaldson & Preston, 1995; Freeman et al., 2004).
+- Salience theory specifies the attention mechanism: power, legitimacy, and urgency determine whose claims count (Mitchell et al., 1997).
+- Recoverability assurance can be stated as reviewable, decision-relevant evidence that prioritized services can be restored within tolerance (Lowry et al., 2025; Park et al., 2023, as used in the draft).
+
+### 2.3 What We Don’t Know — Strong
+
+The unknown is operational, not definitional: how SME IT managers **translate** salience shifts into decision rights, escalation pathways, and evidence standards inside ITDRPaaS when disruption forces time-critical choices (Lowry et al., 2025; Mitchell et al., 1997). That unknown is what Data Collection must be built to capture.
+
+### 2.4 Gap — Strong
+
+The gap sits where the map places it: the difference between what we know (stakeholder theory + salience mechanism) and what we don’t know (enactment in SME ITDRPaaS). It answers “who cares” (SME managers and the stakeholders who depend on their services) and “why now” (legitimacy judgments move faster in modern information environments; Dorobantu et al., 2024).
+
+Data the Gap requires, which later nodes must deliver:
+
+| Gap element | Data the later nodes must produce |
 | --- | --- |
 | Stakeholder-claim management in SME ITDRPaaS | Incident narratives in which two or more parties made competing recovery claims |
-| Salience shifts (power, legitimacy, urgency) | Accounts of whose demand “counted,” why, and how that ranking changed mid-incident |
-| Decision rights and escalation | Who was authorized to make the tradeoff, who was bypassed, and what triggered escalation |
-| Evidentiary standards / recoverability assurance | What counted as “enough” proof of restoration, who accepted or renegotiated that proof, and which artifacts (tickets, integrity checks, authorization records) were treated as reviewable evidence |
-| Who cares / why now | How unclear authority or contested proof produced inconsistent recovery or disputed restoration legitimacy under time pressure |
+| Salience shifts (power, legitimacy, urgency) | Accounts of whose demand counted, why, and how that ranking changed mid-incident |
+| Decision rights and escalation | Who was authorized, who was bypassed, what triggered escalation |
+| Evidentiary standards / recoverability assurance | What counted as enough proof, whether the threshold was renegotiated, which artifacts were treated as reviewable |
+| Who cares / why now | How unclear authority or contested proof produced inconsistent or disputed restoration |
 
-### 2.2 Implied project questions
+### 2.5 Questions — Partial
 
-Official project-question wording was not in the source draft. Until that wording is pasted into the tracking table, Alignment Tracking uses these implied questions, written to stay inside GQI (external events and managerial accounts, not inner essence):
+The map requires Questions to be a restatement of the Gap, not a new study. Official project-question wording was not in the source draft. Until it is pasted here, Alignment Tracking uses these implied questions (GQI wording: external events, not inner essence):
 
 - **PQ1.** How do U.S. SME IT and network managers describe stakeholder-claim management and salience shifts (power, legitimacy, urgency) during ITDRPaaS recovery or testing incidents?
 - **PQ2.** How do those shifts get enacted as decision rights, escalation pathways, and evidentiary / recoverability-assurance standards that managers can defend to stakeholders?
 
-Paste the official RQ/PQ wording over these lines before courseroom submission.
+**Strong** as a restatement of the Gap. **Partial** as documentation (official questions not shown). Paste official RQ/PQ wording over these lines before courseroom submission.
 
-**Rating: Strong** on gap-to-question alignment, **Partial** on documentation (official questions not shown).
+### 2.6 Constructs / Phenomena / Variables — Strong as a list, Partial as use
 
----
+The map places Constructs under Questions, not under Methodology. Your seven labels match the Gap almost one-to-one:
 
-## 3. Method Alignment: Why GQI Plus Critical Incident Fits
-
-**Rating: Strong**, if phenomenological language is removed.
-
-The gap is a **practice and governance** gap: how managers enact claim management under disruption. GQI is congruent because it seeks patterned accounts of real-world events, decisions, and conditions, and it permits interview questions built from theoretical constructs already in the literature (Percy et al., 2015; Kahlke, 2014; Caelli et al., 2003; Capella SOBT GQI guide). Critical-incident technique (CIT) is congruent because it anchors talk in one vivid recovery or test event rather than in abstract opinions about “governance.”
-
-What is **not** congruent:
-
-- Language of “lived experiences,” “socially constructed realities,” and “voices” in the current draft. Those phrases signal phenomenology. Capella GQI wants external events, opinions, and artifacts.
-- Treating NIST, ISO, or BCM documents as independent variables or compliance checklists. That would be a documentary audit, not GQI.
-- Treating the seven constructs as findings before interviews occur.
-
-Keep GQI + CIT. Drop essence language. Cite CIT to Flanagan (1954), Chell (2004), or Butterfield et al. (2005), not to Donaldson and Preston (1995) or Guest et al. (2006).
-
----
-
-## 4. Instruments: Measures or Artifacts to Be Reviewed
-
-**Rating: Partial.** The draft names the right instruments and the right constructs. It does not show the instrument.
-
-### 4.1 What the draft gets right
-
-The primary instrument is a semi-structured interview protocol that (a) opens with a critical-incident account of IT disaster-recovery platform use and (b) is intended to explore power, legitimacy, urgency, decision rights, and proof under pressure. That is aligned with PQ1 and PQ2.
-
-The secondary instrument — review of organizational artifacts **referenced by the manager during the incident account** — is also aligned, provided those artifacts stay “situated contextual objects” (plans, escalation matrices, test evidence, tickets, authorization records) and are not scored as NIST/BCM compliance. Recoverability assurance is already operationalized correctly as *decision-relevant, reviewable evidence* that prioritized services can be restored within tolerance (documented restoration outcomes, integrity checks, recorded authorization). That is the data object the gap needs.
-
-### 4.2 What Alignment Tracking still cannot see
-
-Alignment Map guiding questions require a visible map from each interview item to a project question. The draft asserts that queries are “mapped directly” to Power, Legitimacy, Urgency, Decision Rights, Escalation, Evidentiary Standards, and Recoverability Assurance. No items are displayed. Capella reviewers treat an undescribed protocol as incomplete instrumentation, not as implied competence.
-
-Because **no interview steps appear in the document**, the recommended protocol in Section 8 is guided by qualitative stakeholder-salience rather than by a hidden instrument.
-
-### 4.3 Construct-to-data tracking table
-
-| Gap need | Data required | What the current draft collects | Rating | Fix |
-| --- | --- | --- | --- | --- |
-| Stakeholder-claim management | One concrete incident in which competing claims were made | CIT opening is described; no actual opening prompt | Partial | Write the CIT opening (Section 8.1) |
-| Power | Who could force, delay, or override a recovery choice | Named as a code; no probe | Partial | Salience probe set A |
-| Legitimacy | Whose claim was treated as rightful or “in role” | Named as a code; no probe | Partial | Salience probe set B |
-| Urgency | What made restoration time-critical and how that ranking moved | Named as a code; no probe | Partial | Salience probe set C |
-| Decision rights | Who was authorized to make the tradeoff; who was bypassed | Described in procedures; no item | Partial | Enactment probe set D |
-| Escalation | What trigger moved the decision, and whether delay followed | Described; no item | Partial | Enactment probe set E |
-| Evidentiary standards | What counted as “enough” proof; whether the threshold was renegotiated | Claimed in paragraph 3; no item | Partial | Assurance probe set F |
-| Recoverability assurance | Reviewable artifacts supporting the restoration claim | Defined well; acquisition path missing | Partial | Artifact request + fallback (Section 8.2) |
-| Formal intent vs. ad hoc action | Comparison of stated RTO/priority vs. what was actually restored | Artifact review named; no obtain/code rule | Weak | Field-note artifact map coded to the same MU table |
-| Who cares / why now | Contested legitimacy of restoration under time pressure | Present in the gap, not instrumented | Partial | Close the interview with a “who had to be convinced, and with what” prompt |
-
----
-
-## 5. Detailed Procedures
-
-**Rating: Partial.** Recruitment is the strongest procedure. Interview execution and artifact handling are the weakest.
-
-### 5.1 Recruitment, screening, onboarding — Strong
-
-Purposive/criterion sampling of 10–15 U.S. SME IT or network managers (or equivalent operations roles) in firms of 10–200 staff, with direct responsibility for external-platform recovery and at least one disruption, failover, test, or operational recovery in 36 months, is aligned with the population named in the gap. Excluding vendor-only employees keeps the unit of analysis on SME managers, not on the platform provider. Informed consent before scheduling a virtual, recorded, English-language interview is the correct onboarding sequence.
-
-What still needs to be written so sampling stays aligned:
-
-- **Information power, not ritual saturation.** n = 10–15 is defensible because the sample is narrow, the aim is practice description, and the dialogue is theoretically informed (Malterud et al., 2016). Guest et al. (2006) may support a stopping rule, but it is not a recruitment citation and it is not a CIT citation.
-- State interview length (60–75 minutes is consistent with a CIT opening plus salience and assurance probes).
-- State the recruitment channel (professional networks, LinkedIn, practitioner associations) so feasibility can be judged.
-
-### 5.2 Interview execution — Partial
-
-The procedure correctly sequences a standardized ethics script, a CIT opening, and flexible probes. It then loses alignment in three ways:
-
-1. **No steps are written.** “The researcher guides the dialogue using open-ended questions… operationalized around power, legitimacy, and urgency” is an intention, not a protocol. Until items exist, stakeholder-salience is the guide (Section 8.1).
-2. **Wrong CIT citations.** Donaldson and Preston (1995) are stakeholder-theory sources. Guest et al. (2006) address saturation. Neither is the critical-incident method.
-3. **Lived-experience framing.** The session is described as exploring “lived experiences in their own terms.” For GQI, the session explores **how managers handled a named recovery or test event**, in their own words, about external decisions and artifacts.
-
-### 5.3 Artifact review — Weak to Partial
-
-This is the largest procedure-to-gap hole. The gap needs a comparison of nominal continuity intent (risk tolerance, critical-service priorities, acceptable downtime) with ad hoc decisions. The draft says the researcher will “systematically” review referenced artifacts and keep field notes. It never states:
-
-- how the artifact is requested after the incident story;
-- what happens if the manager cannot share a DR plan, matrix, or ticket;
-- how excerpts are de-identified at firm and vendor level;
-- how an “artifact map” is entered into the same meaning-unit table used for talk;
-- that NIST/BCM documents remain context, not confirming data for a theme (the same rule Practice 2 used when holding Padilla & Chantler, 2011, out of confirming excerpts).
-
-Without those steps, artifact data may never arrive, and PQ2’s recoverability-assurance claim cannot be evidenced.
-
-### 5.4 After the session — Partial
-
-Verbatim transcription, de-identification, alphanumeric codes, and encrypted storage are aligned with dependability and confidentiality. Member checking is named but not specified: no turnaround window, no rule for what participants may edit, and no plan for politically sanitized decision-rights talk. If a manager “corrects” an account of contested proof, the study can lose the exact data the gap requires. The trustworthiness section must treat that as a threat, not only as a courtesy.
-
----
-
-## 6. Practice 2 Analysis Fit
-
-**Rating: Strong as a reduction method; Weak if the seven codes are used as pre-named themes.**
-
-### 6.1 What Data Analysis Practice 2 already demonstrated
-
-Walker (16 August 2026), BMGT8044 Week 5, applied generic thematic analysis to the course fashion-shopping sample (three UK women’s focus groups). The paper is **not** ITDR findings. It is the analysis method already practiced. The sequence was:
-
-1. Identify patterns and lock **meaning units** before any theme names (Aronson, 1994; Taylor & Bogdan, 1998).
-2. Confirm each unit with a named excerpt **and** a negative or boundary case.
-3. Group related units into themes that state a **meaning-claim**, not a topic noun. Relatedness meant the same bargain, not the same shopping topic.
-4. Synthesize so **each research question is answered separately** (Braun & Clarke, 2021; Percy et al., 2015; Lester et al., 2020).
-
-Quality rules that must travel to the ITDR study:
-
-| Practice 2 rule | Why it serves this gap |
+| Construct / phenomenon | Role on the map |
 | --- | --- |
-| MU table: meaning-claim, inclusion bound, confirming excerpt, boundary case | Dependability audit trail for how salience and proof were interpreted |
-| Theme 2, “conditional virtual evidence” | Direct analog of recoverability assurance: evidence accepted when it reduces risk, dismissed when it does not |
-| Separate answers for main question and sub-question | Prevents collapsing salience, decision rights, and proof into one “recovery story” |
-| Boundary cases kept inside the theme (Alex/Ola; Edinburgh skepticism after the Manchester chorus) | Keeps contested authority and failed-proof incidents inside the finding |
-| Stimulus paper held out of confirming data | NIST/BCM/ISO stay context; they do not prove a governance theme |
-| Saturation as a decision guide, not a destination (Naeem et al., 2024) | n = 10–15 does not automatically close the gap |
+| Power, Legitimacy, Urgency | Salience mechanism (PQ1) |
+| Decision Rights, Escalation | Enactment of whose claim counted (PQ2) |
+| Evidentiary Standards, Recoverability Assurance | Defensible proof of restoration (PQ2) |
 
-### 6.2 Conflict with the collection draft
+These are **phenomena / sensitizing constructs**, not quantitative variables. The draft’s phrase “absolute methodological alignment” to seven **codes** over-uses this node. On the Alignment Map, constructs inform Measures/Artifacts. They do not pre-write Data Analysis themes. Practice 2 already forbids naming themes before meaning units are locked (Aronson, 1994).
 
-The collection draft pre-names seven analytic codes and claims “absolute methodological alignment.” Practice 2, following Aronson (1994), forbids writing theme names first and treats researcher preconceptions as an analytic threat. If Power / Legitimacy / Urgency / Decision Rights / Escalation / Evidentiary Standards / Recoverability Assurance are locked as Step 3 themes before meaning units are confirmed, collection and analysis will be **out of alignment with each other** and with GQI.
+### 2.7 Methodology* — Strong, if phenomenological language is removed
 
-Practice 2 also still uses “lived experience” and “essence” in places. That is the same phenomenology drift already in the collection draft. Both documents should be restated as patterned accounts of **external events, decisions, and artifacts** (Percy et al., 2015; Capella SOBT GQI guide).
+Questions branch right to Methodology. GQI is the congruent choice: patterned accounts of real-world events, decisions, and conditions, with interview items that may be built from theoretical constructs (Percy et al., 2015; Kahlke, 2014; Caelli et al., 2003; Capella SOBT GQI guide). Critical-incident technique is the congruent interview stance because it anchors talk in one recovery or test event.
 
-Practice 2 analyzed talk only. The ITDR design adds artifacts. The aligned extra move is still GQI: enter each referenced plan, matrix, ticket, or authorization record in the MU table as a **confirming or boundary excerpt**, not as a compliance score.
+Not congruent with this node:
 
-### 6.3 Analysis bridge (use this, do not start over)
+- “Lived experiences,” “socially constructed realities,” and “voices” (phenomenology, not GQI).
+- Scoring NIST/ISO/BCM documents as compliance variables (audit, not GQI).
+- Treating the seven constructs as findings before interviews.
 
-1. Keep the seven constructs as a **sensitizing start-list and topical interview probes**, guided by stakeholder-salience when no finer steps exist.
-2. Run Practice 2 Steps 1–2 inductively on incident talk plus artifact maps.
-3. In Step 3, test whether related meaning units form the same **salience-to-assurance bargain** (who counted → who decided → what counted as proof), not merely the same recovery topic.
-4. Only then map emergent themes back to the gap mechanism: power, legitimacy, and urgency → decision rights and escalation → evidentiary standards and recoverability assurance.
-5. Require at least one boundary case per construct (for example, a manager who never escalated, or who restored without reviewable proof).
-6. Answer PQ1 and PQ2 in separate synthesis paragraphs.
+Cite CIT to Flanagan (1954), Chell (2004), or Butterfield et al. (2005), not to Donaldson and Preston (1995) or Guest et al. (2006).
 
----
+### 2.8 Measures/Artifacts — Partial (the hinge into Data Collection)
 
-## 7. Ethics and Trustworthiness Against the Gap
+This is the node that must turn Constructs into things a participant can complete or a researcher can review. The draft names the right two measures:
 
-**Rating: Partial.** The right qualitative criteria are named. They are not yet tied to the data the gap requires, and ethical threats are under-specified relative to the scoring guide.
+1. Semi-structured critical-incident interview protocol.
+2. Situated organizational artifacts referenced in the incident (DR plans, escalation matrices, test records, tickets, authorization actions)—not a NIST/BCM checklist.
 
-### 7.1 What is already aligned
+Recoverability assurance is already operationalized as the right artifact class: documented restoration outcomes, integrity checks, recorded authorization. That is aligned with PQ2.
 
-The draft correctly rejects Cronbach’s alpha and uses Lincoln and Guba’s (1985) credibility, dependability, confirmability, and transferability, with Korstjens and Moser (2018) as the applied trustworthiness guide. Prolonged engagement with critical-incident narratives, member checks, protocol documentation, reflexivity, and rich description without naming firms are the right family of tactics.
+The map’s guiding-question test for this node is: *Does each measure/artifact collect evidence of a named construct, and can a participant actually complete it?* The draft asserts construct-mapped questions. **No items are displayed.** Capella treats an undescribed protocol as incomplete instrumentation.
 
-### 7.2 Threats that can distort gap data
+Because this node has **no written steps**, stakeholder-salience guides the measure (Section 4).
 
-| Threat | How it damages gap data | Mitigation to write into the plan |
+### 2.9 Data Collection* — Partial / Weak (focus of this assessment)
+
+On the map, Data Collection hangs off Measures/Artifacts and points down to Data Analysis. It is the process of using those measures with the sample.
+
+What is present: virtual, recorded, English-language interviews after consent; CIT opening; intent to probe salience; field notes on referenced artifacts; verbatim transcription; de-identification; encrypted storage.
+
+What the marker still cannot see:
+
+- No interview steps (opening prompt, topical questions, probes, close).
+- No artifact-request step or fallback if a DR plan cannot be shared.
+- No rule for entering an artifact into the same meaning-unit table as talk.
+- Interview length and recruitment channel not stated in the collection paragraphs.
+- Wrong citations for CIT and for NIST-as-method.
+
+Until those steps exist, Data Collection cannot be said to address the Gap. The protocol in Section 4 is the missing content of this node.
+
+### 2.10 Procedures* — Partial
+
+Procedures hang left off Measures/Artifacts and point down to Dependability. They are how participants or the researcher complete the instruments.
+
+| Procedure step | Rating | Note |
 | --- | --- | --- |
-| Organizational disclosure of DR plans, incident detail, or vendor relationships | Managers withhold the exact proof and escalation talk PQ2 needs | Artifact sharing is optional; refusal does not end the interview; field-note reconstruction of what the artifact *did* is enough |
-| Dual identifiability (person + firm + vendor) | Re-identification risk suppresses candid decision-rights accounts | Strip firm, vendor, product, and city identifiers; alphanumeric participant codes; encrypted, password-protected storage |
-| Mid-incident political sensitivity | Member checking becomes sanitizing | Participants may correct factual mishearing; they may not delete analytic excerpts about contested proof. Offer a short (e.g., 7-day) review window |
-| Researcher allegiance to the seven codes | Confirmability failure; findings replay Mitchell et al. | Sensitizing probes + MU table + reflexive memo after each interview (Braun & Clarke, 2019) |
-| Recording or platform failure | Lost incident narrative | Secondary notes in real time; stop and reschedule if recording fails before the CIT story is complete |
-| Coercive sampling (subordinate recruited by a boss) | Inflated legitimacy of official plans | Individual recruitment; no supervisor-visible participation list |
-| Manager self-justification treated as proof | Recoverability assurance becomes rhetoric | Distinguish “what I told stakeholders” from “what artifact existed”; code both |
+| Screen 10–15 U.S. SME IT/network managers, 10–200 staff, external-platform recovery, ≥1 event in 36 months; exclude vendor-only staff | Strong | Matches Population/Sample |
+| Email consent, then schedule | Strong | Correct onboarding order |
+| Standardized ethics script + CIT opening + flexible probes | Partial | Sequence right; items missing — use salience (Section 4) |
+| Artifact review as situated objects | Weak | No obtain / refuse / de-identify / map rule |
+| Member check + encrypted storage | Partial | Storage is fine; member-check rules can sanitize PQ2 data |
 
-Credibility for this study means the incident story is concrete enough to show salience movement. Dependability means another reader can follow the MU table from quote to theme to PQ1/PQ2. Confirmability means stakeholder-salience guided questions, not predetermined themes. Transferability means rich incident description (firm size band, role, platform type, incident type) without naming organizations.
+### 2.11 Dependability* — Partial
+
+Dependability hangs off Procedures. The draft correctly uses Lincoln and Guba (1985) and Korstjens and Moser (2018) instead of Cronbach’s alpha. Protocol documentation and an analytic trail are named.
+
+The map’s test is whether another reader could repeat the *process*. That requires the MU table from Practice 2 (meaning-claim, inclusion bound, confirming excerpt, boundary case), a visible interview protocol, and a written artifact fallback. Those are not yet in the project-plan data sections. Credibility, confirmability, and transferability are discussed in the draft; they are adjacent quality claims, but this marker is specifically **Dependability**.
+
+Threats that damage Gap data if Procedures stay thin:
+
+| Threat | Damage to Gap data | Mitigation |
+| --- | --- | --- |
+| Organizational disclosure of DR plans or vendor detail | PQ2 proof talk is withheld | Artifact sharing optional; field-note reconstruction is enough |
+| Dual identifiability (person + firm + vendor) | Decision-rights talk is sanitized | Strip identifiers; alphanumeric codes; encrypted storage |
+| Member checking as political edit | Contested proof disappears | Factual correction only; stated review window |
+| Seven codes treated as findings | Confirmability failure | Sensitizing probes + reflexive memo (Braun & Clarke, 2019) |
+| Recording failure | Lost incident narrative | Stop and reschedule if the CIT story is incomplete |
+| Supervisor-visible recruitment | Inflated legitimacy of official plans | Individual recruitment |
+| Self-justification treated as proof | Assurance becomes rhetoric | Code “what I told them” separately from “what artifact existed” |
+
+### 2.12 Population* → Sample* → Recruitment* — Strong / Partial
+
+This is the right-hand column under Methodology.
+
+- **Population:** U.S. SME IT/network (or equivalent operations) managers with operational responsibility for external-platform recovery. Strong.
+- **Sample:** Purposive/criterion, n = 10–15, firm size 10–200, event within 36 months, vendors excluded. Strong as a fit to the Gap; Partial as justification. Write information power (Malterud et al., 2016), not a claim that 10–15 interviews saturate the Gap. Guest et al. (2006) may support a stopping discussion; they are not a CIT or recruitment-method source. Naeem et al. (2024) treat saturation as a decision guide, which is how Practice 2 already used it.
+- **Recruitment:** Email screening and consent are present. Channel (networks, LinkedIn, associations) and interview length (60–75 minutes fits CIT plus salience/assurance probes) still need to be stated.
+
+### 2.13 Data Analysis — Strong as a practiced method; Weak if codes are pre-named themes
+
+The map places Data Analysis under Data Collection. The collection draft does not include this node. Data Analysis Practice 2 (Walker, 16 August 2026) already operationalizes it:
+
+1. Lock meaning units before theme names (Aronson, 1994; Taylor & Bogdan, 1998).
+2. Confirm each unit with a named excerpt **and** a boundary case.
+3. Group related units only when they describe the same **bargain**, not the same topic; themes state a meaning-claim, not a noun.
+4. Synthesize so **each question is answered separately** (Braun & Clarke, 2021; Percy et al., 2015; Lester et al., 2020).
+
+What transfers from Practice 2 to this Gap:
+
+| Practice 2 rule | Alignment Map use |
+| --- | --- |
+| MU table | Dependability trail from Data Collection into Data Analysis |
+| Theme 2, “conditional virtual evidence” | Analog of recoverability assurance: proof accepted when it reduces risk, dismissed when it does not |
+| Separate answers for main and sub-questions | PQ1 and PQ2 must not collapse into one recovery story |
+| Boundary cases kept inside the theme | Contested authority and failed-proof incidents stay in the finding |
+| Stimulus paper held out of confirming data | NIST/BCM/ISO stay in What We Know as context; they do not confirm a theme |
+
+Conflict: the collection draft pre-names seven codes. Practice 2 forbids writing theme names first. If Data Analysis starts from Power/Legitimacy/Urgency as locked themes, Measures/Artifacts and Data Analysis are out of alignment with each other.
+
+Bridge: keep the seven labels as the **Constructs** node and as topical collection probes. Run Practice 2 Steps 1–2 on talk plus artifact maps. In Step 3, test for a salience-to-assurance bargain (who counted → who decided → what counted as proof). Then map emergent themes back to the Gap. Keep at least one boundary case per construct. Answer PQ1 and PQ2 in separate paragraphs.
 
 ---
 
-## 8. Recommended Tightening (Same Study, Visible Steps)
+## 3. Construct-to-Measure Tracking Table
 
-Not a new design. The following supplies the steps the current document does not show, using qualitative stakeholder-salience as the guide.
+This is the Alignment Map test for the Measures/Artifacts and Data Collection markers: each Gap/Construct cell must have a collectable measure.
 
-### 8.1 Interview protocol (appendix-ready)
+| Gap / construct | Data required | What the draft collects | Rating | Fix |
+| --- | --- | --- | --- | --- |
+| Stakeholder-claim management | One incident with competing claims | CIT described; no opening prompt | Partial | Section 4.1 opening |
+| Power | Who could force, delay, or override | Named as a code; no probe | Partial | Salience set A |
+| Legitimacy | Whose claim was treated as rightful | Named as a code; no probe | Partial | Salience set B |
+| Urgency | What made restoration time-critical | Named as a code; no probe | Partial | Salience set C |
+| Decision rights | Who was supposed to decide vs. who did | Described; no item | Partial | Enactment set D |
+| Escalation | Trigger and effect on “done” | Described; no item | Partial | Enactment set E |
+| Evidentiary standards | What counted as enough proof | Claimed; no item | Partial | Assurance set F |
+| Recoverability assurance | Reviewable restoration artifacts | Defined; no acquisition path | Partial | Section 4.2 |
+| Formal intent vs. ad hoc action | Plan vs. what was actually restored | Artifact review named; no rule | Weak | Field-note artifact map in the MU table |
+| Who cares / why now | Contested restoration legitimacy | In the Gap, not instrumented | Partial | Closing prompt |
+
+---
+
+## 4. Missing Data Collection Steps (Stakeholder-Salience Guide)
+
+The Alignment Map’s Data Collection marker has no written steps in the draft. Qualitative stakeholder-salience supplies them. This is the same study, made visible.
+
+### 4.1 Interview protocol (Measures/Artifacts completed by the participant)
 
 **Opening (ethics, 2–3 minutes).** Restate purpose, voluntary participation, withdrawal, recording, confidentiality of person and organization, and that no disaster-recovery document need be shared.
 
 **CIT opening (PQ1; 10–15 minutes).**  
 *Please walk me through one specific disruption, failover, recovery test, or operational recovery in the last 36 months where you used an external recovery platform or managed recovery service. Start wherever the event became your problem, and tell me what happened in as much detail as you can.*
 
-Do not introduce theory terms in the opening. If the participant stays abstract, use a focusing follow-up: *If you can, stay with that one event rather than with how recovery usually works.*
+If the account stays abstract: *If you can, stay with that one event rather than with how recovery usually works.*
 
-**If the participant does not spontaneously raise a needed topic, use these topical guiding questions.** They are written in manager language. Theoretical labels stay in the codebook, not in the question (Capella guiding-question rules: open, answerable, no hidden assumption, no forced choice).
+**Topical guiding questions if the participant does not raise the construct.** Manager language only. Theoretical labels stay on the Constructs node, not in the question (Capella guiding-question rules).
 
 **Salience set A — Power (PQ1)**  
 - *In that event, whose request or pressure most affected what got restored first?*  
@@ -285,67 +290,71 @@ Do not introduce theory terms in the opening. If the participant stays abstract,
 - *Did anyone ask for different proof mid-incident? What did you do?*  
 - *Looking back, what would you point to — a log, a test, an approval, a ticket — if you had to defend that restoration?*
 
-**Closing.**  
+**Closing (who cares / why now).**  
 - *Is there anything about who had to be convinced, and with what, that I have not asked about?*  
-Then the artifact request in 8.2.
+Then the artifact request.
 
 Flexible probes only: *What would be an example of that? Please say more about that moment. Who else was in that conversation?*
 
-### 8.2 Artifact request and fallback
-
-After the incident story:
+### 4.2 Artifact request and fallback (Measures/Artifacts completed by the researcher)
 
 *You mentioned [plan / matrix / ticket / test / approval]. I do not need a confidential file. If you are allowed to share a redacted excerpt, that helps me see how the written process compared with what you actually did. If you cannot share it, please just describe what that document or record did in the event — who used it, who ignored it, and whether it counted as proof.*
 
-If nothing can be shared, write a field-note reconstruction: artifact type, role in the incident, whether it confirmed or contradicted the spoken account, and which meaning unit it later supports or bounds. Do not score the artifact against NIST, ISO, or BCM. Those frameworks remain context, as the Shoogleit paper remained context in Practice 2.
+If nothing can be shared, write a field-note reconstruction: artifact type, role in the incident, whether it confirmed or contradicted the spoken account, and which meaning unit it later supports or bounds. Do not score the artifact against NIST, ISO, or BCM. Those frameworks remain What We Know, as the Shoogleit paper remained context in Practice 2.
 
-### 8.3 Ethics paragraph to insert in Detailed Procedures
+### 4.3 Procedures paragraph for ethics (feeds Dependability)
 
 The principal ethical threats are organizational disclosure, dual identifiability, and distortion of politically sensitive governance talk. Participants may refuse any artifact request without ending the interview. Transcripts, field notes, and artifact maps are stripped of person, firm, vendor, and product names and stored in an encrypted, password-protected directory under alphanumeric codes. Recording failure before the critical-incident narrative is complete stops the session. Member checking is limited to factual accuracy within a stated review window; participants are told that contested recovery decisions remain part of the de-identified analysis. The researcher keeps a short reflexive memo after each interview so stakeholder-salience sensitizing concepts are not mistaken for findings.
 
-### 8.4 Language and citation repairs
+### 4.4 Language and citation repairs (keep nodes from drifting)
 
-Replace:
-
-- “lived experiences” / “essence” / “voices” → *managers’ accounts of a named recovery or test event* / *patterned descriptions of decisions and artifacts*
-- “absolute methodological alignment” to seven codes → *sensitizing concepts that guide topical questions; themes remain emergent*
+- “Lived experiences” / “essence” / “voices” → *managers’ accounts of a named recovery or test event* / *patterned descriptions of decisions and artifacts*
+- “Absolute methodological alignment” to seven codes → *sensitizing constructs on the Constructs node; themes remain emergent at Data Analysis*
 - Donaldson & Preston (1995) or Guest et al. (2006) as CIT → Flanagan (1954), Chell (2004), or Butterfield et al. (2005)
-- Guest et al. (2006) as the interview-execution source → keep only for a saturation/stopping discussion, alongside Malterud et al. (2016) and Naeem et al. (2024)
-- NIST (2024) as an analysis method → context for what managers may reference, not a coding system
-- leftover draft artifacts (`;3)`, doubled parentheses, “such other auditing parameters BCM and NIST”) → delete or rewrite as *internal DR plans, escalation matrices, recovery-test records, and, when managers name them, external references such as NIST or BCM frameworks*
+- Guest et al. (2006) as interview execution → keep only for a stopping discussion, with Malterud et al. (2016) and Naeem et al. (2024)
+- NIST (2024) as an analysis method → context in What We Know, not a coding system
+- Draft debris (`;3)`, doubled parentheses, “such other auditing parameters BCM and NIST”) → *internal DR plans, escalation matrices, recovery-test records, and, when managers name them, external references such as NIST or BCM frameworks*
 
-### 8.5 Proposed Data Analysis paragraph to add to the project plan
+### 4.5 Data Analysis paragraph to add under that marker
 
-Analysis will reuse the four-step generic thematic reduction practiced in Data Analysis Practice 2 (Aronson, 1994; Taylor & Bogdan, 1998; Braun & Clarke, 2021). After repeated reading of each de-identified transcript and artifact map, the researcher will (1) lock meaning units that state a practice claim before any theme name is written, (2) confirm each unit with a named excerpt and a negative or boundary case, (3) group related units only when they describe the same salience-to-assurance bargain, and (4) synthesize two separate answers, one for stakeholder-claim/salience enactment and one for decision rights, escalation, and recoverability assurance. Stakeholder-salience constructs (power, legitimacy, urgency) and the related governance constructs (decision rights, escalation, evidentiary standards, recoverability assurance) function as a sensitizing start-list for missing interview steps and for later mapping, not as predetermined theme titles. Saturation is treated as an analytic decision guide (Naeem et al., 2024), not as a claim that 10–15 interviews automatically close the gap.
+Analysis will reuse the four-step generic thematic reduction practiced in Data Analysis Practice 2 (Aronson, 1994; Taylor & Bogdan, 1998; Braun & Clarke, 2021). After repeated reading of each de-identified transcript and artifact map, the researcher will (1) lock meaning units that state a practice claim before any theme name is written, (2) confirm each unit with a named excerpt and a negative or boundary case, (3) group related units only when they describe the same salience-to-assurance bargain, and (4) synthesize two separate answers, one for stakeholder-claim/salience enactment and one for decision rights, escalation, and recoverability assurance. Stakeholder-salience constructs function as the Constructs node and as a start-list when Data Collection has no finer steps, not as predetermined theme titles. Saturation is an analytic decision guide (Naeem et al., 2024), not a claim that 10–15 interviews close the Gap.
 
 ---
 
-## 9. Link-by-Link Alignment Score
+## 5. Official Map Scorecard
 
-| Alignment Map link | Rating | One-line judgment |
+| Alignment Map marker | Rating | One-line judgment |
 | --- | --- | --- |
-| Gap → implied questions | Strong / Partial | Questions restate the gap; official wording still needed |
-| Questions → GQI + CIT | Strong | External-event inquiry; drop phenomenological wording |
-| Questions → instruments | Partial | Right instruments named; protocol not shown |
-| Instruments → procedures | Partial | Screening is strong; artifact path and interview steps are not |
-| Procedures → Practice 2 analysis | Partial | Four-step method fits; seven pre-named codes do not |
-| Analysis → findings that close the gap | Conditional | Can close the gap if probes stay sensitizing and boundary cases are kept |
-| Ethics/trustworthiness → data quality | Partial | Criteria correct; organizational-risk and member-check rules missing |
+| Topic / Problem | Strong | Practice problem in SME ITDRPaaS governance |
+| What We Know | Strong | Stakeholder theory + salience mechanism + assurance definition |
+| What We Don’t Know | Strong | Enactment of salience as rights, escalation, and proof |
+| Gap | Strong | Who cares / why now are present |
+| Questions | Partial | Implied PQs restate the Gap; official wording missing |
+| Constructs / Phenomena / Variables | Partial | Right list; over-used as a priori codes |
+| Methodology* | Strong | GQI + CIT; drop essence language |
+| Measures/Artifacts | Partial | Right instruments; protocol not shown |
+| Data Collection* | Partial | Intent is right; steps missing — salience guide supplied |
+| Procedures* | Partial | Screening strong; artifact path weak |
+| Dependability* | Partial | Criteria named; audit trail not yet visible |
+| Population* | Strong | SME IT/network managers on external platforms |
+| Sample* | Partial | n = 10–15 fits if information power is written |
+| Recruitment* | Partial | Consent sequence present; channel/length missing |
+| Data Analysis | Partial | Practice 2 method fits; pre-named themes do not |
 
-**Composite: Partial.** The study is aimed at the right gap with the right method. It does not yet prove that the data needed to close that gap will be asked for, obtained, and reduced without confirming the framework in advance.
+**Composite: Partial.** The top of the map (Problem → Gap → Questions → Constructs → Methodology) is aligned. The middle and bottom (Measures/Artifacts → Data Collection → Procedures/Dependability → Data Analysis) will address the Gap only after the salience-guided steps in Section 4 are inserted.
 
 ---
 
-## 10. Conclusions and Next Actions
+## 6. Conclusions and Next Actions
 
-1. Keep GQI, CIT, SME manager criteria, artifact-as-context, and the recoverability-assurance definition.
-2. Add the Section 8 protocol. Where the project plan still has no steps, let qualitative stakeholder-salience (who had power, whose claim was legitimate, what was urgent) guide the questions, then follow the same incident into decision rights, escalation, and proof.
-3. Recast the seven labels as sensitizing concepts. Run Practice 2 Steps 1–4 on talk plus artifact maps. Answer PQ1 and PQ2 separately.
-4. Write the artifact fallback and the ethics-threat paragraph; they are what make PQ2 collectable.
-5. Repair citations and GQI language before the full Project Plan is presented.
-6. Paste official project questions into Section 2.2 when available.
+1. Keep the official map’s top and right-hand column: GQI, CIT, SME population, criterion sample, artifact-as-context, recoverability-assurance definition.
+2. Fill the Data Collection marker. Where the plan has no steps, let qualitative stakeholder-salience guide the questions, then follow the incident into decision rights, escalation, and proof.
+3. Keep the seven labels on the Constructs node. Do not promote them to Data Analysis theme titles. Run Practice 2 Steps 1–4 on talk plus artifact maps. Answer PQ1 and PQ2 separately.
+4. Write the artifact fallback and the ethics paragraph; they are what make the Measures/Artifacts and Dependability markers collectable.
+5. Repair citations and GQI language so Methodology does not drift into phenomenology or audit.
+6. Paste official project questions onto the Questions marker before submission.
 
-These adjustments do not change the study. They make the Alignment Map visible: every gap element has a question, every question has a data source, and every data source has a reduction step that can produce a defensible answer rather than a restatement of Mitchell et al. (1997).
+These adjustments do not change the study. They make every Alignment Map marker visible: the Gap has Questions, Questions have Constructs, Constructs have Measures, Measures have Data Collection steps, and Data Collection has a reduction method that can answer the Gap instead of restating Mitchell et al. (1997).
 
 ---
 
@@ -360,6 +369,10 @@ Braun, V., & Clarke, V. (2021). One size fits all? What counts as quality practi
 Butterfield, L. D., Borgen, W. A., Amundson, N. E., & Maglio, A.-S. T. (2005). Fifty years of the critical incident technique: 1954–2004 and beyond. *Qualitative Research, 5*(4), 475–497. https://doi.org/10.1177/1468794105056924
 
 Caelli, K., Ray, L., & Mill, J. (2003). ‘Clear as mud’: Toward greater clarity in generic qualitative research. *International Journal of Qualitative Methods, 2*(2), 1–13. https://doi.org/10.1177/160940690300200201
+
+Capella University. (n.d.). *The alignment map: Guiding questions* [Interactive courseroom media]. RSCH-V8927.
+
+Capella University. (n.d.). *Project plan alignment tracking* [Courseroom media]. RSCH-V8927.
 
 Capella University. (n.d.). *Qualitative data collection and analysis methods – SOBT*. https://campustools.capella.edu/BBCourse_Production/PhD_Colloquia/Track_3/SOBT/phd_t3_sobt_u02s6_h01_qualcoll.html
 
