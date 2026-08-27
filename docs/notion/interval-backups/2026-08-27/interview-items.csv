@@ -1,0 +1,24 @@
+question_id,set_id,pq,construct,spoken_text,skip_if,probe_only,status,replaced_by,delve_code_id,instrument_version
+Q0,CIT,PQ1,incident_narrative,"Please walk me through one specific disruption, failover, recovery test, or operational recovery in the last 36 months where you used an external recovery platform or managed recovery service. Start wherever the event became your problem, and tell me what happened in as much detail as you can.",never,N,active,,SENSITIZING_STARTLIST,ITDR-GQI-INT-v0.1
+L1,L,PQ1,leverage_location,"In that event, who actually moved what got restored first — or who could have stopped it?",Q0 already named the mover with a concrete moment,N,active,,leverage_location,ITDR-GQI-INT-v0.1
+L2,L,PQ1,leverage_location,"What gave that person or group the ability to move the decision — their position, a written rule, the clock, something else?",L1 already stated the source,N,active,,leverage_location,ITDR-GQI-INT-v0.1
+L3,L,PQ1,leverage_location,"If that pull had not been there, what would you have done differently?",Q0 already stated the counterfactual,N,active,,leverage_location,ITDR-GQI-INT-v0.1
+A1,A,PQ1,power,"In that event, whose request or pressure most affected what got restored first?",covered in L or Q0,N,active,,power,ITDR-GQI-INT-v0.1
+A2,A,PQ1,power,"Was there anyone who could delay, override, or stop a recovery action you thought was right?",covered in L or Q0,N,active,,power,ITDR-GQI-INT-v0.1
+A3,A,PQ1,power,"If that pressure had not been there, what would you have done differently?",covered in L3,N,active,,power,ITDR-GQI-INT-v0.1
+B1,B,PQ1,legitimacy,"Whose claim to a service or a recovery order did people treat as having a right to ask for it?",covered in L or Q0,N,active,,legitimacy,ITDR-GQI-INT-v0.1
+B2,B,PQ1,legitimacy,"Was anyone’s request treated as out of line or outside their role? What happened then?",covered in L or Q0,N,active,,legitimacy,ITDR-GQI-INT-v0.1
+C1,C,PQ1,urgency,"What made one service or one stakeholder more time-critical than another in that event?",covered in L or Q0,N,active,,urgency,ITDR-GQI-INT-v0.1
+C2,C,PQ1,urgency,"Did that sense of time pressure change while you were working the incident? What changed it?",covered in L or Q0,N,active,,urgency,ITDR-GQI-INT-v0.1
+D1,D,PQ2,decision_rights,"Who was supposed to make the call on that tradeoff, and who actually made it?",covered in Q0,N,active,,decision_rights,ITDR-GQI-INT-v0.1
+D2,D,PQ2,decision_rights,"Was there a moment when you needed authority you did not have? What did you do?",covered in Q0,N,active,,decision_rights,ITDR-GQI-INT-v0.1
+E1,E,PQ2,escalation,"What, if anything, triggered an escalation?","covered in Q0; if nothing escalated record boundary no_escalation",N,active,,escalation,ITDR-GQI-INT-v0.1
+E2,E,PQ2,escalation,"Did escalation speed the restoration, slow it, or change what done meant?",no escalation recorded as boundary,N,active,,escalation,ITDR-GQI-INT-v0.1
+F1,F,PQ2,evidentiary_standards,"When you told others the service was recovered, what did you treat as enough proof?",covered in Q0,N,active,,evidentiary_standards,ITDR-GQI-INT-v0.1
+F2,F,PQ2,evidentiary_standards,"Did anyone ask for different proof mid-incident? What did you do?",covered in Q0,N,active,,evidentiary_standards,ITDR-GQI-INT-v0.1
+F3,F,PQ2,recoverability_assurance,"Looking back, what would you point to — a log, a test, an approval, a ticket — if you had to defend that restoration?",covered in Q0 then run artifact request,N,active,,recoverability_assurance,ITDR-GQI-INT-v0.1
+Q-close,CLOSE,Gap,who_cares_why_now,"Is there anything about who had to be convinced, and with what, that I have not asked about?",never,N,active,,leverage_location,ITDR-GQI-INT-v0.1
+P-example,PROBE,both,any,"What would be an example of that?",n/a,Y,active,,SENSITIZING_STARTLIST,ITDR-GQI-INT-v0.1
+P-moment,PROBE,both,any,"Please say more about that moment.",n/a,Y,active,,SENSITIZING_STARTLIST,ITDR-GQI-INT-v0.1
+P-who,PROBE,both,any,"Who else was in that conversation?",n/a,Y,active,,SENSITIZING_STARTLIST,ITDR-GQI-INT-v0.1
+P-next,PROBE,both,any,"What did you do next?",n/a,Y,active,,SENSITIZING_STARTLIST,ITDR-GQI-INT-v0.1
