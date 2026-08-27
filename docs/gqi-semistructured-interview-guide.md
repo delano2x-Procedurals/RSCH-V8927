@@ -1,12 +1,13 @@
 # GQI Semi-Structured Interview Guide: Where Leverage Sits
 
-**Instrument ID:** `ITDR-GQI-INT-v0.1`  
+**Instrument ID:** `ITDR-GQI-INT-v0.1.1`  
 **Course:** RSCH-V8927 Doctoral Project Development — Framework Development (building on BMGT-8044)  
 **Study:** Generic qualitative inquiry of U.S. SME IT/network managers’ disaster-recovery governance on external platforms (ITDRPaaS)  
 **Alignment Map nodes filled:** Measures/Artifacts; Data Collection; Procedures; Dependability  
 **CAQDAS:** Delve (audit trail, codebook, snippet URLs)  
 **Interval backup:** [docs/notion/](notion/README.md) CSV nest  
-**Reference class:** **new unpublished instrument** — does not replace seminal theory (see [Section 9](#9-seminal-references-vs-this-new-instrument))
+**Reference class:** **new unpublished instrument** — does not replace seminal theory (see [Section 9](#9-seminal-references-vs-this-new-instrument))  
+**Companions (v0.1.1; spoken wording unchanged):** [Chapter III: Methodology](chapter-iii-methodology.md) · [Symbols, definitions, and original vs build-on refs](symbols-definitions-refs.md)
 
 ---
 
@@ -25,7 +26,7 @@
 11. [How to update](#11-how-to-update)
 12. [Sources cited in this instrument](#12-sources-cited-in-this-instrument)
 
-**Quick index:** [Question ID index](#question-id-index) · [Construct index](#construct-index) · [CSV backup index](#csv-backup-index)
+**Quick index:** [Question ID index](#question-id-index) · [Construct index](#construct-index) · [CSV backup index](#csv-backup-index) · [Chapter III](chapter-iii-methodology.md) · [Symbols glossary](symbols-definitions-refs.md)
 
 ---
 
@@ -250,7 +251,7 @@ Complete during or immediately after the session. A session is complete for Alig
 | `formal_vs_enacted` | matched / diverged / unknown |
 | `boundary_flag` | |
 | `delve_memo_id` | |
-| Instrument version | `ITDR-GQI-INT-v0.1` |
+| Instrument version | `ITDR-GQI-INT-v0.1.1` |
 
 Copy the same row into [docs/notion/templates/leverage-memo.csv](notion/templates/leverage-memo.csv) after the session, then into the dated interval backup.
 
@@ -286,7 +287,7 @@ Delve is the CAQDAS that makes this instrument **dependable** (Lincoln & Guba, 1
 
 | Delve capability | How this instrument uses it | Audit object |
 | --- | --- | --- |
-| Central codebook with nested codes | Import the start-list in [docs/notion/templates/codebook.csv](notion/templates/codebook.csv). Nest under `SENSITIZING_STARTLIST` and `BOUNDARY`. Keep `EMERGENT` empty at first code. | Code name, description, nested level, snippet count |
+| Central codebook with nested codes | Import the start-list in [docs/notion/templates/codebook.csv](notion/templates/codebook.csv). Nest under `STRUCTURAL`, `FRAMEWORK_DEDUCTIVE`, and `BOUNDARY`. Keep `EMERGENT` empty at first code. | Code name, description, nested level, snippet count |
 | Code descriptions | Each sensitizing code must state: what it means, what it is not, one example type, and “not a theme title.” | Codebook export |
 | Transcripts | One de-identified transcript per `P##`. Paste speaker labels so Delve can split speakers. | Transcript file + descriptors |
 | Descriptors | `participant_id`, `role_band`, `incident_type`, `firm_size_band`, `instrument_version` | Filter/sort; never a finding |
@@ -299,25 +300,30 @@ Delve is the CAQDAS that makes this instrument **dependable** (Lincoln & Guba, 1
 
 ### 8.2 Delve nested start-list (import; do not treat as themes)
 
+`SENSITIZING_STARTLIST` is retired in `v0.1.1`. Import this nest (same as Chapter III):
+
 ```
-SENSITIZING_STARTLIST
+STRUCTURAL
   PQ1_claim_attention
-    leverage_location
-    power
-    legitimacy
-    urgency
   PQ2_enactment
-    decision_rights
-    escalation
-    evidentiary_standards
-    recoverability_assurance
+  CONTEXT
+  UNANTICIPATED
+FRAMEWORK_DEDUCTIVE  (sensitizing; not findings)
+  leverage_location
+  power
+  legitimacy
+  urgency
+  decision_rights
+  escalation
+  evidentiary_standards
+  recoverability_assurance
 BOUNDARY
   no_escalation
   no_reviewable_proof
   low_power_claim_won
   pull_unlocated
 EMERGENT
-  (empty until Step 3 grouping)
+  (empty until meaning units locked)
 ```
 
 Code descriptions for the four PQ1 salience codes must include: *Sensitizing probe only. Do not promote to a theme title. Lock a meaning-unit practice sentence first.*
@@ -362,7 +368,7 @@ Delve snippet exports embed unique URLs back to the project. Keep those URLs in 
 | Seminal method — analysis | Meaning units before theme names | No | Aronson (1994); Taylor & Bogdan (1998); Braun & Clarke (2021). |
 | Seminal trustworthiness | Dependability / confirmability audit trail | No | Lincoln & Guba (1985); Nowell et al. (2017); Korstjens & Moser (2018); Carcary (2020). |
 | Software | CAQDAS used to store codes, memos, snippet URLs | **New software citation if not already in the plan** | Delve, Ho, & Limpaecher (n.d./year of page used), plus the product URL. Software is not a theory source. |
-| This protocol | Spoken questions, skip rules, coverage checklist, leverage memo | **Yes — new unpublished instrument** | `ITDR-GQI-INT-v0.1`. Link from Project Plan Measures/Artifacts to this file. Version on every update. |
+| This protocol | Spoken questions, skip rules, coverage checklist, leverage memo | **Yes — new unpublished instrument** | `ITDR-GQI-INT-v0.1.1`. Link from Project Plan Measures/Artifacts to this file. Version on every update. Spoken wording is unchanged from v0.1. |
 | Delve codebook CSV | Dated export of codes and snippets | **Yes — audit artifact, not literature** | File name + date in `docs/notion/interval-backups/`. Do not cite as a scholarly source. |
 
 Full allowed-use rows live in [docs/notion/templates/references.csv](notion/templates/references.csv).
@@ -375,7 +381,9 @@ Full allowed-use rows live in [docs/notion/templates/references.csv](notion/temp
 
 | From | To | Key |
 | --- | --- | --- |
-| Project Plan Measures/Artifacts | This file | Instrument ID `ITDR-GQI-INT-v0.1` |
+| Project Plan Measures/Artifacts | This file | Instrument ID `ITDR-GQI-INT-v0.1.1` |
+| This file | [Chapter III](chapter-iii-methodology.md) | Planned-analysis matrix; hybrid codebook TA |
+| This file | [Symbols glossary](symbols-definitions-refs.md) | `P` `L` `U` `Lev` `DR` `ESC` `EV` `RA` |
 | Spoken question | Construct | Question ID (`L1`, `A2`, …) in [Section 5](#5-construct-to-question-map) and `interview-items.csv` |
 | Construct | Delve code | `code_id` in `codebook.csv` |
 | Coded excerpt | Transcript | Delve snippet URL in snippets CSV |
@@ -410,29 +418,33 @@ Notion (when the workspace is connected): create a parent page **ITDR-GQI audit 
 
 ### Construct index
 
-| Construct | Question IDs | Delve `code_id` | CSV |
-| --- | --- | --- | --- |
-| Leverage location | L1 L2 L3 Q-close | `leverage_location` | codebook.csv, leverage-memo.csv |
-| Power | A1 A2 A3 | `power` | codebook.csv |
-| Legitimacy | B1 B2 | `legitimacy` | codebook.csv |
-| Urgency | C1 C2 | `urgency` | codebook.csv |
-| Decision rights | D1 D2 | `decision_rights` | codebook.csv |
-| Escalation | E1 E2 | `escalation` | codebook.csv |
-| Evidentiary standards | F1 F2 | `evidentiary_standards` | codebook.csv |
-| Recoverability assurance | F3 | `recoverability_assurance` | codebook.csv |
+| Construct | Question IDs | Delve `code_id` | Parent | CSV |
+| --- | --- | --- | --- | --- |
+| Leverage location | L1 L2 L3 Q-close | `leverage_location` | `FRAMEWORK_DEDUCTIVE` | codebook.csv, leverage-memo.csv, symbols.csv |
+| Power | A1 A2 A3 | `power` | `FRAMEWORK_DEDUCTIVE` | codebook.csv, symbols.csv |
+| Legitimacy | B1 B2 | `legitimacy` | `FRAMEWORK_DEDUCTIVE` | codebook.csv, symbols.csv |
+| Urgency | C1 C2 | `urgency` | `FRAMEWORK_DEDUCTIVE` | codebook.csv, symbols.csv |
+| Decision rights | D1 D2 | `decision_rights` | `FRAMEWORK_DEDUCTIVE` | codebook.csv, symbols.csv |
+| Escalation | E1 E2 | `escalation` | `FRAMEWORK_DEDUCTIVE` | codebook.csv, symbols.csv |
+| Evidentiary standards | F1 F2 | `evidentiary_standards` | `FRAMEWORK_DEDUCTIVE` | codebook.csv, symbols.csv |
+| Recoverability assurance | F3 | `recoverability_assurance` | `FRAMEWORK_DEDUCTIVE` | codebook.csv, symbols.csv |
 
 ### CSV backup index
 
 | File | Role |
 | --- | --- |
 | [docs/notion/README.md](notion/README.md) | Nest rules, interval, how to update |
-| [docs/notion/templates/references.csv](notion/templates/references.csv) | Seminal vs new vs software |
+| [docs/notion/templates/references.csv](notion/templates/references.csv) | Seminal vs new vs software; `origin` = original \| build_on \| new_instrument \| software \| audit_artifact |
+| [docs/notion/templates/symbols.csv](notion/templates/symbols.csv) | Symbol, original vs operational def, spoken stand-in |
 | [docs/notion/templates/interview-items.csv](notion/templates/interview-items.csv) | Question bank |
-| [docs/notion/templates/codebook.csv](notion/templates/codebook.csv) | Delve start-list |
+| [docs/notion/templates/codebook.csv](notion/templates/codebook.csv) | Delve start-list (`STRUCTURAL` / `FRAMEWORK_DEDUCTIVE`) |
 | [docs/notion/templates/construct-index.csv](notion/templates/construct-index.csv) | Construct ↔ question ↔ code |
 | [docs/notion/templates/leverage-memo.csv](notion/templates/leverage-memo.csv) | One row per interview |
 | [docs/notion/templates/update-log.csv](notion/templates/update-log.csv) | Version and export history |
-| [docs/notion/interval-backups/2026-08-27/](notion/interval-backups/2026-08-27/) | Seed backup of the templates |
+| [docs/notion/interval-backups/2026-08-27/](notion/interval-backups/2026-08-27/) | Seed backup of the v0.1 templates |
+| [docs/notion/interval-backups/2026-08-27-chiii/](notion/interval-backups/2026-08-27-chiii/) | Chapter III / symbols / codebook-nest backup |
+| [docs/chapter-iii-methodology.md](chapter-iii-methodology.md) | Paste-ready Chapter III |
+| [docs/symbols-definitions-refs.md](symbols-definitions-refs.md) | Notation register |
 
 ---
 
@@ -442,7 +454,7 @@ Bump the instrument version **before** changing spoken wording. Never silently e
 
 | Change type | What to do | Version bump |
 | --- | --- | --- |
-| Typo, heading, TOC link | Edit this file; one `update-log.csv` row `type=copyedit` | Patch: `v0.1` → `v0.1.1` |
+| Typo, heading, TOC link | Edit this file; one `update-log.csv` row `type=copyedit` | Patch: `v0.1` → `v0.1.1` (this file: companion links; spoken wording unchanged) |
 | Probe wording, skip rule, ethics script | Edit this file **and** `interview-items.csv`; re-export Delve codebook if a code description changed | Minor: `v0.1` → `v0.2` |
 | Add/drop a question ID or construct | New IDs only (do not reuse a retired ID). Update construct-index, codebook, Delve nest, both CSV templates and a new dated backup folder | Minor or major: `v0.2` or `v1.0` if PQ wording or unit of analysis changes |
 | Official project questions locked | Replace implied PQ1/PQ2 in Section 1; do not change unit of analysis | Minor: `v0.x` |
@@ -460,6 +472,7 @@ docs/notion/interval-backups/YYYY-MM-DD/
   references.csv
   construct-index.csv
   leverage-memo.csv
+  symbols.csv
   update-log.csv        (append-only copy of the running log)
 ```
 
@@ -503,4 +516,4 @@ Percy, W. H., Kostere, K., & Kostere, S. (2015). Generic qualitative research in
 
 Taylor, S. J., & Bogdan, R. (1998). *Introduction to qualitative research methods* (3rd ed.). Wiley.
 
-Walker, M. (2026). *GQI semi-structured interview guide: Where leverage sits* (Instrument ID ITDR-GQI-INT-v0.1) [Unpublished research instrument]. Capella University, RSCH-V8927.
+Walker, M. (2026). *GQI semi-structured interview guide: Where leverage sits* (Instrument ID ITDR-GQI-INT-v0.1.1) [Unpublished research instrument]. Capella University, RSCH-V8927.

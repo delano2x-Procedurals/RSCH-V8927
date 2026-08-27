@@ -2,7 +2,9 @@
 
 This folder is the **offline nest** of the interview instrument until a Notion workspace is connected. Do not put identifiable transcripts here. De-identify first (`P##`, role only, `SME-A`, `Platform-1`).
 
-Parent instrument: [../gqi-semistructured-interview-guide.md](../gqi-semistructured-interview-guide.md) (`ITDR-GQI-INT-v0.1`).
+Parent instrument: [../gqi-semistructured-interview-guide.md](../gqi-semistructured-interview-guide.md) (`ITDR-GQI-INT-v0.1.1`). Spoken wording is unchanged from v0.1.
+
+Companions: [../chapter-iii-methodology.md](../chapter-iii-methodology.md) · [../symbols-definitions-refs.md](../symbols-definitions-refs.md)
 
 ## Folder layout
 
@@ -15,6 +17,7 @@ docs/notion/
     codebook.csv
     construct-index.csv
     leverage-memo.csv
+    symbols.csv
     update-log.csv
     snippets.csv            (header only until Delve exports exist)
   interval-backups/
@@ -27,9 +30,10 @@ When Notion is available, create a parent page **ITDR-GQI audit nest** with one 
 
 | File | Updates when | Delve counterpart |
 | --- | --- | --- |
-| `references.csv` | A source is added, retired, or its allowed-use changes | Not imported to Delve. Literature + instrument register. |
+| `references.csv` | A source is added, retired, or its allowed-use changes. Header includes `origin` and `citation_status`. | Not imported to Delve. Literature + instrument register. |
+| `symbols.csv` | A symbol, operational def, or original/build-on link changes | Not imported to Delve as theme titles. Memo values only. |
 | `interview-items.csv` | Spoken wording, skip rule, or status (`active` / `retired`) | Code descriptions may need a matching edit |
-| `codebook.csv` | A sensitizing or boundary code is added, renamed, or merged | Delve codebook import / Codes export |
+| `codebook.csv` | A structural, sensitizing, or boundary code is added, renamed, or merged | Delve codebook import / Codes export |
 | `construct-index.csv` | Question ID or `code_id` mapping changes | Nested code names |
 | `leverage-memo.csv` | After each interview | Delve memo on L1–L3 snippets |
 | `snippets.csv` | After each Delve export | Delve Snippets CSV (keep snippet URLs) |
@@ -67,11 +71,21 @@ When Notion is available, create a parent page **ITDR-GQI audit nest** with one 
 
 ## Seminal vs new
 
-`references.csv` column `ref_class` is one of:
+`references.csv` column `origin` is one of:
+
+- `original` — source that defines the symbol or method; do not replace
+- `build_on` — later work that extends, tests, or situates the construct; not a replacement definition
+- `software` — new software citation if not already in the Project Plan
+- `new_instrument` — this protocol (`ITDR-GQI-INT-v0.1.1`); unpublished; not a theory source
+- `audit_artifact` — dated CSV exports and Chapter III/glossary files; not literature
+
+Column `citation_status` is `confirmed` or `verify` (use `verify` when a 2023–2025 DOI cannot be confirmed).
+
+Column `ref_class` remains:
 
 - `seminal_theory` — keep; do not replace
 - `seminal_method` — keep; do not replace
 - `seminal_trustworthiness` — keep; do not replace
-- `software` — new software citation if not already in the Project Plan
-- `new_instrument` — this protocol (`ITDR-GQI-INT-v0.1`); unpublished; not a theory source
+- `software` — CAQDAS citation
+- `new_instrument` — unpublished protocol
 - `audit_artifact` — dated CSV exports; not literature
