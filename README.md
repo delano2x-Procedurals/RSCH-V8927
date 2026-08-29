@@ -4,6 +4,16 @@ CLASS 3 of 3. BMGT 8044 amalgamated research workspace.
 
 The member’s two Excel workbooks (reading list and Week 7 leadership-theory alignment, plus the formatted duplicate) are preserved in `source/originals/`. They are joined here as shared pages so references, constructs, interview questions, and analysis notes stay on one trail.
 
+## Paste-ready GQI and Chapter III
+
+Paste-ready GQI interview instrument: [docs/gqi-semistructured-interview-guide.md](docs/gqi-semistructured-interview-guide.md) (`ITDR-GQI-INT-v0.1.1`). Spoken protocol is unchanged from v0.1.
+
+Paste-ready Chapter III (Methodology): [docs/chapter-iii-methodology.md](docs/chapter-iii-methodology.md). Analytic method is hybrid deductive–inductive codebook thematic analysis (Fereday & Muir-Cochrane, 2006). Delve is CAQDAS support only.
+
+Symbols / original vs build-on refs: [docs/symbols-definitions-refs.md](docs/symbols-definitions-refs.md).
+
+Interval CSV backups (Delve codebook, items, references, symbols): [docs/notion/](docs/notion/README.md).
+
 ## Open the workspace
 
 ```bash

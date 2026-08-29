@@ -1,0 +1,2 @@
+log_id,timestamp_utc,type,instrument_version,changed_by,files_touched,summary,delve_export,backup_folder
+UL-0001,2026-08-27T16:10:00Z,instrument_create,ITDR-GQI-INT-v0.1,researcher,"docs/gqi-semistructured-interview-guide.md; docs/notion/templates/*","Initial unpublished instrument: Set L leverage location plus Sets A-F; Delve start-list; seminal vs new reference register.",N,docs/notion/interval-backups/2026-08-27

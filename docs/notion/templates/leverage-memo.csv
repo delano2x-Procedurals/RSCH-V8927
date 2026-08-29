@@ -1,0 +1,2 @@
+participant_id,incident_type,leverage_locus,attribute_mix,formal_vs_enacted,boundary_flag,delve_memo_id,instrument_version,session_date,notes
+P00,example_only_not_a_finding,owner_role,power+urgency,diverged,N,,ITDR-GQI-INT-v0.1.1,1970-01-01,Seed row. Delete or retire before first real interview. Illustrates headers only.
