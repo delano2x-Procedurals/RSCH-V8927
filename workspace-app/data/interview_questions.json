@@ -16,7 +16,8 @@
     "week": "Interview protocol",
     "item_type": "Interview question",
     "used_in_tab": "09_INTERVIEW_PROTOCOL",
-    "search_text": "recoverability assurance critical incident disruption evidence"
+    "search_text": "recoverability assurance critical incident disruption evidence",
+    "citation_insert": ""
   },
   {
     "id": "IQ-02",
@@ -33,7 +34,8 @@
     "week": "Interview protocol",
     "item_type": "Interview question",
     "used_in_tab": "09_INTERVIEW_PROTOCOL",
-    "search_text": "power authority stakeholder salience decision rights"
+    "search_text": "power authority stakeholder salience decision rights",
+    "citation_insert": ""
   },
   {
     "id": "IQ-03",
@@ -51,7 +53,8 @@
     "week": "Interview protocol",
     "item_type": "Interview question",
     "used_in_tab": "09_INTERVIEW_PROTOCOL",
-    "search_text": "legitimacy evidence requirements stakeholder claims"
+    "search_text": "legitimacy evidence requirements stakeholder claims",
+    "citation_insert": ""
   },
   {
     "id": "IQ-04",
@@ -68,7 +71,8 @@
     "week": "Interview protocol",
     "item_type": "Interview question",
     "used_in_tab": "09_INTERVIEW_PROTOCOL",
-    "search_text": "urgency escalation evidence threshold PLU"
+    "search_text": "urgency escalation evidence threshold PLU",
+    "citation_insert": ""
   },
   {
     "id": "IQ-05",
@@ -85,7 +89,8 @@
     "week": "Interview protocol",
     "item_type": "Interview question",
     "used_in_tab": "09_INTERVIEW_PROTOCOL",
-    "search_text": "decision rights governance ITDRPaaS authority"
+    "search_text": "decision rights governance ITDRPaaS authority",
+    "citation_insert": ""
   },
   {
     "id": "IQ-06",
@@ -104,7 +109,8 @@
     "week": "Interview protocol",
     "item_type": "Interview question",
     "used_in_tab": "09_INTERVIEW_PROTOCOL",
-    "search_text": "ethical leadership servant character integrity assurance"
+    "search_text": "ethical leadership servant character integrity assurance",
+    "citation_insert": ""
   },
   {
     "id": "IQ-07",
@@ -121,7 +127,8 @@
     "week": "Interview protocol",
     "item_type": "Interview question",
     "used_in_tab": "09_INTERVIEW_PROTOCOL",
-    "search_text": "adaptive leadership change incident governance"
+    "search_text": "adaptive leadership change incident governance",
+    "citation_insert": ""
   },
   {
     "id": "IQ-08",
@@ -138,7 +145,8 @@
     "week": "Interview protocol",
     "item_type": "Interview question",
     "used_in_tab": "09_INTERVIEW_PROTOCOL",
-    "search_text": "member check trustworthiness meaning qualitative ethics"
+    "search_text": "member check trustworthiness meaning qualitative ethics",
+    "citation_insert": ""
   },
   {
     "id": "IQ-09",
@@ -153,6 +161,7 @@
     "week": "Interview protocol",
     "item_type": "Interview question",
     "used_in_tab": "09_INTERVIEW_PROTOCOL",
-    "search_text": "unaligned template leadership general"
+    "search_text": "unaligned template leadership general",
+    "citation_insert": ""
   }
 ]

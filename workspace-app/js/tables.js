@@ -40,6 +40,7 @@ export async function initReferences() {
     { key: "item_publication_date", label: "Year" },
     { key: "item_doi", label: "DOI" },
     { key: "permalink", label: "Permalink" },
+    { key: "apa", label: "APA / citation insert source" },
     { key: "used_in_tab", label: "Used in tab" },
     { key: "comps_audit_tag", label: "Comps audit tag" },
     { key: "gap_note", label: "Gap note" },
@@ -148,6 +149,7 @@ export async function initInterview() {
     { key: "ethical_check", label: "Ethical extraction check" },
     { key: "status", label: "Status" },
     { key: "linked_refs", label: "Linked IDs" },
+    { key: "citation_insert", label: "Citation insert" },
   ]);
 }
 

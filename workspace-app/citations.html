@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Citation inserts · BMGT 8044 research workspace</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body data-page="11_CITATION_INSERTS">
+<main class="prose">
+  <h2>Citation inserts</h2>
+  <p class="lede">Working log for pasting citations into memos, interview notes, RQ1, and Delve. Enter a <code>REF-</code> or <code>XREF-</code> ID to fill parenthetical, narrative, and APA text. The same form sits on every tab. Excel has a matching <code>11_CITATION_INSERTS</code> sheet with ready rows.</p>
+  <form id="cite-page-form">
+    <table>
+      <thead>
+        <tr>
+          <th>REF-ID</th>
+          <th>Locator</th>
+          <th>Insert into</th>
+          <th>Notes</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input id="cite-page-ref" required placeholder="REF-018" list="ref-ids"></td>
+          <td><input id="cite-page-loc" placeholder="p. 12"></td>
+          <td><input id="cite-page-used" placeholder="IQ-02 / Delve code / RQ1"></td>
+          <td><input id="cite-page-notes" placeholder="Why used"></td>
+          <td><button type="submit">Save insert</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <datalist id="ref-ids"></datalist>
+    <p id="cite-page-status" class="results-meta"></p>
+    <pre id="cite-preview" class="note">Enter a REF- or XREF- ID to preview inserts.</pre>
+    <p><button type="button" class="secondary" id="export-cites">Export citation_inserts.json</button>
+       <a class="btn secondary" href="dashboard.html?q=Delve">Find Delve on Dashboard</a></p>
+  </form>
+  <h3>Saved inserts (this browser)</h3>
+  <div id="cite-log"></div>
+  <h3>Blank rows for paper / Excel paste</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>CIT-ID</th>
+        <th>REF-ID</th>
+        <th>Parenthetical insert</th>
+        <th>Narrative insert</th>
+        <th>APA</th>
+        <th>Locator</th>
+        <th>Used in</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CIT-__</td>
+        <td class="templates"><textarea placeholder="REF-"></textarea></td>
+        <td class="templates"><textarea placeholder="(Author, year)"></textarea></td>
+        <td class="templates"><textarea placeholder="Author (year)"></textarea></td>
+        <td class="templates"><textarea></textarea></td>
+        <td class="templates"><textarea></textarea></td>
+        <td class="templates"><textarea placeholder="IQ- / Delve / RQ1"></textarea></td>
+        <td class="templates"><textarea></textarea></td>
+      </tr>
+      <tr>
+        <td>CIT-__</td>
+        <td class="templates"><textarea></textarea></td>
+        <td class="templates"><textarea></textarea></td>
+        <td class="templates"><textarea></textarea></td>
+        <td class="templates"><textarea></textarea></td>
+        <td class="templates"><textarea></textarea></td>
+        <td class="templates"><textarea></textarea></td>
+        <td class="templates"><textarea></textarea></td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+<script type="module" src="js/nav.js"></script>
+<script type="module" src="js/citation.js"></script>
+</body>
+</html>

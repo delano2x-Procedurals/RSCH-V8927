@@ -1,0 +1,11 @@
+{
+  "primary_tool": "Delve",
+  "product_url": "https://delvetool.com",
+  "category": "CAQDAS",
+  "usage": "Delve is the CAQDAS product the member uses for coding, retrieval, memoing, and audit. CAQDAS is the software category, not the named tool.",
+  "analysis_strategy": "Reflexive thematic analysis, supported in Delve",
+  "not_the_named_tool": [
+    "CAQDAS as a standalone product name",
+    "NVivo as the member’s working tool (course readings may still mention it)"
+  ]
+}

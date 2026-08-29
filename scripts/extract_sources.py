@@ -580,10 +580,27 @@ def build_structured(inventory: dict) -> dict:
             "item_type": "Interview question",
             "used_in_tab": "09_INTERVIEW_PROTOCOL",
             "search_text": "unaligned template leadership general",
+            "citation_insert": "",
         },
     ]
+    for q in interview_questions:
+        q.setdefault("citation_insert", "")
 
-    index = []
+    index = [
+        {
+            "id": "TOOL-DELVE",
+            "type": "Tool",
+            "title": "Delve (delvetool.com) — primary CAQDAS tool in use",
+            "excerpt": "Delve is the named product used for coding, retrieval, memoing, and audit. CAQDAS is the category, not the tool name.",
+            "week": "Methods",
+            "status": "in use",
+            "used_in_tab": "06_QUAL_METHODS_AND_TOOLS",
+            "source_tab": "tool_usage",
+            "item_type": "Tool",
+            "href": "methods.html#TOOL-DELVE",
+            "search_text": "Delve delvetool CAQDAS qualitative coding memo audit reflexive thematic analysis",
+        }
+    ]
     for bucket in (
         references,
         extra_refs,
