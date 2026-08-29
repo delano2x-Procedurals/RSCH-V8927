@@ -1,0 +1,242 @@
+[
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": "Sheet0",
+    "nonempty_rows": 38,
+    "nonempty_cells": 389,
+    "destination_tab": "03_REFERENCES_MASTER",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": "ORIGINS_LXI",
+    "nonempty_rows": 12,
+    "nonempty_cells": 12,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": "Theory Academic Definition",
+    "nonempty_rows": 1271,
+    "nonempty_cells": 1749,
+    "destination_tab": "04_THEORY_AND_SPINE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": " REFERENCES",
+    "nonempty_rows": 23,
+    "nonempty_cells": 25,
+    "destination_tab": "03_REFERENCES_MASTER",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": "KEY WORD_db",
+    "nonempty_rows": 9,
+    "nonempty_cells": 21,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": "Qual Tool Recco",
+    "nonempty_rows": 37,
+    "nonempty_cells": 69,
+    "destination_tab": "06_QUAL_METHODS_AND_TOOLS",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": "Dissertation Spine_db",
+    "nonempty_rows": 188,
+    "nonempty_cells": 244,
+    "destination_tab": "04_THEORY_AND_SPINE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": "Reserch Preperation_db",
+    "nonempty_rows": 23,
+    "nonempty_cells": 23,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": " Parkinglot_",
+    "nonempty_rows": 73,
+    "nonempty_cells": 115,
+    "destination_tab": "02_PARKING_LOT",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": "APA- Direct Quoting",
+    "nonempty_rows": 248,
+    "nonempty_cells": 266,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": "STKHLDR  MGMT",
+    "nonempty_rows": 3,
+    "nonempty_cells": 5,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Reading_List-2.xlsx",
+    "source_tab": "Stakeholder theory",
+    "nonempty_rows": 159,
+    "nonempty_cells": 159,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01.xlsx",
+    "source_tab": "Sheet1",
+    "nonempty_rows": 10,
+    "nonempty_cells": 30,
+    "destination_tab": "05_LEADERSHIP_ALIGNMENT",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01.xlsx",
+    "source_tab": "Data Collection Steps&Analysis",
+    "nonempty_rows": 39,
+    "nonempty_cells": 39,
+    "destination_tab": "07_SOURCE_ARCHIVE (ARCHIVE_COMPARATIVE)",
+    "notes": "Classmate quantitative Qualtrics/regression plan; not the member study design."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01.xlsx",
+    "source_tab": "Sheet3",
+    "nonempty_rows": 83,
+    "nonempty_cells": 97,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01.xlsx",
+    "source_tab": "Qual Data Analysis Methods",
+    "nonempty_rows": 141,
+    "nonempty_cells": 141,
+    "destination_tab": "06_QUAL_METHODS_AND_TOOLS",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01.xlsx",
+    "source_tab": "Research Methods_Step7",
+    "nonempty_rows": 235,
+    "nonempty_cells": 235,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01.xlsx",
+    "source_tab": "Quan Data Analysis Methods",
+    "nonempty_rows": 68,
+    "nonempty_cells": 68,
+    "destination_tab": "07_SOURCE_ARCHIVE (ARCHIVE_COMPARATIVE)",
+    "notes": "Quantitative methods notes retained as comparative archive."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01.xlsx",
+    "source_tab": " 8055 Wk1",
+    "nonempty_rows": 150,
+    "nonempty_cells": 150,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01.xlsx",
+    "source_tab": "Sheet8",
+    "nonempty_rows": 12,
+    "nonempty_cells": 12,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01.xlsx",
+    "source_tab": "Sheet9",
+    "nonempty_rows": 12,
+    "nonempty_cells": 12,
+    "destination_tab": "06_QUAL_METHODS_AND_TOOLS",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01_formatted.xlsx",
+    "source_tab": "Sheet1",
+    "nonempty_rows": 11,
+    "nonempty_cells": 31,
+    "destination_tab": "07_SOURCE_ARCHIVE (formatted duplicate of leadership table)",
+    "notes": "Near-duplicate of cleaner leadership table; retained for lineage."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01_formatted.xlsx",
+    "source_tab": "Data Collection Steps&Analysis",
+    "nonempty_rows": 39,
+    "nonempty_cells": 39,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "Classmate quantitative Qualtrics/regression plan; not the member study design."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01_formatted.xlsx",
+    "source_tab": "Sheet3",
+    "nonempty_rows": 83,
+    "nonempty_cells": 97,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01_formatted.xlsx",
+    "source_tab": "Qual Data Analysis Methods",
+    "nonempty_rows": 141,
+    "nonempty_cells": 141,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01_formatted.xlsx",
+    "source_tab": "Research Methods_Step7",
+    "nonempty_rows": 235,
+    "nonempty_cells": 235,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01_formatted.xlsx",
+    "source_tab": "Quan Data Analysis Methods",
+    "nonempty_rows": 68,
+    "nonempty_cells": 68,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "Quantitative methods notes retained as comparative archive."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01_formatted.xlsx",
+    "source_tab": " 8055 Wk1",
+    "nonempty_rows": 150,
+    "nonempty_cells": 150,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01_formatted.xlsx",
+    "source_tab": "Sheet8",
+    "nonempty_rows": 12,
+    "nonempty_cells": 12,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  },
+  {
+    "source_file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01_formatted.xlsx",
+    "source_tab": "Sheet9",
+    "nonempty_rows": 12,
+    "nonempty_cells": 12,
+    "destination_tab": "07_SOURCE_ARCHIVE",
+    "notes": "All nonempty cells extracted to JSON."
+  }
+]

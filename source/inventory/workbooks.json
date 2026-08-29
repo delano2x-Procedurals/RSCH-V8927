@@ -1,0 +1,260 @@
+[
+  {
+    "file": "BMGT8044_Reading_List-2.xlsx",
+    "sheet_count": 12,
+    "sheets": [
+      {
+        "name": "Sheet0",
+        "path": "xl/worksheets/sheet1.xml",
+        "nonempty_rows": 38,
+        "nonempty_cells": 389,
+        "max_row": 42,
+        "max_col": 36
+      },
+      {
+        "name": "ORIGINS_LXI",
+        "path": "xl/worksheets/sheet2.xml",
+        "nonempty_rows": 12,
+        "nonempty_cells": 12,
+        "max_row": 22,
+        "max_col": 9
+      },
+      {
+        "name": "Theory Academic Definition",
+        "path": "xl/worksheets/sheet3.xml",
+        "nonempty_rows": 1271,
+        "nonempty_cells": 1749,
+        "max_row": 2205,
+        "max_col": 11
+      },
+      {
+        "name": " REFERENCES",
+        "path": "xl/worksheets/sheet4.xml",
+        "nonempty_rows": 23,
+        "nonempty_cells": 25,
+        "max_row": 47,
+        "max_col": 6
+      },
+      {
+        "name": "KEY WORD_db",
+        "path": "xl/worksheets/sheet5.xml",
+        "nonempty_rows": 9,
+        "nonempty_cells": 21,
+        "max_row": 40,
+        "max_col": 12
+      },
+      {
+        "name": "Qual Tool Recco",
+        "path": "xl/worksheets/sheet6.xml",
+        "nonempty_rows": 37,
+        "nonempty_cells": 69,
+        "max_row": 57,
+        "max_col": 5
+      },
+      {
+        "name": "Dissertation Spine_db",
+        "path": "xl/worksheets/sheet7.xml",
+        "nonempty_rows": 188,
+        "nonempty_cells": 244,
+        "max_row": 319,
+        "max_col": 5
+      },
+      {
+        "name": "Reserch Preperation_db",
+        "path": "xl/worksheets/sheet8.xml",
+        "nonempty_rows": 23,
+        "nonempty_cells": 23,
+        "max_row": 43,
+        "max_col": 2
+      },
+      {
+        "name": " Parkinglot_",
+        "path": "xl/worksheets/sheet9.xml",
+        "nonempty_rows": 73,
+        "nonempty_cells": 115,
+        "max_row": 140,
+        "max_col": 5
+      },
+      {
+        "name": "APA- Direct Quoting",
+        "path": "xl/worksheets/sheet10.xml",
+        "nonempty_rows": 248,
+        "nonempty_cells": 266,
+        "max_row": 407,
+        "max_col": 5
+      },
+      {
+        "name": "STKHLDR  MGMT",
+        "path": "xl/worksheets/sheet11.xml",
+        "nonempty_rows": 3,
+        "nonempty_cells": 5,
+        "max_row": 10,
+        "max_col": 6
+      },
+      {
+        "name": "Stakeholder theory",
+        "path": "xl/worksheets/sheet12.xml",
+        "nonempty_rows": 159,
+        "nonempty_cells": 159,
+        "max_row": 210,
+        "max_col": 3
+      }
+    ]
+  },
+  {
+    "file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01.xlsx",
+    "sheet_count": 9,
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "path": "xl/worksheets/sheet1.xml",
+        "nonempty_rows": 10,
+        "nonempty_cells": 30,
+        "max_row": 10,
+        "max_col": 3
+      },
+      {
+        "name": "Data Collection Steps&Analysis",
+        "path": "xl/worksheets/sheet2.xml",
+        "nonempty_rows": 39,
+        "nonempty_cells": 39,
+        "max_row": 74,
+        "max_col": 4
+      },
+      {
+        "name": "Sheet3",
+        "path": "xl/worksheets/sheet3.xml",
+        "nonempty_rows": 83,
+        "nonempty_cells": 97,
+        "max_row": 173,
+        "max_col": 6
+      },
+      {
+        "name": "Qual Data Analysis Methods",
+        "path": "xl/worksheets/sheet4.xml",
+        "nonempty_rows": 141,
+        "nonempty_cells": 141,
+        "max_row": 215,
+        "max_col": 5
+      },
+      {
+        "name": "Research Methods_Step7",
+        "path": "xl/worksheets/sheet5.xml",
+        "nonempty_rows": 235,
+        "nonempty_cells": 235,
+        "max_row": 572,
+        "max_col": 3
+      },
+      {
+        "name": "Quan Data Analysis Methods",
+        "path": "xl/worksheets/sheet6.xml",
+        "nonempty_rows": 68,
+        "nonempty_cells": 68,
+        "max_row": 126,
+        "max_col": 3
+      },
+      {
+        "name": " 8055 Wk1",
+        "path": "xl/worksheets/sheet7.xml",
+        "nonempty_rows": 150,
+        "nonempty_cells": 150,
+        "max_row": 308,
+        "max_col": 8
+      },
+      {
+        "name": "Sheet8",
+        "path": "xl/worksheets/sheet8.xml",
+        "nonempty_rows": 12,
+        "nonempty_cells": 12,
+        "max_row": 26,
+        "max_col": 3
+      },
+      {
+        "name": "Sheet9",
+        "path": "xl/worksheets/sheet9.xml",
+        "nonempty_rows": 12,
+        "nonempty_cells": 12,
+        "max_row": 22,
+        "max_col": 3
+      }
+    ]
+  },
+  {
+    "file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01_formatted.xlsx",
+    "sheet_count": 9,
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "path": "xl/worksheets/sheet1.xml",
+        "nonempty_rows": 11,
+        "nonempty_cells": 31,
+        "max_row": 16,
+        "max_col": 5
+      },
+      {
+        "name": "Data Collection Steps&Analysis",
+        "path": "xl/worksheets/sheet2.xml",
+        "nonempty_rows": 39,
+        "nonempty_cells": 39,
+        "max_row": 74,
+        "max_col": 4
+      },
+      {
+        "name": "Sheet3",
+        "path": "xl/worksheets/sheet3.xml",
+        "nonempty_rows": 83,
+        "nonempty_cells": 97,
+        "max_row": 173,
+        "max_col": 6
+      },
+      {
+        "name": "Qual Data Analysis Methods",
+        "path": "xl/worksheets/sheet4.xml",
+        "nonempty_rows": 141,
+        "nonempty_cells": 141,
+        "max_row": 215,
+        "max_col": 5
+      },
+      {
+        "name": "Research Methods_Step7",
+        "path": "xl/worksheets/sheet5.xml",
+        "nonempty_rows": 235,
+        "nonempty_cells": 235,
+        "max_row": 572,
+        "max_col": 3
+      },
+      {
+        "name": "Quan Data Analysis Methods",
+        "path": "xl/worksheets/sheet6.xml",
+        "nonempty_rows": 68,
+        "nonempty_cells": 68,
+        "max_row": 126,
+        "max_col": 3
+      },
+      {
+        "name": " 8055 Wk1",
+        "path": "xl/worksheets/sheet7.xml",
+        "nonempty_rows": 150,
+        "nonempty_cells": 150,
+        "max_row": 308,
+        "max_col": 8
+      },
+      {
+        "name": "Sheet8",
+        "path": "xl/worksheets/sheet8.xml",
+        "nonempty_rows": 12,
+        "nonempty_cells": 12,
+        "max_row": 26,
+        "max_col": 3
+      },
+      {
+        "name": "Sheet9",
+        "path": "xl/worksheets/sheet9.xml",
+        "nonempty_rows": 12,
+        "nonempty_cells": 12,
+        "max_row": 22,
+        "max_col": 3
+      }
+    ]
+  }
+]

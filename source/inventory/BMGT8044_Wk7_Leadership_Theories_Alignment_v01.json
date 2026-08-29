@@ -1,0 +1,78 @@
+{
+  "file": "BMGT8044_Wk7_Leadership_Theories_Alignment_v01.xlsx",
+  "sheet_count": 9,
+  "sheets": [
+    {
+      "name": "Sheet1",
+      "path": "xl/worksheets/sheet1.xml",
+      "nonempty_rows": 10,
+      "nonempty_cells": 30,
+      "max_row": 10,
+      "max_col": 3
+    },
+    {
+      "name": "Data Collection Steps&Analysis",
+      "path": "xl/worksheets/sheet2.xml",
+      "nonempty_rows": 39,
+      "nonempty_cells": 39,
+      "max_row": 74,
+      "max_col": 4
+    },
+    {
+      "name": "Sheet3",
+      "path": "xl/worksheets/sheet3.xml",
+      "nonempty_rows": 83,
+      "nonempty_cells": 97,
+      "max_row": 173,
+      "max_col": 6
+    },
+    {
+      "name": "Qual Data Analysis Methods",
+      "path": "xl/worksheets/sheet4.xml",
+      "nonempty_rows": 141,
+      "nonempty_cells": 141,
+      "max_row": 215,
+      "max_col": 5
+    },
+    {
+      "name": "Research Methods_Step7",
+      "path": "xl/worksheets/sheet5.xml",
+      "nonempty_rows": 235,
+      "nonempty_cells": 235,
+      "max_row": 572,
+      "max_col": 3
+    },
+    {
+      "name": "Quan Data Analysis Methods",
+      "path": "xl/worksheets/sheet6.xml",
+      "nonempty_rows": 68,
+      "nonempty_cells": 68,
+      "max_row": 126,
+      "max_col": 3
+    },
+    {
+      "name": " 8055 Wk1",
+      "path": "xl/worksheets/sheet7.xml",
+      "nonempty_rows": 150,
+      "nonempty_cells": 150,
+      "max_row": 308,
+      "max_col": 8
+    },
+    {
+      "name": "Sheet8",
+      "path": "xl/worksheets/sheet8.xml",
+      "nonempty_rows": 12,
+      "nonempty_cells": 12,
+      "max_row": 26,
+      "max_col": 3
+    },
+    {
+      "name": "Sheet9",
+      "path": "xl/worksheets/sheet9.xml",
+      "nonempty_rows": 12,
+      "nonempty_cells": 12,
+      "max_row": 22,
+      "max_col": 3
+    }
+  ]
+}

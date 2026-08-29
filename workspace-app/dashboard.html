@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard · BMGT 8044 research workspace</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body data-page="01_DASHBOARD">
+<main>
+  <h2>Dashboard</h2>
+  <p class="lede">Counts, table of contents, and the expedited filter share this page. Results never leave the Dashboard. Every stored search keeps query text, facets, and a timestamp; only the last three distinct searches are kept.</p>
+
+  <section class="cards" aria-label="Workspace counts">
+    <div class="card"><span class="n" id="n-ref">—</span><span class="l">Reading-list references</span></div>
+    <div class="card"><span class="n" id="n-theme">—</span><span class="l">Leadership themes</span></div>
+    <div class="card"><span class="n" id="n-pl-open">—</span><span class="l">Open parking-lot items</span></div>
+    <div class="card"><span class="n" id="n-iq-aligned">—</span><span class="l">Aligned interview questions</span></div>
+    <div class="card"><span class="n" id="n-iq-unaligned">—</span><span class="l">Unaligned interview questions</span></div>
+    <div class="card"><span class="n" id="n-index">—</span><span class="l">Searchable data points</span></div>
+  </section>
+
+  <div class="callout ok">
+    <strong>RQ1 status.</strong> The appropriateness statement is drafted on the RQ1 tab. Generic qualitative interviews are treated with reflexive, theory-informed thematic analysis. Regression and survey-scoring strategies remain archived as comparative material only.
+    <a href="rq1.html">Open RQ1 analysis</a>
+  </div>
+
+  <section class="filter-panel" aria-label="Expedited filter">
+    <h3>Expedited filter</h3>
+    <div class="filter-row">
+      <input id="q" type="search" placeholder="Search titles, authors, APA, keywords, constructs, IDs (REF-, THEME-, PL-, IQ-)">
+      <select id="facet-type" aria-label="Tab / type"><option value="">All types</option></select>
+      <select id="facet-week" aria-label="Week / section"><option value="">All weeks</option></select>
+      <select id="facet-status" aria-label="Status"><option value="">All statuses</option></select>
+      <select id="facet-used" aria-label="Used in tab"><option value="">All tabs</option></select>
+    </div>
+    <div class="filter-actions">
+      <button type="button" id="do-search">Search</button>
+      <button type="button" class="secondary" id="clear-filters">Clear filters</button>
+      <button type="button" class="secondary" id="export-history">Export last three</button>
+      <span class="empty-chips">Last three searches (stored every Search / Enter / facet change)</span>
+    </div>
+    <div id="last-three" class="chips" aria-label="Last three searches"></div>
+    <p class="results-meta" id="excel-mirror">LastSearch1–3: (empty until a search is stored)</p>
+    <p class="results-meta" id="result-meta">Loading index…</p>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Type</th>
+          <th>Title</th>
+          <th>Excerpt</th>
+          <th>Source tab</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="result-body">
+        <tr><td colspan="6">Loading…</td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+<script type="module" src="js/nav.js"></script>
+<script type="module" src="js/search.js"></script>
+</body>
+</html>
