@@ -1,0 +1,10 @@
+id,theme,description,references,used_in_tab
+THEME-01,Statement Definition,Leadership is central to greatness; those in power must hold themselves to the highest standard.,N/A,05_LEADERSHIP_ALIGNMENT
+THEME-02,Leadership Theory Alignment,Aligns with modern leadership theories emphasizing self-accountability and leading by example.,"Bass & Riggio, 2006; Northouse, 2022",05_LEADERSHIP_ALIGNMENT
+THEME-03,Transformational Leadership,"Leaders model behavior and inspire others through personal integrity and high moral standards (Bass & Riggio, 2006).","Bass & Riggio, 2006",05_LEADERSHIP_ALIGNMENT
+THEME-04,Servant Leadership,"Focus on humility, self-awareness, and service over authority (Greenleaf, 1977; Spears, 2010).","Greenleaf, 1977; Spears, 2010",05_LEADERSHIP_ALIGNMENT
+THEME-05,Ethical Leadership,"Leaders demonstrate moral courage and responsibility, acting as ethical role models (Brown & Treviño, 2006).","Brown & Treviño, 2006",05_LEADERSHIP_ALIGNMENT
+THEME-06,Character-Based Leadership,"Emphasizes authenticity, self-knowledge, and front-line leadership (Bennis, 2009).","Bennis, 2009",05_LEADERSHIP_ALIGNMENT
+THEME-07,Adaptive Leadership,"Leadership as evolving, self-critical, and courageous in the face of change (Heifetz & Linsky, 2002).","Heifetz & Linsky, 2002",05_LEADERSHIP_ALIGNMENT
+THEME-08,High-Performance Context,"Power is a responsibility; leaders must catalyze performance through self-discipline (Kouzes & Posner, 2017).","Kouzes & Posner, 2017",05_LEADERSHIP_ALIGNMENT
+THEME-09,Conclusion Summary,"Leadership is defined not by authority alone, but by self-imposed discipline and example setting.",Compiled Summary,05_LEADERSHIP_ALIGNMENT
