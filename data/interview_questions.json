@@ -1,0 +1,158 @@
+[
+  {
+    "id": "IQ-01",
+    "type": "Interview",
+    "construct": "Phenomenon / recoverability assurance",
+    "title": "How does the participant describe recoverability assurance after a disruption?",
+    "question": "Would the participant walk the researcher through a recent incident in which recoverability had to be demonstrated to others, including what counted as sufficient assurance?",
+    "review_question": "Does the follow-up still ask about assurance production, or has it drifted into general IT operations?",
+    "ethical_check": "Limits extraction to the incident the participant elects to narrate; no pressure to name clients or disclose restricted artifacts.",
+    "linked_refs": [
+      "REF-018",
+      "REF-021",
+      "TH-phenomenon"
+    ],
+    "status": "aligned",
+    "week": "Interview protocol",
+    "item_type": "Interview question",
+    "used_in_tab": "09_INTERVIEW_PROTOCOL",
+    "search_text": "recoverability assurance critical incident disruption evidence"
+  },
+  {
+    "id": "IQ-02",
+    "type": "Interview",
+    "construct": "Stakeholder salience — power",
+    "title": "Whose claims carried authority during the incident?",
+    "question": "In that incident, whose requests or objections most strongly shaped who could authorize recovery actions, and how did the participant recognize that authority?",
+    "review_question": "Does the review probe power as perceived by the participant, rather than the researcher’s preferred hierarchy?",
+    "ethical_check": "Avoids asking the participant to evaluate named individuals for competence; focuses on role-based claims.",
+    "linked_refs": [
+      "SP-019"
+    ],
+    "status": "aligned",
+    "week": "Interview protocol",
+    "item_type": "Interview question",
+    "used_in_tab": "09_INTERVIEW_PROTOCOL",
+    "search_text": "power authority stakeholder salience decision rights"
+  },
+  {
+    "id": "IQ-03",
+    "type": "Interview",
+    "construct": "Stakeholder salience — legitimacy",
+    "title": "Which claims were treated as legitimate evidence requirements?",
+    "question": "Which parties’ evidence or documentation requirements were treated as legitimate during recovery, and which claims were set aside?",
+    "review_question": "Does the follow-up stay with legitimacy of claims, not the researcher’s view of who should have been heard?",
+    "ethical_check": "Does not invite gossip about colleagues; asks about claims and artifacts, not personal character.",
+    "linked_refs": [
+      "SP-019",
+      "REF-021"
+    ],
+    "status": "aligned",
+    "week": "Interview protocol",
+    "item_type": "Interview question",
+    "used_in_tab": "09_INTERVIEW_PROTOCOL",
+    "search_text": "legitimacy evidence requirements stakeholder claims"
+  },
+  {
+    "id": "IQ-04",
+    "type": "Interview",
+    "construct": "Stakeholder salience — urgency",
+    "title": "How did urgency change prioritization and escalation?",
+    "question": "When time pressure increased, how did the participant decide whose urgency justified escalation or a lowered evidence threshold?",
+    "review_question": "Does the review question still test urgency as a salience attribute rather than a generic stress story?",
+    "ethical_check": "Allows the participant to withhold commercially sensitive timelines.",
+    "linked_refs": [
+      "SP-025"
+    ],
+    "status": "aligned",
+    "week": "Interview protocol",
+    "item_type": "Interview question",
+    "used_in_tab": "09_INTERVIEW_PROTOCOL",
+    "search_text": "urgency escalation evidence threshold PLU"
+  },
+  {
+    "id": "IQ-05",
+    "type": "Interview",
+    "construct": "Decision-rights clarity",
+    "title": "How were recovery decision rights understood?",
+    "question": "How did the participant know who held decision rights for failover, restoration, exception approval, or communication to stakeholders?",
+    "review_question": "Is the question still about decision rights, or has it become a general org-chart question?",
+    "ethical_check": "Does not require the participant to produce internal RACI charts if that would breach policy.",
+    "linked_refs": [
+      "SP-031"
+    ],
+    "status": "aligned",
+    "week": "Interview protocol",
+    "item_type": "Interview question",
+    "used_in_tab": "09_INTERVIEW_PROTOCOL",
+    "search_text": "decision rights governance ITDRPaaS authority"
+  },
+  {
+    "id": "IQ-06",
+    "type": "Interview",
+    "construct": "Ethical / character-based leadership",
+    "title": "How did the participant hold self and others to an assurance standard?",
+    "question": "In that incident, how did the participant describe the standard they held themselves to when others wanted faster assurance than the evidence supported?",
+    "review_question": "Does the follow-up still connect leadership self-discipline to assurance ethics, not charisma?",
+    "ethical_check": "Frames leadership as the participant’s own account; does not score the participant against a preferred theory.",
+    "linked_refs": [
+      "THEME-03",
+      "THEME-04",
+      "THEME-06"
+    ],
+    "status": "aligned",
+    "week": "Interview protocol",
+    "item_type": "Interview question",
+    "used_in_tab": "09_INTERVIEW_PROTOCOL",
+    "search_text": "ethical leadership servant character integrity assurance"
+  },
+  {
+    "id": "IQ-07",
+    "type": "Interview",
+    "construct": "Adaptive leadership under change",
+    "title": "How did the participant adapt governance when the incident changed?",
+    "question": "When the disruption unfolded differently than planned, what did the participant change about stakeholder communication, evidence, or escalation?",
+    "review_question": "Does the review still ask about adaptation of governance, not a heroic-leader narrative?",
+    "ethical_check": "Invites process description rather than blame assignment.",
+    "linked_refs": [
+      "THEME-07"
+    ],
+    "status": "aligned",
+    "week": "Interview protocol",
+    "item_type": "Interview question",
+    "used_in_tab": "09_INTERVIEW_PROTOCOL",
+    "search_text": "adaptive leadership change incident governance"
+  },
+  {
+    "id": "IQ-08",
+    "type": "Interview",
+    "construct": "Trustworthiness / member meaning",
+    "title": "How should the researcher check the participant’s meaning?",
+    "question": "If the researcher summarized the incident as a story about whose claims counted, what would the participant correct?",
+    "review_question": "Is this still a member-check on meaning, not a request for the participant to validate the researcher’s theory?",
+    "ethical_check": "Gives the participant the last word on interpretation of their account.",
+    "linked_refs": [
+      "REF-035"
+    ],
+    "status": "aligned",
+    "week": "Interview protocol",
+    "item_type": "Interview question",
+    "used_in_tab": "09_INTERVIEW_PROTOCOL",
+    "search_text": "member check trustworthiness meaning qualitative ethics"
+  },
+  {
+    "id": "IQ-09",
+    "type": "Interview",
+    "construct": "Template — unaligned placeholder",
+    "title": "Unaligned draft question (template)",
+    "question": "[Draft] What does the participant think about leadership in general?",
+    "review_question": "This question does not map to a defined construct and must not be used for extraction until aligned.",
+    "ethical_check": "Flagged unaligned: extraction from this prompt would invent codes not warranted by the protocol.",
+    "linked_refs": [],
+    "status": "unaligned",
+    "week": "Interview protocol",
+    "item_type": "Interview question",
+    "used_in_tab": "09_INTERVIEW_PROTOCOL",
+    "search_text": "unaligned template leadership general"
+  }
+]

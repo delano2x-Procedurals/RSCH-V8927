@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interview protocol · BMGT 8044 research workspace</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body data-page="09_INTERVIEW_PROTOCOL">
+<main class="prose">
+  <h2>Interview protocol alignment</h2>
+  <p class="lede">Each live question names a construct, a parent prompt, a review question that must test the same construct, and an ethical extraction check. Unaligned drafts stay visible so they cannot be used silently. The researcher interviews; the table does not speak in the first person.</p>
+  <div class="callout">
+    A review question that changes the construct is a new question and needs its own ID. Extraction is permitted only from aligned rows.
+  </div>
+  <p><a href="dashboard.html?type=Interview">Search interview questions on the Dashboard</a></p>
+  <div id="iq-table"></div>
+  <h3>Blank row for a future question</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>IQ-ID</th>
+        <th>Construct</th>
+        <th>Interview question</th>
+        <th>Review question</th>
+        <th>Ethical extraction check</th>
+        <th>Linked IDs</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>IQ-__</td>
+        <td class="templates"><textarea placeholder="Named construct from theory or leadership table"></textarea></td>
+        <td class="templates"><textarea placeholder="Third-person wording of the prompt"></textarea></td>
+        <td class="templates"><textarea placeholder="Must test the same construct"></textarea></td>
+        <td class="templates"><textarea placeholder="What the participant may withhold; what the researcher may not infer"></textarea></td>
+        <td class="templates"><textarea placeholder="REF- / THEME- / SP- / TH-"></textarea></td>
+        <td>unaligned until reviewed</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+<script type="module" src="js/nav.js"></script>
+<script type="module" src="js/tables.js"></script>
+</body>
+</html>
