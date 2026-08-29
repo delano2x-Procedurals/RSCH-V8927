@@ -25,7 +25,8 @@ Then open http://127.0.0.1:4173/ — README is first; Dashboard (search + last t
 8. Qualitative methods and tools (Delve is the CAQDAS product in use)
 9. Source archive (includes ARCHIVE_COMPARATIVE quantitative classmate plan)
 10. RQ1 analysis (third-person appropriateness statement)
-11. Interview protocol
-12. Analysis templates
+11. SOP / data statement (abstract, key wording, APA 7 data statement, 12 steps)
+12. Interview protocol
+13. Analysis templates
 
 Excel twin: `workbook/BMGT8044_Amalgamated_Research_Workspace.xlsx` (same tabs, including `11_CITATION_INSERTS` and `12_TOOL_USAGE`).

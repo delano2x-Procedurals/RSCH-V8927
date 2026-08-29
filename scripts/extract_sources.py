@@ -599,7 +599,20 @@ def build_structured(inventory: dict) -> dict:
             "item_type": "Tool",
             "href": "methods.html#TOOL-DELVE",
             "search_text": "Delve delvetool CAQDAS qualitative coding memo audit reflexive thematic analysis",
-        }
+        },
+        {
+            "id": "SOP-RQ1",
+            "type": "SOP",
+            "title": "RQ1 SOP, abstract, key wording, and APA 7 data statement",
+            "excerpt": "Step-by-step procedure and data statement for evaluating analysis strategies. Delve is the CAQDAS product in use.",
+            "week": "RQ1",
+            "status": "in use",
+            "used_in_tab": "14_SOP_RQ1",
+            "source_tab": "sop",
+            "item_type": "SOP",
+            "href": "sop.html#SOP-RQ1",
+            "search_text": "SOP step-by-step data statement abstract key wording APA7 RQ1 Delve ethical extraction",
+        },
     ]
     for bucket in (
         references,
@@ -690,6 +703,7 @@ def page_for(tab: str, rec_id: str) -> str:
         "09_INTERVIEW_PROTOCOL": "interview-protocol.html",
         "08_RQ1_ANALYSIS": "rq1.html",
         "10_ANALYSIS_TEMPLATES": "analysis-templates.html",
+        "14_SOP_RQ1": "sop.html",
     }
     page = mapping.get(tab, "dashboard.html")
     return f"{page}#{rec_id}"

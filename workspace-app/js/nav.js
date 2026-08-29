@@ -9,6 +9,7 @@ export const TABS = [
   { href: "methods.html", id: "06_QUAL_METHODS_AND_TOOLS", label: "Qual methods" },
   { href: "archive.html", id: "07_SOURCE_ARCHIVE", label: "Source archive" },
   { href: "rq1.html", id: "08_RQ1_ANALYSIS", label: "RQ1 analysis" },
+  { href: "sop.html", id: "14_SOP_RQ1", label: "SOP / data statement" },
   { href: "interview-protocol.html", id: "09_INTERVIEW_PROTOCOL", label: "Interview protocol" },
   { href: "analysis-templates.html", id: "10_ANALYSIS_TEMPLATES", label: "Analysis templates" },
 ];

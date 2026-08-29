@@ -48,6 +48,7 @@ def main() -> None:
         "interview-protocol.html",
         "analysis-templates.html",
         "citations.html",
+        "sop.html",
     ]
     for name in pages:
         text = (ROOT / "workspace-app" / name).read_text()
@@ -71,6 +72,12 @@ def main() -> None:
     assert "CAQDAS product" in methods
     cites = (ROOT / "workspace-app" / "citations.html").read_text()
     assert "Parenthetical insert" in cites
+    sop = (ROOT / "workspace-app" / "sop.html").read_text()
+    assert "RQ1 data statement" in sop
+    assert "(Lester et al., 2020)" in sop
+    assert "Delve (n.d.)" in sop
+    assert "I will" not in sop
+    assert (ROOT / "docs" / "RQ1_SOP_Data_Statement.md").exists()
     nav = (ROOT / "workspace-app" / "js" / "nav.js").read_text()
     assert "Save citation insert" in nav
     assert "citations.html" in nav
@@ -98,6 +105,7 @@ def main() -> None:
     names = wb.sheetnames
     assert "11_CITATION_INSERTS" in names
     assert "12_TOOL_USAGE" in names
+    assert "14_SOP_RQ1" in names
     assert "00_README" in names
     cite = wb["11_CITATION_INSERTS"]
     headers = [c.value for c in next(cite.iter_rows(min_row=1, max_row=1))]
