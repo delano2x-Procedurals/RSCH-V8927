@@ -20,6 +20,12 @@ function currentHref() {
 }
 
 export function renderChrome() {
+  if (!document.querySelector('link[rel="icon"]')) {
+    const icon = document.createElement("link");
+    icon.rel = "icon";
+    icon.href = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect fill='%23c9a227' width='16' height='16'/></svg>";
+    document.head.append(icon);
+  }
   const header = document.createElement("header");
   header.className = "site-header";
   header.innerHTML = `
@@ -54,6 +60,7 @@ export function renderChrome() {
       <button type="submit">Add to parking lot</button>
       <a class="btn secondary" href="parking-lot.html">Open parking lot</a>
       <a class="btn secondary" href="dashboard.html">Search on Dashboard</a>
+      <span id="pl-add-status" class="empty-chips"></span>
     </form>`;
   header.after(strip);
 
@@ -66,9 +73,11 @@ export function renderChrome() {
     const title = document.getElementById("pl-title").value.trim();
     const why = document.getElementById("pl-why").value.trim();
     const linked = document.getElementById("pl-link").value.trim();
-    addParkingItem({ title, why, linked, fromTab: PAGE || currentHref() });
+    const id = addParkingItem({ title, why, linked, fromTab: PAGE || currentHref() });
     e.target.reset();
-    alert(`Parked as a local item. Open the parking lot to review.`);
+    const note = document.getElementById("pl-add-status");
+    if (note) note.textContent = `${id} parked. It appears on the Parking lot tab.`;
+    window.dispatchEvent(new CustomEvent("parking-lot-changed"));
   });
 }
 

@@ -166,4 +166,7 @@ if (boot) {
   });
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
   else start();
+  window.addEventListener("parking-lot-changed", () => {
+    if (document.body.dataset.page === "02_PARKING_LOT") start();
+  });
 }
