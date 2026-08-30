@@ -13,6 +13,9 @@ def main() -> None:
     for path in SRC.iterdir():
         if path.suffix in {".json", ".csv"}:
             shutil.copy2(path, DST / path.name)
+    extra = ROOT / "data" / "tool_usage.json"
+    if extra.exists():
+        shutil.copy2(extra, DST / extra.name)
     print(f"synced {len(list(DST.iterdir()))} files to {DST}")
 
 

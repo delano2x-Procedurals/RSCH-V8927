@@ -29,12 +29,14 @@ Then open http://127.0.0.1:4173/ — README is first; Dashboard (search + last t
 2. Dashboard (counts + expedited filter; last three searches stored on Search / Enter / facet change)
 3. Parking lot (tied to every tab)
 4. References master
-5. Theory and spine
-6. Leadership alignment
-7. Qualitative methods and tools
-8. Source archive (includes ARCHIVE_COMPARATIVE quantitative classmate plan)
-9. RQ1 analysis (third-person appropriateness statement)
-10. Interview protocol
-11. Analysis templates
+5. Citation inserts (parenthetical / narrative / APA from REF- IDs)
+6. Theory and spine
+7. Leadership alignment
+8. Qualitative methods and tools (Delve is the CAQDAS product in use)
+9. Source archive (includes ARCHIVE_COMPARATIVE quantitative classmate plan)
+10. RQ1 analysis (third-person appropriateness statement)
+11. SOP / data statement (abstract, key wording, APA 7 data statement, 12 steps)
+12. Interview protocol
+13. Analysis templates
 
-Excel twin: `workbook/BMGT8044_Amalgamated_Research_Workspace.xlsx` (`LastSearch1–3` on the Dashboard sheet).
+Excel twin: `workbook/BMGT8044_Amalgamated_Research_Workspace.xlsx` (same tabs, including `11_CITATION_INSERTS` and `12_TOOL_USAGE`).

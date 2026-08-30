@@ -215,13 +215,14 @@ tr:hover td { background: #f3eee4; }
 .prose p { max-width: 78ch; }
 .prose li { max-width: 78ch; }
 
-.templates textarea {
+.templates textarea, textarea.cite-out {
   width: 100%;
   min-height: 4.2rem;
   border: 1px dashed var(--line);
   padding: 0.4rem;
   background: #fffef9;
 }
+textarea.cite-out { min-height: 3.2rem; }
 
 footer {
   max-width: var(--max);

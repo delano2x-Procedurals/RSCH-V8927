@@ -202,6 +202,8 @@ def build_structured(inventory: dict) -> dict:
             str(v) for v in rec.values() if isinstance(v, str)
         )
         rec["used_in_tab"] = "03_REFERENCES_MASTER"
+        rec["comps_audit_tag"] = rec.get("item_tags") or ""
+        rec["gap_note"] = rec.get("item_student_note") or ""
         rec["status"] = ""
         references.append(rec)
 
@@ -225,6 +227,8 @@ def build_structured(inventory: dict) -> dict:
                 "source_tab": " REFERENCES",
                 "source_row": row_num,
                 "used_in_tab": "03_REFERENCES_MASTER",
+                "comps_audit_tag": "",
+                "gap_note": "",
                 "search_text": text,
                 "status": "",
             }
@@ -576,10 +580,40 @@ def build_structured(inventory: dict) -> dict:
             "item_type": "Interview question",
             "used_in_tab": "09_INTERVIEW_PROTOCOL",
             "search_text": "unaligned template leadership general",
+            "citation_insert": "",
         },
     ]
+    for q in interview_questions:
+        q.setdefault("citation_insert", "")
 
-    index = []
+    index = [
+        {
+            "id": "TOOL-DELVE",
+            "type": "Tool",
+            "title": "Delve (delvetool.com) — primary CAQDAS tool in use",
+            "excerpt": "Delve is the named product used for coding, retrieval, memoing, and audit. CAQDAS is the category, not the tool name.",
+            "week": "Methods",
+            "status": "in use",
+            "used_in_tab": "06_QUAL_METHODS_AND_TOOLS",
+            "source_tab": "tool_usage",
+            "item_type": "Tool",
+            "href": "methods.html#TOOL-DELVE",
+            "search_text": "Delve delvetool CAQDAS qualitative coding memo audit reflexive thematic analysis",
+        },
+        {
+            "id": "SOP-RQ1",
+            "type": "SOP",
+            "title": "RQ1 SOP, abstract, key wording, and APA 7 data statement",
+            "excerpt": "Step-by-step procedure and data statement for evaluating analysis strategies. Delve is the CAQDAS product in use.",
+            "week": "RQ1",
+            "status": "in use",
+            "used_in_tab": "14_SOP_RQ1",
+            "source_tab": "sop",
+            "item_type": "SOP",
+            "href": "sop.html#SOP-RQ1",
+            "search_text": "SOP step-by-step data statement abstract key wording APA7 RQ1 Delve ethical extraction",
+        },
+    ]
     for bucket in (
         references,
         extra_refs,
@@ -669,6 +703,7 @@ def page_for(tab: str, rec_id: str) -> str:
         "09_INTERVIEW_PROTOCOL": "interview-protocol.html",
         "08_RQ1_ANALYSIS": "rq1.html",
         "10_ANALYSIS_TEMPLATES": "analysis-templates.html",
+        "14_SOP_RQ1": "sop.html",
     }
     page = mapping.get(tab, "dashboard.html")
     return f"{page}#{rec_id}"
