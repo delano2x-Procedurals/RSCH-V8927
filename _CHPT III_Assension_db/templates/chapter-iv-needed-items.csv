@@ -1,0 +1,6 @@
+id,chapter,dissertation_event,needed_item,status,where_it_lives,spine_node,alignment_tester,howto_or_link,notes
+CH3-EV-060,IV,Findings,Named categories from locked meaning units,reserved,docs/chapter-iii-methodology.md#chapter-iii-versus-chapter-iv-versus-chapter-v,Categories,Data Analysis,_CHPT III_Assension_db/pages/H-024-chapter-iii-versus-chapter-iv-versus-chapter-v.md,Empty until meaning units are locked.
+CH3-EV-061,IV,Findings,Theme titles as patterned-meaning sentences (not topic headings),reserved,docs/chapter-iii-methodology.md#ten-control-rules,Themes_ChIV,Data Analysis,_CHPT III_Assension_db/pages/H-023-ten-control-rules.md,Do not write that themes emerged.
+CH3-EV-062,IV,Findings,Answer to PQ1 with evidenced excerpts and boundary cases,reserved,docs/chapter-iii-methodology.md#planned-analysis-matrix,Findings_ChIV,Questions,_CHPT III_Assension_db/pages/H-022-planned-analysis-matrix.md,Theme/Finding columns in Chapter III stay empty.
+CH3-EV-063,IV,Findings,Answer to PQ2 with evidenced excerpts and boundary cases,reserved,docs/chapter-iii-methodology.md#planned-analysis-matrix,Findings_ChIV,Questions,_CHPT III_Assension_db/pages/H-022-planned-analysis-matrix.md,
+CH3-EV-064,IV,Findings,Snippet URL audit path from excerpt to code to update-log,reserved,docs/notion/README.md,Codes,Dependability,docs/notion/templates/snippets.csv,No RAW identifiers.

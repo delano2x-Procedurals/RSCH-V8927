@@ -1,0 +1,8 @@
+id,step_or_rule,required_action,forbidden,chapter,companion
+QA-001,Method declaration,"Hybrid codebook TA (Fereday & Muir-Cochrane, 2006)",Data will be analyzed using Delve,III,docs/chapter-iii-methodology.md#declaration-of-method
+QA-002,CAQDAS role,"Delve stores CLEAN transcripts, codebook, memos, snippet URLs",Delve as the analytic method,III,docs/notion/README.md
+QA-003,Meaning-unit lock,Lock practice claims before any theme name,Pre-named themes from the seven labels,III,workspace-app/analysis-templates.html
+QA-004,Start-list,"Import STRUCTURAL, FRAMEWORK_DEDUCTIVE, BOUNDARY",Treat imported codes as Chapter IV headings,III,docs/notion/templates/codebook.csv
+QA-005,EMERGENT,Add only after meaning-unit lock,Populate EMERGENT at first code,III,docs/chapter-iii-methodology.md#analytic-steps-adapted-hybrid-codebook-ta
+QA-006,Control rules,Log violations the same day as dependability incidents,Themes emerged; frequency = importance; leverage as fourth attribute,III,docs/chapter-iii-methodology.md#ten-control-rules
+QA-007,Chapter split,III plans; IV reports; V interprets,Implications in III/IV; new theme names in V,III–V,docs/chapter-iii-methodology.md#chapter-iii-versus-chapter-iv-versus-chapter-v

@@ -49,9 +49,9 @@ def main() -> None:
     header(readme, ["Section", "Text"])
     rows = [
         ("Purpose", "Amalgamated BMGT 8044 workspace for generic qualitative interviews. No source fields were dropped."),
-        ("Tab order", "README, Dashboard (search + last three), Parking lot, References, Theory & spine, Leadership, Qual methods, Source archive, RQ1, Interview protocol, Analysis templates."),
+        ("Tab order", "README, Dashboard (search + last three), Parking lot, References, Theory & spine, Leadership, Qual methods, Source archive, RQ1, Interview protocol, Analysis templates, Chapter III Assension."),
         ("Live vs archive", "Quantitative classmate Qualtrics/regression material is ARCHIVE_COMPARATIVE only."),
-        ("IDs", "REF-, XREF-, THEME-, PL-, PL-L, TH-, SP-, IQ-, ARC-"),
+        ("IDs", "REF-, XREF-, THEME-, PL-, PL-L, TH-, SP-, IQ-, ARC-, CH3-H-, CH3-AT-, CH3-SP-"),
         ("Search rule", "Dashboard is the only search surface. Last three distinct searches persist in the browser and are mirrored in LastSearch1-3."),
         ("RQ1", "Evaluate the appropriateness of data analysis strategies for qualitative methodologies. Reflexive thematic analysis is the primary appropriate strategy for this interview study."),
     ]
@@ -193,6 +193,22 @@ def main() -> None:
     for rec in json.loads((ROOT / "source" / "inventory" / "lineage.json").read_text(encoding="utf-8")):
         lineage.append([rec.get("source_file"), rec.get("source_tab"), rec.get("nonempty_cells"), rec.get("destination_tab"), rec.get("notes")])
     autosize(lineage, 50)
+
+    chiii = wb.create_sheet("12_CHIII_ASSENSION")
+    header(chiii, ["ID", "Level", "Heading", "MD link", "How-to", "Spine nodes", "Alignment testers", "Status"])
+    nest = json.loads((DATA / "chiii_assension.json").read_text(encoding="utf-8"))
+    for rec in nest.get("headers", []):
+        chiii.append([
+            rec.get("id"),
+            rec.get("level"),
+            rec.get("heading"),
+            rec.get("md_link"),
+            rec.get("howto_link"),
+            rec.get("spine_nodes"),
+            rec.get("alignment_nodes"),
+            rec.get("tester_status"),
+        ])
+    autosize(chiii, 48)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     wb.save(OUT)
