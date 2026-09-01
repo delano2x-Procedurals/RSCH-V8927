@@ -115,6 +115,9 @@ def main() -> None:
     nest = json.loads((ROOT / "data" / "chiii_assension.json").read_text())
     assert nest["headers"][0]["id"] == "CH3-H-001"
     assert nest["alignment_testers"][4]["rating"] == "Partial"  # Questions
+    assert not nest["headers"][0]["href_md"].startswith("../")
+    assert (ROOT / "workspace-app" / "docs").is_symlink()
+    assert (ROOT / "workspace-app" / "_CHPT III_Assension_db").is_symlink()
 
     xlsx_assension = db / "uploads" / "ITDRPaaS_Governance_Artifact_Workbook_Assension.xlsx"
     assert xlsx_assension.exists()

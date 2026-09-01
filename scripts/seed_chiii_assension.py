@@ -530,8 +530,8 @@ def main() -> None:
         inventory.append(
             {
                 **row,
-                "href_md": f"../{h['md_link']}",
-                "href_howto": "../" + howto_rel.replace(" ", "%20"),
+                "href_md": h["md_link"],
+                "href_howto": howto_rel.replace(" ", "%20"),
             }
         )
 

@@ -18,8 +18,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#introduction | docs/alignment-assessment-data-collection.md",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#introduction",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-001-introduction.md"
+      "href_md": "docs/chapter-iii-methodology.md#introduction",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-001-introduction.md"
     },
     {
       "id": "CH3-H-002",
@@ -35,8 +35,8 @@
       "tester_status": "Strong",
       "companions": "docs/gqi-semistructured-interview-guide.md | docs/alignment-assessment-data-collection.md",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#research-design",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-002-research-design.md"
+      "href_md": "docs/chapter-iii-methodology.md#research-design",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-002-research-design.md"
     },
     {
       "id": "CH3-H-003",
@@ -52,8 +52,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#generic-qualitative-inquiry",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#generic-qualitative-inquiry",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-003-generic-qualitative-inquiry.md"
+      "href_md": "docs/chapter-iii-methodology.md#generic-qualitative-inquiry",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-003-generic-qualitative-inquiry.md"
     },
     {
       "id": "CH3-H-004",
@@ -69,8 +69,8 @@
       "tester_status": "Strong",
       "companions": "docs/gqi-semistructured-interview-guide.md | docs/collection-analysis-revision-packet.md",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#critical-incident-interview-stance",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-004-critical-incident-interview-stance.md"
+      "href_md": "docs/chapter-iii-methodology.md#critical-incident-interview-stance",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-004-critical-incident-interview-stance.md"
     },
     {
       "id": "CH3-H-005",
@@ -86,8 +86,8 @@
       "tester_status": "Strong",
       "companions": "docs/symbols-definitions-refs.md | docs/notion/templates/codebook.csv",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#framework-role-sensitizing-not-confirmatory",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-005-framework-role-sensitizing-not-confirmatory.md"
+      "href_md": "docs/chapter-iii-methodology.md#framework-role-sensitizing-not-confirmatory",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-005-framework-role-sensitizing-not-confirmatory.md"
     },
     {
       "id": "CH3-H-006",
@@ -103,8 +103,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#alignment-spine | workspace-app/theory-spine.html",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#alignment-spine",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-006-alignment-spine.md"
+      "href_md": "docs/chapter-iii-methodology.md#alignment-spine",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-006-alignment-spine.md"
     },
     {
       "id": "CH3-H-007",
@@ -120,8 +120,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#population-and-sampling",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#population-and-sampling",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-007-population-and-sampling.md"
+      "href_md": "docs/chapter-iii-methodology.md#population-and-sampling",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-007-population-and-sampling.md"
     },
     {
       "id": "CH3-H-008",
@@ -137,8 +137,8 @@
       "tester_status": "Strong",
       "companions": "docs/alignment-assessment-data-collection.md",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#population",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-008-population.md"
+      "href_md": "docs/chapter-iii-methodology.md#population",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-008-population.md"
     },
     {
       "id": "CH3-H-009",
@@ -154,8 +154,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#sampling-strategy",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#sampling-strategy",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-009-sampling-strategy.md"
+      "href_md": "docs/chapter-iii-methodology.md#sampling-strategy",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-009-sampling-strategy.md"
     },
     {
       "id": "CH3-H-010",
@@ -171,8 +171,8 @@
       "tester_status": "Strong",
       "companions": "docs/gqi-semistructured-interview-guide.md | docs/collection-analysis-revision-packet.md",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#recruitment",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-010-recruitment.md"
+      "href_md": "docs/chapter-iii-methodology.md#recruitment",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-010-recruitment.md"
     },
     {
       "id": "CH3-H-011",
@@ -188,8 +188,8 @@
       "tester_status": "Strong",
       "companions": "docs/gqi-semistructured-interview-guide.md | docs/notion/templates/interview-items.csv",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#instrumentation",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-011-instrumentation.md"
+      "href_md": "docs/chapter-iii-methodology.md#instrumentation",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-011-instrumentation.md"
     },
     {
       "id": "CH3-H-012",
@@ -205,8 +205,8 @@
       "tester_status": "Strong",
       "companions": "docs/gqi-semistructured-interview-guide.md | docs/notion/templates/construct-index.csv | workspace-app/interview-protocol.html",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#primary-instrument",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-012-primary-instrument.md"
+      "href_md": "docs/chapter-iii-methodology.md#primary-instrument",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-012-primary-instrument.md"
     },
     {
       "id": "CH3-H-013",
@@ -222,8 +222,8 @@
       "tester_status": "Strong",
       "companions": "docs/symbols-definitions-refs.md | docs/notion/templates/leverage-memo.csv",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#researcher-only-leverage-diagnostic",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-013-researcher-only-leverage-diagnostic.md"
+      "href_md": "docs/chapter-iii-methodology.md#researcher-only-leverage-diagnostic",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-013-researcher-only-leverage-diagnostic.md"
     },
     {
       "id": "CH3-H-014",
@@ -239,8 +239,8 @@
       "tester_status": "Strong",
       "companions": "docs/collection-analysis-revision-packet.md | docs/gqi-semistructured-interview-guide.md",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#secondary-instrument-artifacts-as-context",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-014-secondary-instrument-artifacts-as-context.md"
+      "href_md": "docs/chapter-iii-methodology.md#secondary-instrument-artifacts-as-context",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-014-secondary-instrument-artifacts-as-context.md"
     },
     {
       "id": "CH3-H-015",
@@ -256,8 +256,8 @@
       "tester_status": "Strong",
       "companions": "docs/gqi-semistructured-interview-guide.md | docs/collection-analysis-revision-packet.md",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#data-collection",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-015-data-collection.md"
+      "href_md": "docs/chapter-iii-methodology.md#data-collection",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-015-data-collection.md"
     },
     {
       "id": "CH3-H-016",
@@ -273,8 +273,8 @@
       "tester_status": "Strong",
       "companions": "docs/notion/README.md | docs/notion/templates/update-log.csv",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#data-preparation-and-management",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-016-data-preparation-and-management.md"
+      "href_md": "docs/chapter-iii-methodology.md#data-preparation-and-management",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-016-data-preparation-and-management.md"
     },
     {
       "id": "CH3-H-017",
@@ -290,8 +290,8 @@
       "tester_status": "Strong",
       "companions": "docs/notion/templates/codebook.csv | workspace-app/analysis-templates.html",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#qualitative-data-analysis",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-017-qualitative-data-analysis.md"
+      "href_md": "docs/chapter-iii-methodology.md#qualitative-data-analysis",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-017-qualitative-data-analysis.md"
     },
     {
       "id": "CH3-H-018",
@@ -307,8 +307,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#declaration-of-method",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#declaration-of-method",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-018-declaration-of-method.md"
+      "href_md": "docs/chapter-iii-methodology.md#declaration-of-method",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-018-declaration-of-method.md"
     },
     {
       "id": "CH3-H-019",
@@ -324,8 +324,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#why-this-method-and-not-the-adjacent-alternatives",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#why-this-method-and-not-the-adjacent-alternatives",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-019-why-this-method-and-not-the-adjacent-alternatives.md"
+      "href_md": "docs/chapter-iii-methodology.md#why-this-method-and-not-the-adjacent-alternatives",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-019-why-this-method-and-not-the-adjacent-alternatives.md"
     },
     {
       "id": "CH3-H-020",
@@ -341,8 +341,8 @@
       "tester_status": "Strong",
       "companions": "docs/collection-analysis-revision-packet.md | workspace-app/analysis-templates.html",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#analytic-steps-adapted-hybrid-codebook-ta",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-020-analytic-steps-adapted-hybrid-codebook-ta.md"
+      "href_md": "docs/chapter-iii-methodology.md#analytic-steps-adapted-hybrid-codebook-ta",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-020-analytic-steps-adapted-hybrid-codebook-ta.md"
     },
     {
       "id": "CH3-H-021",
@@ -358,8 +358,8 @@
       "tester_status": "Strong",
       "companions": "docs/notion/templates/codebook.csv | docs/notion/templates/construct-index.csv",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#delve-nested-start-list-import-do-not-treat-as-themes",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-021-delve-nested-start-list-import-do-not-treat-as-themes.md"
+      "href_md": "docs/chapter-iii-methodology.md#delve-nested-start-list-import-do-not-treat-as-themes",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-021-delve-nested-start-list-import-do-not-treat-as-themes.md"
     },
     {
       "id": "CH3-H-022",
@@ -375,8 +375,8 @@
       "tester_status": "Partial",
       "companions": "docs/chapter-iii-methodology.md#planned-analysis-matrix | docs/notion/templates/interview-items.csv",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#planned-analysis-matrix",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-022-planned-analysis-matrix.md"
+      "href_md": "docs/chapter-iii-methodology.md#planned-analysis-matrix",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-022-planned-analysis-matrix.md"
     },
     {
       "id": "CH3-H-023",
@@ -392,8 +392,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#ten-control-rules",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#ten-control-rules",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-023-ten-control-rules.md"
+      "href_md": "docs/chapter-iii-methodology.md#ten-control-rules",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-023-ten-control-rules.md"
     },
     {
       "id": "CH3-H-024",
@@ -409,8 +409,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#chapter-iii-versus-chapter-iv-versus-chapter-v",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#chapter-iii-versus-chapter-iv-versus-chapter-v",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-024-chapter-iii-versus-chapter-iv-versus-chapter-v.md"
+      "href_md": "docs/chapter-iii-methodology.md#chapter-iii-versus-chapter-iv-versus-chapter-v",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-024-chapter-iii-versus-chapter-iv-versus-chapter-v.md"
     },
     {
       "id": "CH3-H-025",
@@ -426,8 +426,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#optional-committee-required-second-coder-and-icr",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#optional-committee-required-second-coder-and-icr",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-025-optional-committee-required-second-coder-and-icr.md"
+      "href_md": "docs/chapter-iii-methodology.md#optional-committee-required-second-coder-and-icr",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-025-optional-committee-required-second-coder-and-icr.md"
     },
     {
       "id": "CH3-H-026",
@@ -443,8 +443,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#trustworthiness",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#trustworthiness",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-026-trustworthiness.md"
+      "href_md": "docs/chapter-iii-methodology.md#trustworthiness",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-026-trustworthiness.md"
     },
     {
       "id": "CH3-H-027",
@@ -460,8 +460,8 @@
       "tester_status": "Strong",
       "companions": "docs/gqi-semistructured-interview-guide.md | docs/collection-analysis-revision-packet.md",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#ethical-protections",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-027-ethical-protections.md"
+      "href_md": "docs/chapter-iii-methodology.md#ethical-protections",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-027-ethical-protections.md"
     },
     {
       "id": "CH3-H-028",
@@ -477,8 +477,8 @@
       "tester_status": "Strong",
       "companions": "docs/chapter-iii-methodology.md#chapter-summary",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#chapter-summary",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-028-chapter-summary.md"
+      "href_md": "docs/chapter-iii-methodology.md#chapter-summary",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-028-chapter-summary.md"
     },
     {
       "id": "CH3-H-029",
@@ -494,8 +494,8 @@
       "tester_status": "Strong",
       "companions": "docs/notion/templates/references.csv | docs/symbols-definitions-refs.md",
       "status": "active",
-      "href_md": "../docs/chapter-iii-methodology.md#references",
-      "href_howto": "../_CHPT%20III_Assension_db/pages/H-029-references.md"
+      "href_md": "docs/chapter-iii-methodology.md#references",
+      "href_howto": "_CHPT%20III_Assension_db/pages/H-029-references.md"
     }
   ],
   "alignment_testers": [

@@ -21,8 +21,8 @@ def main() -> None:
     DATA.mkdir(parents=True, exist_ok=True)
     headers = load_csv("header-index.csv")
     for rec in headers:
-        rec["href_md"] = "../" + rec["md_link"]
-        rec["href_howto"] = "../" + rec["howto_link"].replace(" ", "%20")
+        rec["href_md"] = rec["md_link"]
+        rec["href_howto"] = rec["howto_link"].replace(" ", "%20")
     payload = {
         "folder": "_CHPT III_Assension_db",
         "instrument_version": "ITDR-GQI-INT-v0.1.1",
