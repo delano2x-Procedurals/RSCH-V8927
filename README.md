@@ -10,6 +10,8 @@ Paste-ready GQI interview instrument: [docs/gqi-semistructured-interview-guide.m
 
 Paste-ready Chapter III (Methodology): [docs/chapter-iii-methodology.md](docs/chapter-iii-methodology.md). Analytic method is hybrid deductive–inductive codebook thematic analysis (Fereday & Muir-Cochrane, 2006). Delve is CAQDAS support only.
 
+Chapter III how-to nest, spine map, and Alignment Map testers: [`_CHPT III_Assension_db/`](_CHPT%20III_Assension_db/README.md). Linked layout: [`_CHPT III_Assension_db/layout.md`](_CHPT%20III_Assension_db/layout.md). Workspace tab: Chapter III.
+
 Symbols / original vs build-on refs: [docs/symbols-definitions-refs.md](docs/symbols-definitions-refs.md).
 
 Interval CSV backups (Delve codebook, items, references, symbols): [docs/notion/](docs/notion/README.md).
@@ -36,5 +38,8 @@ Then open http://127.0.0.1:4173/ — README is first; Dashboard (search + last t
 9. RQ1 analysis (third-person appropriateness statement)
 10. Interview protocol
 11. Analysis templates
+12. Chapter III Assension (header links, how-to notes, spine map, Alignment Map testers)
 
 Excel twin: `workbook/BMGT8044_Amalgamated_Research_Workspace.xlsx` (`LastSearch1–3` on the Dashboard sheet).
+
+Assension artifact twin (dissertation Excel input): `_CHPT III_Assension_db/uploads/ITDRPaaS_Governance_Artifact_Workbook_Assension.xlsx`. SOP to download, rename a WORKING copy, and keep the clean master: [`_CHPT III_Assension_db/uploads/SOP-get-and-use-offering.md`](_CHPT%20III_Assension_db/uploads/SOP-get-and-use-offering.md).

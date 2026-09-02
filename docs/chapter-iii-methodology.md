@@ -22,14 +22,33 @@ Do not write: “Data will be analyzed using Delve.”
 
 ## Table of contents
 
+How-to notes, spine map, and Alignment Map testers: [`_CHPT III_Assension_db/layout.md`](../_CHPT%20III_Assension_db/layout.md).
+
 1. [Introduction](#introduction)
 2. [Research Design](#research-design)
+    1. [Generic qualitative inquiry](#generic-qualitative-inquiry)
+    2. [Critical-incident interview stance](#critical-incident-interview-stance)
+    3. [Framework role: sensitizing, not confirmatory](#framework-role-sensitizing-not-confirmatory)
+    4. [Alignment spine](#alignment-spine)
 3. [Population and Sampling](#population-and-sampling)
+    1. [Population](#population)
+    2. [Sampling strategy](#sampling-strategy)
 4. [Recruitment](#recruitment)
 5. [Instrumentation](#instrumentation)
+    1. [Primary instrument](#primary-instrument)
+    2. [Researcher-only leverage diagnostic](#researcher-only-leverage-diagnostic)
+    3. [Secondary instrument: artifacts as context](#secondary-instrument-artifacts-as-context)
 6. [Data Collection](#data-collection)
 7. [Data Preparation and Management](#data-preparation-and-management)
 8. [Qualitative Data Analysis](#qualitative-data-analysis)
+    1. [Declaration of method](#declaration-of-method)
+    2. [Why this method and not the adjacent alternatives](#why-this-method-and-not-the-adjacent-alternatives)
+    3. [Analytic steps (adapted hybrid codebook TA)](#analytic-steps-adapted-hybrid-codebook-ta)
+    4. [Delve nested start-list (import; do not treat as themes)](#delve-nested-start-list-import-do-not-treat-as-themes)
+    5. [Planned-analysis matrix](#planned-analysis-matrix)
+    6. [Ten control rules](#ten-control-rules)
+    7. [Chapter III versus Chapter IV versus Chapter V](#chapter-iii-versus-chapter-iv-versus-chapter-v)
+    8. [Optional: committee-required second coder and ICR](#optional-committee-required-second-coder-and-icr)
 9. [Trustworthiness](#trustworthiness)
 10. [Ethical Protections](#ethical-protections)
 11. [Chapter Summary](#chapter-summary)

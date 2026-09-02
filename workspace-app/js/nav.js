@@ -10,6 +10,7 @@ export const TABS = [
   { href: "rq1.html", id: "08_RQ1_ANALYSIS", label: "RQ1 analysis" },
   { href: "interview-protocol.html", id: "09_INTERVIEW_PROTOCOL", label: "Interview protocol" },
   { href: "analysis-templates.html", id: "10_ANALYSIS_TEMPLATES", label: "Analysis templates" },
+  { href: "chapter-iii.html", id: "11_CHIII_ASSENSION", label: "Chapter III" },
 ];
 
 const PAGE = document.body.dataset.page || "";
