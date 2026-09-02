@@ -12,7 +12,7 @@ Instrument: `ITDR-GQI-INT-v0.1.1`. Analytic method: hybrid codebook thematic ana
 2. Use [`registers/header-index.csv`](registers/header-index.csv) as the source of truth for header IDs, permalinks, spine nodes, and tester status.
 3. Follow the how-to page for the header you are editing (`pages/H-###-….md`).
 4. Rescore [`registers/alignment-testers.csv`](registers/alignment-testers.csv) against the **current** chapter, not the older collection draft.
-5. Drop later theory notes, templates, or committee files in [`uploads/`](uploads/README.md) and log them on [`registers/crosswalk.csv`](registers/crosswalk.csv).
+5. Drop later theory notes, templates, or committee files in [`uploads/`](uploads/README.md) and log them on [`registers/crosswalk.csv`](registers/crosswalk.csv). Excel input place: [`uploads/SOP-get-and-use-offering.md`](uploads/SOP-get-and-use-offering.md).
 
 Workspace-app tracker: [`workspace-app/chapter-iii.html`](../workspace-app/chapter-iii.html) (`11_CHIII_ASSENSION`).
 

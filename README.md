@@ -42,4 +42,4 @@ Then open http://127.0.0.1:4173/ — README is first; Dashboard (search + last t
 
 Excel twin: `workbook/BMGT8044_Amalgamated_Research_Workspace.xlsx` (`LastSearch1–3` on the Dashboard sheet).
 
-Assension artifact twin: `_CHPT III_Assension_db/uploads/ITDRPaaS_Governance_Artifact_Workbook_Assension.xlsx` (Chapter I–V needed items plus Theory, Qualitative, U.S. SME, Qualitative Analysis, Lit review).
+Assension artifact twin (dissertation Excel input): `_CHPT III_Assension_db/uploads/ITDRPaaS_Governance_Artifact_Workbook_Assension.xlsx`. SOP to download, rename a WORKING copy, and keep the clean master: [`_CHPT III_Assension_db/uploads/SOP-get-and-use-offering.md`](_CHPT%20III_Assension_db/uploads/SOP-get-and-use-offering.md).

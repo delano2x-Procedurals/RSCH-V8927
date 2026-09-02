@@ -2,6 +2,8 @@
 
 Drop later documentation, committee templates, theory notes, and workbook revisions here. This folder is part of `_CHPT III_Assension_db`. It is not a transcript store.
 
+**Get and use the Excel offering:** [SOP-get-and-use-offering.md](SOP-get-and-use-offering.md) — where the file is, how to download it, how to rename a WORKING copy so the clean master stays clean.
+
 ## Already here
 
 | File | Role |
