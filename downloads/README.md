@@ -4,6 +4,7 @@ Word copies you can open in Microsoft Word or upload to the Capella courseroom.
 
 | File | Use this for |
 | --- | --- |
+| [WALKER_Project_Plan_Population.docx](WALKER_Project_Plan_Population.docx) | **Courseroom paste.** Population definition, 2–3 paragraphs, APA 7, third person. |
 | [WALKER_Project_Plan_Sampling_and_Recruitment.docx](WALKER_Project_Plan_Sampling_and_Recruitment.docx) | **Courseroom paste.** Sampling Strategy (n = 12 locked) and Recruitment Procedures. Two fields, 2–3 paragraphs each, APA 7, third person. |
 | [AMALGAMATION_wk8_10_Step-by-Step_SOP_for_Qualitative_Data_Analysis.docx](AMALGAMATION_wk8_10_Step-by-Step_SOP_for_Qualitative_Data_Analysis.docx) | Weeks 8–10 filled SOP. Chapter III operations manual. |
 | [WALKER_Collection_Analysis_Revision_Packet.docx](WALKER_Collection_Analysis_Revision_Packet.docx) | Paste-ready protocol, artifact pipeline, analysis bridge, citation/language repairs, ethics SOPs, and Project Plan paragraphs. Items marked NEW are new written efforts. |

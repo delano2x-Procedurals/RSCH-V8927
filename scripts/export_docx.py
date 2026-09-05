@@ -299,12 +299,20 @@ def main():
         OUT / "WALKER_Project_Plan_Sampling_and_Recruitment.docx",
         intro="",
     )
+    population = convert_md(
+        DOCS / "courseroom-population.md",
+        "Population",
+        "Project Plan paste — define the target population, APA 7, third person",
+        OUT / "WALKER_Project_Plan_Population.docx",
+        intro="",
+    )
     print(packet)
     print(assessment)
     print(sop)
     print(courseroom)
+    print(population)
     if ARTIFACTS.exists():
-        for src in (packet, assessment, sop, courseroom):
+        for src in (packet, assessment, sop, courseroom, population):
             dest = ARTIFACTS / src.name
             dest.write_bytes(src.read_bytes())
             print("artifact", dest)
