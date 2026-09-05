@@ -20,7 +20,7 @@ These are the new work products that close the Gap. Do not treat them as optiona
 | 6 | Citation repair table (what each source is now allowed to support) | Methodology; Dependability | Prevents CIT, saturation, and NIST from being used as the wrong method |
 | 7 | Language-drift find/replace list (phenomenology and confirmatory wording out) | Methodology; Constructs | Keeps GQI on external events, decisions, and artifacts |
 | 8 | Ethics-threat matrix tied to Gap data quality, plus member-check and storage SOP | Procedures; Dependability | Stops organizational risk from deleting the proof and authority talk PQ2 needs |
-| 9 | Information-power sample justification and recruitment channel/length | Sample; Recruitment | Makes n = 10–15 defensible without claiming automatic saturation |
+| 9 | Information-power sample justification and recruitment channel/length | Sample; Recruitment | Makes n = 12 (locked) defensible without claiming automatic saturation |
 | 10 | Revised 3–4 paragraph Project Plan sections (Measures, Procedures, Analysis, Trustworthiness) | All collection nodes | Courseroom-ready prose, not only an appendix |
 
 ---
@@ -245,7 +245,7 @@ Not findings. This shows how a future incident would travel the bridge.
 
 ### 4.5 Saturation / stopping rule (**NEW**)
 
-Do not claim that 10–15 interviews saturate the Gap. Use information power (Malterud et al., 2016): narrow aim, specific sample, theoretically informed dialogue. Use Naeem et al. (2024) as a decision guide: stop adding interviews when new sessions no longer create new meaning units on the salience-to-assurance bargain, after at least one boundary case per construct. Guest et al. (2006) may be cited only in that stopping discussion, never as the interview method.
+Do not claim that 12 interviews saturate the Gap. The sample is locked at 12. Use information power (Malterud et al., 2016): narrow aim, specific sample, theoretically informed dialogue. Use Naeem et al. (2024) as a decision guide: document whether sessions in the locked corpus of 12 still create new meaning units on the salience-to-assurance bargain, after at least one boundary case per construct. Guest et al. (2006) may be cited only in that stopping discussion, never as the interview method.
 
 ---
 
@@ -265,7 +265,7 @@ Do not claim that 10–15 interviews saturate the Gap. Use information power (Ma
 | Braun & Clarke (2019) | Reflexive memo; confirmability | — |
 | Lester et al. (2020) | Write-up as continuation of analysis | — |
 | Lincoln & Guba (1985); Korstjens & Moser (2018) | Trustworthiness / Dependability | Quantitative validity language |
-| Malterud et al. (2016) | **NEW** n = 10–15 information power | — |
+| Malterud et al. (2016) | **NEW** n = 12 locked; information power | — |
 | Naeem et al. (2024) | Saturation as decision guide | Claim that n saturates |
 | Guest et al. (2006) | Optional stopping discussion only | CIT; GQI execution; recruitment |
 | NIST / BCM / ISO (as named by participants) | What We Know context; artifact *type* participants may mention | Analysis method; confirming excerpts |
@@ -280,7 +280,7 @@ Do not claim that 10–15 interviews saturate the Gap. Use information power (Ma
 | Critical-incident technique (Guest et al., 2006) | Critical-incident technique (Flanagan, 1954; Butterfield et al., 2005) |
 | Screening criteria (Caelli et al., 2003) | Screening criteria (purposive/criterion sampling; Creswell & Poth, 2018, if a methods text is needed) |
 | Artifact analysis (NIST, 2024) | Artifacts analyzed as situated contextual objects (Creswell & Poth, 2018); NIST/BCM remain context if participants name them |
-| Saturation will be reached at 10–15 (Guest et al., 2006) | Sample size is justified by information power (Malterud et al., 2016); stopping follows analytic decision rules (Naeem et al., 2024) |
+| Saturation will be reached at 10–15 (Guest et al., 2006) | Sample is locked at 12 and justified by information power (Malterud et al., 2016); stopping follows analytic decision rules (Naeem et al., 2024) |
 
 Add Flanagan (1954), Chell (2004) or Butterfield et al. (2005), and Malterud et al. (2016) to the reference list. Keep Mitchell, Donaldson & Preston, and Lowry where they belong (Gap and Constructs), not in Procedures.
 
@@ -370,7 +370,7 @@ Prompt, five lines maximum:
 ## 8. Sample and Recruitment Inserts (**NEW**)
 
 **Information power (paste under Sample).**  
-A sample of 10 to 15 managers is justified by information power, not by a promise of saturation at a fixed n (Malterud et al., 2016). The aim is narrow (enactment of stakeholder-claim management in SME ITDRPaaS incidents), the sample is specific (U.S. SME IT/network managers with a recent external-platform recovery event), and the dialogue is theoretically informed by stakeholder-salience without being a closed questionnaire. Stopping follows the analysis-bridge rule in Section 4.5 (Naeem et al., 2024).
+A sample of 12 managers is locked and justified by information power, not by a promise of saturation at a fixed n (Malterud et al., 2016). The aim is narrow (enactment of stakeholder-claim management in SME ITDRPaaS incidents), the sample is specific (U.S. SME IT/network managers with a recent external-platform recovery event), and the dialogue is theoretically informed by stakeholder-salience without being a closed questionnaire. Stopping follows the analysis-bridge rule in Section 4.5 (Naeem et al., 2024).
 
 **Recruitment (paste under Recruitment).**  
 Candidates are approached individually through professional networks, practitioner associations, and professional social platforms. The researcher does not recruit through a supervisor. Screening uses the inclusion criteria already in the draft. After eligibility is confirmed, the consent form is emailed. After signed consent is returned, a 60–75 minute virtual interview is scheduled in English.
@@ -393,7 +393,7 @@ If a file can be shared in redacted form, it is stored under an alphanumeric cod
 
 ### 9.2 Detailed Procedures — **NEW** replacement
 
-Recruitment is individual and purposive. The researcher approaches candidates through professional networks, practitioner associations, and professional social platforms, not through a supervisor. Eligibility requires an active IT, network, systems, infrastructure, or operations management role in a U.S. enterprise of 10 to 200 personnel; direct responsibility for, or participation in, IT disaster-recovery coordination that uses an external platform or managed recovery service; and at least one disruption, failover, recovery test, or operational recovery in the preceding 36 months. People employed only by a vendor, or without that platform experience, are excluded. A sample of 10 to 15 managers is justified by information power (Malterud et al., 2016). After eligibility is confirmed, the researcher emails an informed-consent form. When signed electronic consent is returned, a 60- to 75-minute virtual interview in English is scheduled and recorded.
+Recruitment is individual and purposive. The researcher approaches candidates through professional networks, practitioner associations, and professional social platforms, not through a supervisor. Eligibility requires an active IT, network, systems, infrastructure, or operations management role in a U.S. enterprise of 10 to 200 personnel; direct responsibility for, or participation in, IT disaster-recovery coordination that uses an external platform or managed recovery service; and at least one disruption, failover, recovery test, or operational recovery in the preceding 36 months. People employed only by a vendor, or without that platform experience, are excluded. A sample of 12 managers is locked and justified by information power (Malterud et al., 2016). After eligibility is confirmed, the researcher emails an informed-consent form. When signed electronic consent is returned, a 60- to 75-minute virtual interview in English is scheduled and recorded.
 
 The session follows a written protocol. The researcher reads a short ethics script, then deploys the critical-incident opening (Flanagan, 1954; Chell, 2004). Flexible probes stay with that event. Topical questions on power, legitimacy, urgency, decision rights, escalation, and proof are asked only if the story did not already answer them. The researcher completes a construct-coverage checklist before closing so that a skipped set is either covered in the opening narrative or documented as a boundary case (for example, no escalation occurred). After the incident account, the researcher runs the artifact request. Sharing a document is optional and does not end the interview.
 
@@ -401,7 +401,7 @@ After the session the recording is transcribed verbatim. The transcript, field n
 
 ### 9.3 Proposed Data Analysis — **NEW** section (the plan draft did not include this node)
 
-Analysis reuses the four-step generic thematic reduction already practiced in Data Analysis Practice 2 (Aronson, 1994; Taylor & Bogdan, 1998; Braun & Clarke, 2021; Walker, 2026). After repeated reading of each de-identified transcript and artifact map, the researcher (1) locks meaning units that state a practice claim before any theme name is written, (2) confirms each unit with a named excerpt and a negative or boundary case, (3) groups related units only when they describe the same salience-to-assurance bargain rather than the same recovery topic, and (4) synthesizes two separate answers, one for stakeholder-claim and salience enactment and one for decision rights, escalation, and recoverability assurance (Percy et al., 2015; Lester et al., 2020). Stakeholder-salience and governance labels remain a sensitizing start-list. They become a mapping pass after themes exist; they are not Step 3 titles. Saturation is treated as an analytic decision guide (Naeem et al., 2024), not as a claim that 10 to 15 interviews close the Gap.
+Analysis reuses the four-step generic thematic reduction already practiced in Data Analysis Practice 2 (Aronson, 1994; Taylor & Bogdan, 1998; Braun & Clarke, 2021; Walker, 2026). After repeated reading of each de-identified transcript and artifact map, the researcher (1) locks meaning units that state a practice claim before any theme name is written, (2) confirms each unit with a named excerpt and a negative or boundary case, (3) groups related units only when they describe the same salience-to-assurance bargain rather than the same recovery topic, and (4) synthesizes two separate answers, one for stakeholder-claim and salience enactment and one for decision rights, escalation, and recoverability assurance (Percy et al., 2015; Lester et al., 2020). Stakeholder-salience and governance labels remain a sensitizing start-list. They become a mapping pass after themes exist; they are not Step 3 titles. Saturation is treated as an analytic decision guide (Naeem et al., 2024), not as a claim that 12 interviews close the Gap.
 
 ### 9.4 Validity / Reliability / Credibility / Dependability — **NEW** replacement
 

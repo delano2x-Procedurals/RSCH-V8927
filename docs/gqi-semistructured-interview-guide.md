@@ -7,7 +7,7 @@
 **CAQDAS:** Delve (audit trail, codebook, snippet URLs)  
 **Interval backup:** [docs/notion/](notion/README.md) CSV nest  
 **Reference class:** **new unpublished instrument** — does not replace seminal theory (see [Section 9](#9-seminal-references-vs-this-new-instrument))  
-**Companions (v0.1.1; spoken wording unchanged):** [Chapter III: Methodology](chapter-iii-methodology.md) · [Symbols, definitions, and original vs build-on refs](symbols-definitions-refs.md)
+**Companions (v0.1.1; spoken wording unchanged):** [Chapter III: Methodology](chapter-iii-methodology.md) · [Symbols, definitions, and original vs build-on refs](symbols-definitions-refs.md) · [Weeks 8–10 QDA SOP](amalgamation-wk8-10-qda-sop.md) (n = 12 locked)
 
 ---
 
