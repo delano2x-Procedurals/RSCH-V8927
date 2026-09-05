@@ -121,7 +121,7 @@ def add_table(doc, rows: list[list[str]]):
     doc.add_paragraph()
 
 
-def convert_md(md_path: Path, title: str, subtitle: str, out_path: Path):
+def convert_md(md_path: Path, title: str, subtitle: str, out_path: Path, intro: str | None = None):
     doc = Document()
     section = doc.sections[0]
     section.top_margin = Inches(1)
@@ -181,14 +181,15 @@ def convert_md(md_path: Path, title: str, subtitle: str, out_path: Path):
     style_paragraph(p, after=18, align=WD_ALIGN_PARAGRAPH.CENTER)
     add_runs(p, title, size=16, bold=True, color=RGBColor(0x1F, 0x3A, 0x5F))
 
-    p = doc.add_paragraph()
-    style_paragraph(p, after=12)
-    add_runs(
-        p,
-        "Items marked NEW or HIGHLIGHT are new written efforts that were not present as steps in the prior data-collection draft. Paste Section 9 of the revision packet into the Project Plan. Use the interview protocol and artifact pipeline as appendices.",
-        size=12,
-        italic=True,
-    )
+    if intro is None:
+        intro = (
+            "Items marked NEW or HIGHLIGHT are new written efforts that were not present as steps in the prior data-collection draft. "
+            "Paste Section 9 of the revision packet into the Project Plan. Use the interview protocol and artifact pipeline as appendices."
+        )
+    if intro:
+        p = doc.add_paragraph()
+        style_paragraph(p, after=12)
+        add_runs(p, intro, size=12, italic=True)
 
     lines = md_path.read_text(encoding="utf-8").splitlines()
     i = 0
@@ -291,11 +292,19 @@ def main():
         "Filled Chapter III operations manual — sample locked at n = 12",
         OUT / "AMALGAMATION_wk8_10_Step-by-Step_SOP_for_Qualitative_Data_Analysis.docx",
     )
+    courseroom = convert_md(
+        DOCS / "courseroom-sampling-recruitment.md",
+        "Sampling Strategy and Recruitment Procedures",
+        "Project Plan paste — two fields, n = 12 locked, APA 7, third person",
+        OUT / "WALKER_Project_Plan_Sampling_and_Recruitment.docx",
+        intro="",
+    )
     print(packet)
     print(assessment)
     print(sop)
+    print(courseroom)
     if ARTIFACTS.exists():
-        for src in (packet, assessment, sop):
+        for src in (packet, assessment, sop, courseroom):
             dest = ARTIFACTS / src.name
             dest.write_bytes(src.read_bytes())
             print("artifact", dest)
