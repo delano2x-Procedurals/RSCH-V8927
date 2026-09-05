@@ -191,7 +191,7 @@ Procedures hang left off Measures/Artifacts and point down to Dependability. The
 
 | Procedure step                                                                                                                        | Rating  | Note                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ------- | --------------------------------------------------------- |
-| Screen 10–15 U.S. SME IT/network managers, 10–200 staff, external-platform recovery, ≥1 event in 36 months; exclude vendor-only staff | Strong  | Matches Population/Sample                                 |
+| Screen 12 U.S. SME IT/network managers, 10–200 staff, external-platform recovery, ≥1 event in 36 months; exclude vendor-only staff | Strong  | Matches Population/Sample                                 |
 | Email consent, then schedule                                                                                                          | Strong  | Correct onboarding order                                  |
 | Standardized ethics script + CIT opening + flexible probes                                                                            | Partial | Sequence right; items missing — use salience (Section 4)  |
 | Artifact review as situated objects                                                                                                   | Weak    | No obtain / refuse / de-identify / map rule               |
@@ -227,7 +227,7 @@ Threats that damage Gap data if Procedures stay thin:
 This is the right-hand column under Methodology.
 
 - **Population:** U.S. SME IT/network (or equivalent operations) managers with operational responsibility for external-platform recovery. Strong.
-- **Sample:** Purposive/criterion, n = 10–15, firm size 10–200, event within 36 months, vendors excluded. Strong as a fit to the Gap; Partial as justification. Write information power (Malterud et al., 2016), not a claim that 10–15 interviews saturate the Gap. Guest et al. (2006) may support a stopping discussion; they are not a CIT or recruitment-method source. Naeem et al. (2024) treat saturation as a decision guide, which is how Practice 2 already used it.
+- **Sample:** Purposive/criterion, n = 12 locked, firm size 10–200, event within 36 months, vendors excluded. Strong as a fit to the Gap; Partial as justification unless information power is written. Write information power (Malterud et al., 2016), not a claim that 12 interviews saturate the Gap. Guest et al. (2006) may support a stopping discussion; they are not a CIT or recruitment-method source. Naeem et al. (2024) treat saturation as a decision guide, which is how Practice 2 already used it.
 - **Recruitment:** Email screening and consent are present. Channel (networks, LinkedIn, associations) and interview length (60–75 minutes fits CIT plus salience/assurance probes) still need to be stated.
 
 
@@ -361,7 +361,7 @@ The principal ethical threats are organizational disclosure, dual identifiabilit
 
 ### 4.5 Data Analysis paragraph to add under that marker
 
-Analysis will reuse the four-step generic thematic reduction practiced in Data Analysis Practice 2 (Aronson, 1994; Taylor & Bogdan, 1998; Braun & Clarke, 2021). After repeated reading of each de-identified transcript and artifact map, the researcher will (1) lock meaning units that state a practice claim before any theme name is written, (2) confirm each unit with a named excerpt and a negative or boundary case, (3) group related units only when they describe the same salience-to-assurance bargain, and (4) synthesize two separate answers, one for stakeholder-claim/salience enactment and one for decision rights, escalation, and recoverability assurance. Stakeholder-salience constructs function as the Constructs node and as a start-list when Data Collection has no finer steps, not as predetermined theme titles. Saturation is an analytic decision guide (Naeem et al., 2024), not a claim that 10–15 interviews close the Gap.
+Analysis will reuse the four-step generic thematic reduction practiced in Data Analysis Practice 2 (Aronson, 1994; Taylor & Bogdan, 1998; Braun & Clarke, 2021). After repeated reading of each de-identified transcript and artifact map, the researcher will (1) lock meaning units that state a practice claim before any theme name is written, (2) confirm each unit with a named excerpt and a negative or boundary case, (3) group related units only when they describe the same salience-to-assurance bargain, and (4) synthesize two separate answers, one for stakeholder-claim/salience enactment and one for decision rights, escalation, and recoverability assurance. Stakeholder-salience constructs function as the Constructs node and as a start-list when Data Collection has no finer steps, not as predetermined theme titles. Saturation is an analytic decision guide (Naeem et al., 2024), not a claim that 12 interviews close the Gap.
 
 ---
 
@@ -384,7 +384,7 @@ Analysis will reuse the four-step generic thematic reduction practiced in Data A
 | Procedures*                        | Partial | Screening strong; artifact path weak                           |
 | Dependability*                     | Partial | Criteria named; audit trail not yet visible                    |
 | Population*                        | Strong  | SME IT/network managers on external platforms                  |
-| Sample*                            | Partial | n = 10–15 fits if information power is written                 |
+| Sample*                            | Partial | n = 12 locked fits if information power is written             |
 | Recruitment*                       | Partial | Consent sequence present; channel/length missing               |
 | Data Analysis                      | Partial | Practice 2 method fits; pre-named themes do not                |
 
