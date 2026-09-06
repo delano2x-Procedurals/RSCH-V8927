@@ -1,12 +1,13 @@
 # Citation alignment and currency audit
 
-Working copy of the 6 Sep 2026 audit. Canonical file: `/opt/cursor/artifacts/citation-alignment-audit.md`.
+Working copy of the 6 Sep 2026 audit, updated for the U.S.-based reference pass. Canonical companion: `docs/us-based-references.md`.
 
 **Edited Word file:** `downloads/MW_Wk5_to_wk8_Edit_6Sep26.docx`
 
 - 36 unique in-text works now have a matching reference-list entry.
 - Freeman, Phillips, and Sisodia (2020) is complete with a hot-linked DOI.
-- Seminal sources kept (not bold): Mitchell 1997; Donaldson & Preston 1995; Freeman 1984/2004/2020; Flanagan 1954; Chell 2004; Butterfield 2005; Caelli/Kahlke/Percy; Lincoln & Guba 1985; Fereday & Muir-Cochrane 2006; Taylor & Bogdan 1998; and the other designated method/trustworthiness foundations.
-- **BOLD** (not most current, not seminal): in-text Lester et al., 2020; 16 dated leftover list rows.
+- Seminal sources kept (not bold): Mitchell 1997; Donaldson & Preston 1995; Freeman 1984/2004/2020; Flanagan 1954; Lincoln & Guba 1985; Caelli/Kahlke/Percy; Fereday & Muir-Cochrane 2006; Malterud 2016.
+- **BOLD** leftover list rows (not U.S., not seminal): 15.
+- In-text U.S. swaps: 10. List slots replaced: 7. Already U.S.: 42.
 - Paragraph count 228 (unchanged). Word comments 36 (unchanged).
 - Spoken interview questions were not changed.

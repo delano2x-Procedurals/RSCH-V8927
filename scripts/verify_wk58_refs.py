@@ -43,37 +43,34 @@ SEMINAL_KEEP = {
 
 # first-author surname -> years that must have a list entry when cited
 INTEXT_TO_LIST = {
-    "braun": {"2019"},
-    "butterfield": {"2005"},
+    "ampel": {"2024"},
     "caelli": {"2003"},
     "capella": {"2024"},
-    "carcary": {"2020"},
-    "chell": {"2004"},
     "creswell": {"2024"},
     "donaldson": {"1995"},
     "dorobantu": {"2024"},
-    "ekinci": {"2025"},
     "federal": {"2024"},
     "fereday": {"2006"},
     "flanagan": {"1954"},
     "freeman": {"2004", "2020"},
-    "guest": {"2006"},
+    "gremler": {"2004"},
+    "guest": {"2006", "2020"},
     "guba": {"1994"},
     "kahlke": {"2014"},
-    "korstjens": {"2018"},
     "lester": {"2020"},
     "lincoln": {"1985"},
     "lowry": {"2025"},
     "malterud": {"2016"},
     "mitchell": {"1997"},
-    "miteu": {"2024"},
-    "molete": {"2025"},
-    "naeem": {"2024"},
+    "morse": {"2015"},
     "national": {"1979"},
-    "nowell": {"2017"},
     "park": {"2023"},
+    "paulus": {"2023"},
     "percy": {"2015"},
+    "resnik": {"2018"},
+    "saldaña": {"2021"},
     "taylor": {"1998"},
+    "tracy": {"2010"},
     "verizon": {"2025"},
     "walker": {"2026"},
     "weill": {"2004"},
@@ -91,6 +88,14 @@ FORBIDDEN_IN_BODY = [
     "Walker, 2026b",
     "Moser & Korstjens, 2023",
     "artifact sharing will remain optional",
+    "Ekinci",
+    "Molete",
+    "Carcary",
+    "Naeem",
+    "Miteu",
+    "Braun",
+    "Chell",
+    "Butterfield",
 ]
 
 
@@ -171,20 +176,16 @@ def main() -> int:
     if missing:
         errors.extend(missing)
 
-    # bold in-text should only be Lester 2020
+    # in-text bold is reserved for leftover non-U.S. non-seminal sources; none remain in body
     bold_intext = []
     for i, p in enumerate(doc.paragraphs[:154]):
         for r in p.runs:
             if r.bold and (r.text or "").strip():
-                # ignore pre-existing heading emphasis
                 if "RSCH" in r.text or "Topic Endorsement" in r.text or "V8926" in r.text:
                     continue
                 bold_intext.append((i, r.text.strip()))
-    unexpected = [b for b in bold_intext if "Lester" not in b[1]]
-    if unexpected:
-        errors.append(f"unexpected in-text bold: {unexpected}")
-    if not any("Lester" in t for _, t in bold_intext):
-        errors.append("Lester et al., 2020 was not bolded in text")
+    if bold_intext:
+        errors.append(f"unexpected in-text bold: {bold_intext}")
 
     print(f"paragraphs={para_count}")
     print(f"comments=36")
