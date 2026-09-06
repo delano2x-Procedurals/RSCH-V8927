@@ -1,6 +1,6 @@
 # Symbols, Definitions, and Original vs Build-On References
 
-**Companion to:** [gqi-semistructured-interview-guide.md](gqi-semistructured-interview-guide.md) (`ITDR-GQI-INT-v0.1.1`) and [chapter-iii-methodology.md](chapter-iii-methodology.md)  
+**Companion to:** [chapter-i-need-for-the-study.md](chapter-i-need-for-the-study.md), [gqi-semistructured-interview-guide.md](gqi-semistructured-interview-guide.md) (`ITDR-GQI-INT-v0.1.1`), and [chapter-iii-methodology.md](chapter-iii-methodology.md)  
 **Audience:** researcher codebook, Delve descriptions, Alignment Map Constructs node  
 **Not for:** spoken questions, Chapter IV theme titles, new theory claims
 
@@ -110,10 +110,20 @@ Each card has four clauses: original theoretical definition, this-study operatio
 | Spoken stand-in | What would you point to if you had to defend that restoration. |
 | Not this | An audit of the artifact; treating Path C as invalid data. |
 
+### `VCST` — Value-creation stakeholder theory
+
+| Clause | Text |
+| --- | --- |
+| Original theoretical def | Distinctive stakeholder work describes human actors cooperatively engaged in value creation and trade; values, norms, and ethics operate as mechanisms; many tensions with strategic-technical narratives are more apparent than real (Freeman, Phillips, & Sisodia, 2020). Build-on of Freeman et al. (2004) and Donaldson and Preston (1995); not a replacement. |
+| This-study operational def | Recovery is treated as value creation and trade among parties who can affect or are affected by restoration, not as a single-objective technical restore. Used only in Need for the Study / What We Know. |
+| Spoken stand-in | Not spoken. |
+| Not this | A fourth salience attribute; a Delve code; an interview stem; a theme titled “Value Creation”; a replacement for Mitchell et al. (1997). |
+
 ### Design symbols (not salience types)
 
 | Symbol | Original theoretical def | This-study operational def | Spoken stand-in | Not this |
 | --- | --- | --- | --- | --- |
+| VCST | Cooperative value creation and trade among interdependent stakeholders (Freeman et al., 2020) | Need / What We Know restatement of why competing recovery claims matter | Not spoken | Salience code; spoken question; Chapter IV theme |
 | GQI | Patterned accounts of events, decisions, and conditions; theoretically informed items permitted (Caelli et al., 2003; Kahlke, 2014; Percy et al., 2015) | Managers’ accounts of one named ITDRPaaS incident and the objects used in it | Walk me through that event… | Lived experience; essence; voices |
 | CIT | Focused account of a named incident (Flanagan, 1954; Chell, 2004; Butterfield et al., 2005) | Q0 opening; one disruption/failover/test/operational recovery in 36 months | Please walk me through one specific… | Guest et al. (2006) as the interview method |
 | Hybrid TA | Deductive template plus inductive codes (Fereday & Muir-Cochrane, 2006) | STRUCTURAL + FRAMEWORK_DEDUCTIVE + BOUNDARY, then EMERGENT after MU lock | Not spoken | Reflexive TA mixed with kappa; “analyzed using Delve” |
@@ -129,7 +139,8 @@ Each card has four clauses: original theoretical definition, this-study operatio
 | --- | --- |
 | Mitchell, Agle, & Wood (1997) — power, legitimacy, urgency, salience, Venn types | Agle, Mitchell, & Sonnenfeld (1999) — empirical attribute–salience test |
 | Donaldson & Preston (1995) — stakeholder-claim management (Gap / What We Know) | Parent & Deephouse (2007) — managerial level/role and attribute weighting |
-| Freeman, Wicks, & Parmar (2004) — corporate objective / stakeholder theory context | Neville, Bell, & Whitwell (2011) — urgency as amplifier; legitimacy of the claim |
+| Freeman, Wicks, & Parmar (2004) — corporate objective / stakeholder theory context | Freeman, Phillips, & Sisodia (2020) — value-creation stakeholder theory (`VCST`; Need / What We Know only) |
+| | Neville, Bell, & Whitwell (2011) — urgency as amplifier; legitimacy of the claim |
 | | Dorobantu, Henisz, & Nartey (2024) — legitimacy judgments in informational environments (why now) |
 | | Lowry, Petter, & Leimeister (2025)* and Park et al. (2023)* — recoverability-assurance definition only |
 

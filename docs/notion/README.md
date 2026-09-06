@@ -4,7 +4,7 @@ This folder is the **offline nest** of the interview instrument until a Notion w
 
 Parent instrument: [../gqi-semistructured-interview-guide.md](../gqi-semistructured-interview-guide.md) (`ITDR-GQI-INT-v0.1.1`). Spoken wording is unchanged from v0.1.
 
-Companions: [../chapter-iii-methodology.md](../chapter-iii-methodology.md) · [../symbols-definitions-refs.md](../symbols-definitions-refs.md)
+Companions: [../chapter-i-need-for-the-study.md](../chapter-i-need-for-the-study.md) · [../chapter-iii-methodology.md](../chapter-iii-methodology.md) · [../symbols-definitions-refs.md](../symbols-definitions-refs.md)
 
 ## Folder layout
 

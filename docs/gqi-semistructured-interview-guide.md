@@ -362,7 +362,8 @@ Delve snippet exports embed unique URLs back to the project. Keep those URLs in 
 | Class | What it is | Create new? | How to cite / link |
 | --- | --- | --- | --- |
 | Seminal theory | Stakeholder salience: power, legitimacy, urgency | No | Mitchell, Agle, & Wood (1997). Keep on the Constructs node. |
-| Seminal stakeholder context | Claim management; corporate objective | No | Donaldson & Preston (1995); Freeman et al. (2004). Gap / What We Know only. |
+| Seminal stakeholder context | Claim management; corporate objective | No | Donaldson & Preston (1995); Freeman et al. (2004). Gap / What We Know / Need only. |
+| Build-on stakeholder context | Value-creation stakeholder theory (`VCST`) | No | Freeman et al. (2020). Need / What We Know only. Not a spoken construct. Not a Delve code. |
 | Seminal method — GQI | Patterned accounts of events, decisions, conditions | No | Caelli et al. (2003); Kahlke (2014); Percy et al. (2015). |
 | Seminal method — CIT | One named incident as the interview stance | No | Flanagan (1954); Chell (2004); Butterfield et al. (2005). |
 | Seminal method — analysis | Meaning units before theme names | No | Aronson (1994); Taylor & Bogdan (1998); Braun & Clarke (2021). |
