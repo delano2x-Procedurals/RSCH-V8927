@@ -5,7 +5,7 @@
 **Instrument:** `ITDR-GQI-INT-v0.1.1` ([gqi-semistructured-interview-guide.md](gqi-semistructured-interview-guide.md))  
 **Analytic method:** Hybrid deductive–inductive codebook thematic analysis (Fereday & Muir-Cochrane, 2006)  
 **CAQDAS (support only):** Delve  
-**Companion registers:** [symbols-definitions-refs.md](symbols-definitions-refs.md); [notion/](notion/README.md)
+**Companion registers:** [chapter-i-need-for-the-study.md](chapter-i-need-for-the-study.md); [symbols-definitions-refs.md](symbols-definitions-refs.md); [notion/](notion/README.md)
 
 **Paste note.** This file is written as Capella dissertation Chapter III prose. Official research-question wording has not been locked. Until it is, the two implied project questions below are labeled **PQ1** and **PQ2**. Replace those labels with the approved RQ wording without changing the unit of analysis.
 
@@ -102,7 +102,7 @@ flowchart LR
 
 | Spine node | This study |
 | --- | --- |
-| Problem | SME IT/network managers must handle competing restoration claims on external platforms without a clear account of how authority and proof are enacted under time pressure. |
+| Problem | SME IT/network managers must handle competing restoration claims on external platforms without a clear account of how authority and proof are enacted under time pressure. The Need opening states the Information Technology Management specialization and places Freeman et al. (2020) value-creation stakeholder theory on What We Know, not on Constructs. |
 | Purpose | Describe how those managers account for stakeholder-claim management and salience shifts in one named ITDRPaaS recovery or test event, and how those shifts are enacted as decision rights, escalation, and defensible proof. |
 | Questions | Implied PQ1 (claim attention / salience shifts) and PQ2 (enactment as rights, escalation, proof). Official RQ wording will replace these labels when locked. |
 | Framework | Mitchell et al. (1997) power, legitimacy, urgency as sensitizing attributes; leverage as the enacted combination; PQ2 constructs as enactment probes. |
@@ -460,6 +460,8 @@ Dorobantu, S., Henisz, W. J., & Nartey, L. J. (2024). Firm–stakeholder dialogu
 Fereday, J., & Muir-Cochrane, E. (2006). Demonstrating rigor using thematic analysis: A hybrid approach of inductive and deductive coding and theme development. *International Journal of Qualitative Methods, 5*(1), 80–92. https://doi.org/10.1177/160940690600500107
 
 Flanagan, J. C. (1954). The critical incident technique. *Psychological Bulletin, 51*(4), 327–358. https://doi.org/10.1037/h0061470
+
+Freeman, R. E., Phillips, R., & Sisodia, R. (2020). Tensions in stakeholder theory. *Business & Society, 59*(2), 213–231. https://doi.org/10.1177/0007650318773750
 
 Freeman, R. E., Wicks, A. C., & Parmar, B. (2004). Stakeholder theory and “the corporate objective revisited.” *Organization Science, 15*(3), 364–369. https://doi.org/10.1287/orsc.1040.0066
 

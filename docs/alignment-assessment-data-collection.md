@@ -86,13 +86,14 @@ Each marker below is scored **Strong / Partial / Weak** against the draft you su
 
 ### 2.1 Topic / Problem — Strong
 
-The topic is SME IT disaster-recovery governance on external platforms during organizational disruption. The problem is not “recovery tools fail.” It is that managers must handle competing stakeholder claims under time pressure without a clear account of how authority and proof are enacted. That is a qualitative practice problem, not a variance problem.
+The topic is SME IT disaster-recovery governance on external platforms during organizational disruption. The problem is not “recovery tools fail.” It is that managers must handle competing stakeholder claims under time pressure without a clear account of how authority and proof are enacted. That is a qualitative practice problem, not a variance problem. The Chapter I Need opening states the specialization (PhD in Business Management, Information Technology Management) and how this IT-governance problem specifically aligns with it ([chapter-i-need-for-the-study.md](chapter-i-need-for-the-study.md)).
 
 ### 2.2 What We Know — Strong
 
 The draft correctly treats as known:
 
 - Organizations must manage competing stakeholder claims and sustain legitimacy (Donaldson & Preston, 1995; Freeman et al., 2004).
+- Freeman et al. (2020) update that foundation with **value-creation stakeholder theory**: distinctive stakeholder work describes human actors cooperatively engaged in value creation and trade, and treats many tensions between stakeholder management and strategic-technical objectives as more apparent than real. Placement: Need / What We Know only (`VCST`). See [chapter-i-need-for-the-study.md](chapter-i-need-for-the-study.md).
 - Salience theory specifies the attention mechanism: power, legitimacy, and urgency determine whose claims count (Mitchell et al., 1997).
 - Recoverability assurance can be stated as reviewable, decision-relevant evidence that prioritized services can be restored within tolerance (Lowry et al., 2025; Park et al., 2023, as used in the draft).
 

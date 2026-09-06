@@ -256,7 +256,8 @@ Do not claim that 10–15 interviews saturate the Gap. Use information power (Ma
 | Source | Allowed use in this plan | Remove from |
 | --- | --- | --- |
 | Mitchell et al. (1997) | Constructs: power, legitimacy, urgency; topical sets A–C | Findings; theme titles |
-| Donaldson & Preston (1995); Freeman et al. (2004) | What We Know / Gap (stakeholder-claim management) | CIT; interview procedures |
+| Donaldson & Preston (1995); Freeman et al. (2004) | What We Know / Gap / Need (stakeholder-claim management; corporate objective) | CIT; interview procedures |
+| Freeman et al. (2020) | Need / What We Know only: value-creation stakeholder theory (`VCST`); cooperative value creation and trade | Replacing 1995/2004; Mitchell 1997 defs; spoken questions; theme titles |
 | Lowry et al. (2025); Park et al. (2023) | Recoverability assurance definition; PQ2 | Sampling screens |
 | Dorobantu et al. (2024) | Why now (legitimacy judgments in fast information environments) | Methods |
 | Flanagan (1954); Chell (2004); Butterfield et al. (2005) | **NEW** CIT method for Q0 | — |
