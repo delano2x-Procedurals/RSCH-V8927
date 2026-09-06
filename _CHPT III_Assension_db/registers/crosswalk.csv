@@ -1,0 +1,200 @@
+id,header_id,heading,target_path,target_anchor,why,target_kind
+CH3-XW-001,CH3-H-001,Introduction,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-002,CH3-H-001,Introduction,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-003,CH3-H-001,Introduction,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-004,CH3-H-001,Introduction,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-005,CH3-H-001,Introduction,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-006,CH3-H-001,Introduction,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-007,CH3-H-001,Introduction,docs/chapter-iii-methodology.md#introduction,,Listed companion,companion
+CH3-XW-008,CH3-H-001,Introduction,docs/alignment-assessment-data-collection.md,,Listed companion,companion
+CH3-XW-009,CH3-H-002,Research Design,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-010,CH3-H-002,Research Design,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-011,CH3-H-002,Research Design,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-012,CH3-H-002,Research Design,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-013,CH3-H-002,Research Design,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-014,CH3-H-002,Research Design,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-015,CH3-H-002,Research Design,docs/alignment-assessment-data-collection.md,,Listed companion,companion
+CH3-XW-016,CH3-H-003,Generic qualitative inquiry,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-017,CH3-H-003,Generic qualitative inquiry,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-018,CH3-H-003,Generic qualitative inquiry,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-019,CH3-H-003,Generic qualitative inquiry,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-020,CH3-H-003,Generic qualitative inquiry,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-021,CH3-H-003,Generic qualitative inquiry,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-022,CH3-H-003,Generic qualitative inquiry,docs/chapter-iii-methodology.md#generic-qualitative-inquiry,,Listed companion,companion
+CH3-XW-023,CH3-H-004,Critical-incident interview stance,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-024,CH3-H-004,Critical-incident interview stance,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-025,CH3-H-004,Critical-incident interview stance,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-026,CH3-H-004,Critical-incident interview stance,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-027,CH3-H-004,Critical-incident interview stance,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-028,CH3-H-004,Critical-incident interview stance,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-029,CH3-H-005,"Framework role: sensitizing, not confirmatory",docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-030,CH3-H-005,"Framework role: sensitizing, not confirmatory",docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-031,CH3-H-005,"Framework role: sensitizing, not confirmatory",docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-032,CH3-H-005,"Framework role: sensitizing, not confirmatory",docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-033,CH3-H-005,"Framework role: sensitizing, not confirmatory",docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-034,CH3-H-005,"Framework role: sensitizing, not confirmatory",workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-035,CH3-H-006,Alignment spine,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-036,CH3-H-006,Alignment spine,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-037,CH3-H-006,Alignment spine,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-038,CH3-H-006,Alignment spine,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-039,CH3-H-006,Alignment spine,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-040,CH3-H-006,Alignment spine,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-041,CH3-H-006,Alignment spine,docs/chapter-iii-methodology.md#alignment-spine,,Listed companion,companion
+CH3-XW-042,CH3-H-006,Alignment spine,workspace-app/theory-spine.html,,Listed companion,companion
+CH3-XW-043,CH3-H-007,Population and Sampling,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-044,CH3-H-007,Population and Sampling,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-045,CH3-H-007,Population and Sampling,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-046,CH3-H-007,Population and Sampling,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-047,CH3-H-007,Population and Sampling,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-048,CH3-H-007,Population and Sampling,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-049,CH3-H-007,Population and Sampling,docs/chapter-iii-methodology.md#population-and-sampling,,Listed companion,companion
+CH3-XW-050,CH3-H-008,Population,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-051,CH3-H-008,Population,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-052,CH3-H-008,Population,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-053,CH3-H-008,Population,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-054,CH3-H-008,Population,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-055,CH3-H-008,Population,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-056,CH3-H-008,Population,docs/alignment-assessment-data-collection.md,,Listed companion,companion
+CH3-XW-057,CH3-H-009,Sampling strategy,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-058,CH3-H-009,Sampling strategy,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-059,CH3-H-009,Sampling strategy,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-060,CH3-H-009,Sampling strategy,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-061,CH3-H-009,Sampling strategy,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-062,CH3-H-009,Sampling strategy,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-063,CH3-H-009,Sampling strategy,docs/chapter-iii-methodology.md#sampling-strategy,,Listed companion,companion
+CH3-XW-064,CH3-H-010,Recruitment,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-065,CH3-H-010,Recruitment,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-066,CH3-H-010,Recruitment,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-067,CH3-H-010,Recruitment,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-068,CH3-H-010,Recruitment,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-069,CH3-H-010,Recruitment,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-070,CH3-H-011,Instrumentation,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-071,CH3-H-011,Instrumentation,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-072,CH3-H-011,Instrumentation,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-073,CH3-H-011,Instrumentation,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-074,CH3-H-011,Instrumentation,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-075,CH3-H-011,Instrumentation,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-076,CH3-H-011,Instrumentation,docs/notion/templates/interview-items.csv,,Listed companion,companion
+CH3-XW-077,CH3-H-012,Primary instrument,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-078,CH3-H-012,Primary instrument,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-079,CH3-H-012,Primary instrument,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-080,CH3-H-012,Primary instrument,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-081,CH3-H-012,Primary instrument,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-082,CH3-H-012,Primary instrument,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-083,CH3-H-013,Researcher-only leverage diagnostic,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-084,CH3-H-013,Researcher-only leverage diagnostic,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-085,CH3-H-013,Researcher-only leverage diagnostic,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-086,CH3-H-013,Researcher-only leverage diagnostic,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-087,CH3-H-013,Researcher-only leverage diagnostic,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-088,CH3-H-013,Researcher-only leverage diagnostic,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-089,CH3-H-013,Researcher-only leverage diagnostic,docs/notion/templates/leverage-memo.csv,,Listed companion,companion
+CH3-XW-090,CH3-H-014,Secondary instrument: artifacts as context,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-091,CH3-H-014,Secondary instrument: artifacts as context,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-092,CH3-H-014,Secondary instrument: artifacts as context,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-093,CH3-H-014,Secondary instrument: artifacts as context,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-094,CH3-H-014,Secondary instrument: artifacts as context,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-095,CH3-H-014,Secondary instrument: artifacts as context,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-096,CH3-H-015,Data Collection,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-097,CH3-H-015,Data Collection,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-098,CH3-H-015,Data Collection,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-099,CH3-H-015,Data Collection,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-100,CH3-H-015,Data Collection,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-101,CH3-H-015,Data Collection,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-102,CH3-H-016,Data Preparation and Management,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-103,CH3-H-016,Data Preparation and Management,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-104,CH3-H-016,Data Preparation and Management,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-105,CH3-H-016,Data Preparation and Management,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-106,CH3-H-016,Data Preparation and Management,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-107,CH3-H-016,Data Preparation and Management,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-108,CH3-H-016,Data Preparation and Management,docs/notion/README.md,,Listed companion,companion
+CH3-XW-109,CH3-H-016,Data Preparation and Management,docs/notion/templates/update-log.csv,,Listed companion,companion
+CH3-XW-110,CH3-H-017,Qualitative Data Analysis,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-111,CH3-H-017,Qualitative Data Analysis,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-112,CH3-H-017,Qualitative Data Analysis,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-113,CH3-H-017,Qualitative Data Analysis,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-114,CH3-H-017,Qualitative Data Analysis,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-115,CH3-H-017,Qualitative Data Analysis,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-116,CH3-H-017,Qualitative Data Analysis,workspace-app/analysis-templates.html,,Listed companion,companion
+CH3-XW-117,CH3-H-018,Declaration of method,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-118,CH3-H-018,Declaration of method,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-119,CH3-H-018,Declaration of method,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-120,CH3-H-018,Declaration of method,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-121,CH3-H-018,Declaration of method,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-122,CH3-H-018,Declaration of method,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-123,CH3-H-018,Declaration of method,docs/chapter-iii-methodology.md#declaration-of-method,,Listed companion,companion
+CH3-XW-124,CH3-H-019,Why this method and not the adjacent alternatives,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-125,CH3-H-019,Why this method and not the adjacent alternatives,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-126,CH3-H-019,Why this method and not the adjacent alternatives,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-127,CH3-H-019,Why this method and not the adjacent alternatives,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-128,CH3-H-019,Why this method and not the adjacent alternatives,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-129,CH3-H-019,Why this method and not the adjacent alternatives,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-130,CH3-H-019,Why this method and not the adjacent alternatives,docs/chapter-iii-methodology.md#why-this-method-and-not-the-adjacent-alternatives,,Listed companion,companion
+CH3-XW-131,CH3-H-020,Analytic steps (adapted hybrid codebook TA),docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-132,CH3-H-020,Analytic steps (adapted hybrid codebook TA),docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-133,CH3-H-020,Analytic steps (adapted hybrid codebook TA),docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-134,CH3-H-020,Analytic steps (adapted hybrid codebook TA),docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-135,CH3-H-020,Analytic steps (adapted hybrid codebook TA),docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-136,CH3-H-020,Analytic steps (adapted hybrid codebook TA),workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-137,CH3-H-020,Analytic steps (adapted hybrid codebook TA),workspace-app/analysis-templates.html,,Listed companion,companion
+CH3-XW-138,CH3-H-021,Delve nested start-list (import; do not treat as themes),docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-139,CH3-H-021,Delve nested start-list (import; do not treat as themes),docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-140,CH3-H-021,Delve nested start-list (import; do not treat as themes),docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-141,CH3-H-021,Delve nested start-list (import; do not treat as themes),docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-142,CH3-H-021,Delve nested start-list (import; do not treat as themes),docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-143,CH3-H-021,Delve nested start-list (import; do not treat as themes),workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-144,CH3-H-022,Planned-analysis matrix,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-145,CH3-H-022,Planned-analysis matrix,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-146,CH3-H-022,Planned-analysis matrix,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-147,CH3-H-022,Planned-analysis matrix,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-148,CH3-H-022,Planned-analysis matrix,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-149,CH3-H-022,Planned-analysis matrix,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-150,CH3-H-022,Planned-analysis matrix,docs/chapter-iii-methodology.md#planned-analysis-matrix,,Listed companion,companion
+CH3-XW-151,CH3-H-022,Planned-analysis matrix,docs/notion/templates/interview-items.csv,,Listed companion,companion
+CH3-XW-152,CH3-H-023,Ten control rules,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-153,CH3-H-023,Ten control rules,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-154,CH3-H-023,Ten control rules,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-155,CH3-H-023,Ten control rules,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-156,CH3-H-023,Ten control rules,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-157,CH3-H-023,Ten control rules,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-158,CH3-H-023,Ten control rules,docs/chapter-iii-methodology.md#ten-control-rules,,Listed companion,companion
+CH3-XW-159,CH3-H-024,Chapter III versus Chapter IV versus Chapter V,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-160,CH3-H-024,Chapter III versus Chapter IV versus Chapter V,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-161,CH3-H-024,Chapter III versus Chapter IV versus Chapter V,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-162,CH3-H-024,Chapter III versus Chapter IV versus Chapter V,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-163,CH3-H-024,Chapter III versus Chapter IV versus Chapter V,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-164,CH3-H-024,Chapter III versus Chapter IV versus Chapter V,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-165,CH3-H-024,Chapter III versus Chapter IV versus Chapter V,docs/chapter-iii-methodology.md#chapter-iii-versus-chapter-iv-versus-chapter-v,,Listed companion,companion
+CH3-XW-166,CH3-H-025,Optional: committee-required second coder and ICR,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-167,CH3-H-025,Optional: committee-required second coder and ICR,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-168,CH3-H-025,Optional: committee-required second coder and ICR,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-169,CH3-H-025,Optional: committee-required second coder and ICR,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-170,CH3-H-025,Optional: committee-required second coder and ICR,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-171,CH3-H-025,Optional: committee-required second coder and ICR,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-172,CH3-H-025,Optional: committee-required second coder and ICR,docs/chapter-iii-methodology.md#optional-committee-required-second-coder-and-icr,,Listed companion,companion
+CH3-XW-173,CH3-H-026,Trustworthiness,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-174,CH3-H-026,Trustworthiness,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-175,CH3-H-026,Trustworthiness,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-176,CH3-H-026,Trustworthiness,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-177,CH3-H-026,Trustworthiness,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-178,CH3-H-026,Trustworthiness,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-179,CH3-H-026,Trustworthiness,docs/chapter-iii-methodology.md#trustworthiness,,Listed companion,companion
+CH3-XW-180,CH3-H-027,Ethical Protections,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-181,CH3-H-027,Ethical Protections,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-182,CH3-H-027,Ethical Protections,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-183,CH3-H-027,Ethical Protections,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-184,CH3-H-027,Ethical Protections,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-185,CH3-H-027,Ethical Protections,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-186,CH3-H-028,Chapter Summary,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-187,CH3-H-028,Chapter Summary,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-188,CH3-H-028,Chapter Summary,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-189,CH3-H-028,Chapter Summary,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-190,CH3-H-028,Chapter Summary,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-191,CH3-H-028,Chapter Summary,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-192,CH3-H-028,Chapter Summary,docs/chapter-iii-methodology.md#chapter-summary,,Listed companion,companion
+CH3-XW-193,CH3-H-029,References,docs/gqi-semistructured-interview-guide.md,,Spoken protocol companion,instrument
+CH3-XW-194,CH3-H-029,References,docs/symbols-definitions-refs.md,,Symbol and original vs build-on lock,theory
+CH3-XW-195,CH3-H-029,References,docs/notion/templates/construct-index.csv,,Question ID to code_id map,codebook
+CH3-XW-196,CH3-H-029,References,docs/notion/templates/codebook.csv,,Delve nested start-list,codebook
+CH3-XW-197,CH3-H-029,References,docs/collection-analysis-revision-packet.md,,Paste-ready collection and analysis steps,howto
+CH3-XW-198,CH3-H-029,References,workspace-app/interview-protocol.html,,Interview protocol alignment tab,workspace
+CH3-XW-199,CH3-H-029,References,docs/notion/templates/references.csv,,Listed companion,companion

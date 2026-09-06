@@ -1,0 +1,7 @@
+id,ref_class,origin,how_to_use,do_not_use_for,companion
+LIT-001,seminal_theory,original,Define P/L/U and stakeholder-claim management,Findings; theme titles; spoken questions,docs/notion/templates/references.csv
+LIT-002,seminal_theory,build_on,"Situate, test, or extend original definitions (Agle, Neville, Parent, Dorobantu)",Replacing Mitchell operational definitions,docs/symbols-definitions-refs.md
+LIT-003,seminal_method,original,"GQI, CIT, hybrid codebook TA, Lincoln & Guba",Guest et al. 2006 as CIT method,docs/chapter-iii-methodology.md#references
+LIT-004,seminal_method,build_on,"Information power, saturation as decision guide, thematic quality (Braun & Clarke for quality only)",Declaring reflexive TA as this study method,docs/chapter-iii-methodology.md#declaration-of-method
+LIT-005,new_instrument,new_instrument,Cite ITDR-GQI-INT-v0.1.1 as unpublished protocol,Theory source,docs/gqi-semistructured-interview-guide.md
+LIT-006,audit_artifact,audit_artifact,Dated CSV exports and Chapter III files,Literature claims,docs/notion/README.md

@@ -1,0 +1,5 @@
+id,item,do,do_not,chapter,companion
+QUAL-001,Design = generic qualitative inquiry,"Accounts of named events, decisions, artifacts","Lived experience, essence, voices as analytic claims",III,docs/chapter-iii-methodology.md#generic-qualitative-inquiry
+QUAL-002,Interview stance = critical incident technique,One named incident in 36 months,Guest et al. 2006 as interview method,III,docs/gqi-semistructured-interview-guide.md
+QUAL-003,Instrument = ITDR-GQI-INT-v0.1.1,Manager language; skip-if-covered; boundary cases,Forced choices; theory labels in spoken questions,III,docs/notion/templates/interview-items.csv
+QUAL-004,Secondary artifacts as context,Paths A/B/C,NIST/ISO/BCM scoring; inventing contents,III,docs/chapter-iii-methodology.md#secondary-instrument-artifacts-as-context

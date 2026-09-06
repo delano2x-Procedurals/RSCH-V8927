@@ -1,0 +1,8 @@
+id,rule,value,do_not,chapter,companion
+SME-001,Geography,United States,Unspecified multinational sample as if it were this population,III,docs/chapter-iii-methodology.md#population
+SME-002,Firm size,10–200 personnel,Large-enterprise command structures,III,docs/chapter-iii-methodology.md#population
+SME-003,Role,"IT, network, systems, infrastructure, or operations manager with a direct recovery role",Vendor-only staff; executives with no operational recovery role,III,docs/chapter-iii-methodology.md#population
+SME-004,Platform,External recovery platform or managed recovery service (ITDRPaaS),Internal-only recovery with no external platform,III,docs/chapter-iii-methodology.md#population
+SME-005,Incident window,"At least one disruption, failover, test, or operational recovery in 36 months",Generic 'how we usually recover' with no named event,III,docs/chapter-iii-methodology.md#sampling-strategy
+SME-006,Planned n,"10–15; information power, not automatic saturation",Claim that 12 interviews close the Gap,III,docs/chapter-iii-methodology.md#sampling-strategy
+SME-007,Recruitment,Individual professional networks; consent then schedule,"Supervisor, employer command chain, or vendor account manager",III,docs/chapter-iii-methodology.md#recruitment

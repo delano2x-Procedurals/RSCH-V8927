@@ -17,6 +17,16 @@ export function renderRecords(targetId, records, columns) {
           if (c.key === "status") {
             return `<td><span class="badge ${escapeHtml(rec.status || "")}">${escapeHtml(rec.status || "—")}</span></td>`;
           }
+          if (c.key === "tester_status" || c.key === "rating") {
+            const raw = String(val || "");
+            const cls = raw.toLowerCase().replace(/[^a-z]/g, "");
+            return `<td><span class="badge ${escapeHtml(cls)}">${escapeHtml(raw || "—")}</span></td>`;
+          }
+          if (c.hrefKey && rec[c.hrefKey]) {
+            const href = String(rec[c.hrefKey]);
+            const label = val ?? href;
+            return `<td><a href="${escapeHtml(href)}">${escapeHtml(label ?? "")}</a></td>`;
+          }
           return `<td>${escapeHtml(val ?? "")}</td>`;
         })
         .join("");
@@ -148,6 +158,36 @@ export async function initInterview() {
   ]);
 }
 
+export async function initChiiiAssension() {
+  const data = await loadJSON("data/chiii_assension.json");
+  renderRecords("chiii-testers", data.alignment_testers, [
+    { key: "id", label: "ID" },
+    { key: "marker", label: "Alignment Map marker" },
+    { key: "map_cluster", label: "Cluster" },
+    { key: "rating", label: "Rating" },
+    { key: "evidence_header_ids", label: "Evidence headers" },
+    { key: "remaining_gap", label: "Remaining gap" },
+    { key: "companion_link", label: "Companion" },
+  ]);
+  renderRecords("chiii-headers", data.headers, [
+    { key: "id", label: "ID" },
+    { key: "level", label: "Level" },
+    { key: "heading", label: "Header", hrefKey: "href_md" },
+    { key: "howto_id", label: "How-to", hrefKey: "href_howto" },
+    { key: "spine_nodes", label: "Spine nodes" },
+    { key: "alignment_nodes", label: "Testers" },
+    { key: "tester_status", label: "Status" },
+  ]);
+  renderRecords("chiii-spine", data.spine_map, [
+    { key: "id", label: "ID" },
+    { key: "header_id", label: "Header ID" },
+    { key: "heading", label: "Header" },
+    { key: "spine_node", label: "Spine node" },
+    { key: "this_study", label: "This study" },
+    { key: "alignment_tester", label: "Tester" },
+  ]);
+}
+
 const inits = {
   "03_REFERENCES_MASTER": initReferences,
   "05_LEADERSHIP_ALIGNMENT": initThemes,
@@ -156,6 +196,7 @@ const inits = {
   "06_QUAL_METHODS_AND_TOOLS": initMethods,
   "07_SOURCE_ARCHIVE": initArchive,
   "09_INTERVIEW_PROTOCOL": initInterview,
+  "11_CHIII_ASSENSION": initChiiiAssension,
 };
 
 const boot = inits[document.body.dataset.page];

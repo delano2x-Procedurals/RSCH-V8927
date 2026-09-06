@@ -199,8 +199,8 @@ tr:hover td { background: #f3eee4; }
   border-radius: 999px;
   background: #e6edf2;
 }
-.badge.open, .badge.unaligned { background: #f3d7c6; color: var(--open); }
-.badge.resolved, .badge.aligned { background: #d7eadc; color: var(--ok); }
+.badge.open, .badge.unaligned, .badge.weak, .badge.partial { background: #f3d7c6; color: var(--open); }
+.badge.resolved, .badge.aligned, .badge.strong { background: #d7eadc; color: var(--ok); }
 .badge.archive { background: #eee6c8; }
 
 .note, .callout {
