@@ -8,7 +8,9 @@ The member’s two Excel workbooks (reading list and Week 7 leadership-theory al
 
 Paste-ready GQI interview instrument: [docs/gqi-semistructured-interview-guide.md](docs/gqi-semistructured-interview-guide.md) (`ITDR-GQI-INT-v0.1.1`). Spoken protocol is unchanged from v0.1.
 
-Paste-ready Chapter III (Methodology): [docs/chapter-iii-methodology.md](docs/chapter-iii-methodology.md). Analytic method is hybrid deductive–inductive codebook thematic analysis (Fereday & Muir-Cochrane, 2006). Delve is CAQDAS support only.
+Paste-ready Chapter III (Methodology): [docs/chapter-iii-methodology.md](docs/chapter-iii-methodology.md). Analytic method is hybrid deductive–inductive codebook thematic analysis (Fereday & Muir-Cochrane, 2006). Delve is CAQDAS support only. Sample is locked at **n = 12**.
+
+Weeks 8–10 amalgamation SOP (filled Chapter III operations manual): [docs/amalgamation-wk8-10-qda-sop.md](docs/amalgamation-wk8-10-qda-sop.md). Word copy: [downloads/AMALGAMATION_wk8_10_Step-by-Step_SOP_for_Qualitative_Data_Analysis.docx](downloads/AMALGAMATION_wk8_10_Step-by-Step_SOP_for_Qualitative_Data_Analysis.docx).
 
 Symbols / original vs build-on refs: [docs/symbols-definitions-refs.md](docs/symbols-definitions-refs.md).
 

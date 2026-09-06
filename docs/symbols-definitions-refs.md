@@ -117,7 +117,7 @@ Each card has four clauses: original theoretical definition, this-study operatio
 | GQI | Patterned accounts of events, decisions, and conditions; theoretically informed items permitted (Caelli et al., 2003; Kahlke, 2014; Percy et al., 2015) | Managers’ accounts of one named ITDRPaaS incident and the objects used in it | Walk me through that event… | Lived experience; essence; voices |
 | CIT | Focused account of a named incident (Flanagan, 1954; Chell, 2004; Butterfield et al., 2005) | Q0 opening; one disruption/failover/test/operational recovery in 36 months | Please walk me through one specific… | Guest et al. (2006) as the interview method |
 | Hybrid TA | Deductive template plus inductive codes (Fereday & Muir-Cochrane, 2006) | STRUCTURAL + FRAMEWORK_DEDUCTIVE + BOUNDARY, then EMERGENT after MU lock | Not spoken | Reflexive TA mixed with kappa; “analyzed using Delve” |
-| Information power | Sample size guided by aim, specificity, theory, dialogue, and analysis strategy (Malterud et al., 2016) | n = 10–15 planned; stopping is analytic | Not spoken | Automatic saturation at 12 |
+| Information power | Sample size guided by aim, specificity, theory, dialogue, and analysis strategy (Malterud et al., 2016) | n = 12 locked; stopping is analytic | Not spoken | Automatic saturation at 12 |
 
 ---
 

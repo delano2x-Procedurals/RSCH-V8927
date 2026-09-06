@@ -5,7 +5,8 @@
 **Instrument:** `ITDR-GQI-INT-v0.1.1` ([gqi-semistructured-interview-guide.md](gqi-semistructured-interview-guide.md))  
 **Analytic method:** Hybrid deductive–inductive codebook thematic analysis (Fereday & Muir-Cochrane, 2006)  
 **CAQDAS (support only):** Delve  
-**Companion registers:** [symbols-definitions-refs.md](symbols-definitions-refs.md); [notion/](notion/README.md)
+**Companion registers:** [symbols-definitions-refs.md](symbols-definitions-refs.md); [notion/](notion/README.md)  
+**Weeks 8–10 SOP:** [amalgamation-wk8-10-qda-sop.md](amalgamation-wk8-10-qda-sop.md) (sample locked at n = 12)
 
 **Paste note.** This file is written as Capella dissertation Chapter III prose. Official research-question wording has not been locked. Until it is, the two implied project questions below are labeled **PQ1** and **PQ2**. Replace those labels with the approved RQ wording without changing the unit of analysis.
 
@@ -128,7 +129,7 @@ Inclusion requires at least one disruption, failover, recovery test, or operatio
 
 Sampling is purposive and criterion-based (Percy et al., 2015). The aim is information power, not a probability sample and not an automatic saturation claim (Malterud et al., 2016). Information power is expected to be relatively high because the aim is narrow (one class of SME recovery event), the participants are specific (IT/network managers with a named ITDRPaaS incident), the dialogue is theoretically informed without being a closed questionnaire, and the analysis is a cross-case codebook reduction rather than a surface inventory of topics (Malterud et al., 2016).
 
-The planned sample is 10 to 15 interviews. That range is a starting plan, not a finding that the gap is closed. Stopping is an analytic decision made from the codebook, boundary cases, and whether additional interviews are still changing the meaning-unit inventory for PQ1 and PQ2 (Naeem et al., 2024). Guest et al. (2006) may be cited only in that stopping discussion, as evidence that some interview studies have observed early code stability in relatively homogeneous samples. It is not used to justify the CIT protocol, the sample size in advance, or a claim that 12 interviews suffice.
+The sample is locked at 12 interviews. Twelve is the planned recruitment target, not a finding that the gap is closed, and not a claim that saturation occurs at the twelfth interview. Adequacy is justified by information power (Malterud et al., 2016). Stopping is an analytic decision documented from the codebook, boundary cases, and whether interviews in the locked corpus of 12 are still changing the meaning-unit inventory for PQ1 and PQ2 (Naeem et al., 2024). Guest et al. (2006) may be cited only in that stopping discussion, as evidence that some interview studies have observed early code stability in relatively homogeneous samples. It is not used to justify the CIT protocol or a claim that 12 interviews suffice.
 
 ---
 
@@ -395,11 +396,11 @@ This project uses the qualitative criteria of credibility, dependability, confir
 
 **Confirmability.** A reflexive memo is written within 24 hours of each interview so that sensitizing labels used as probes are not mistaken for findings (Braun & Clarke, 2019). Referential adequacy is supported by holding RAW recordings and CLEAN transcripts so that later analytic claims can be compared with the source talk (Lincoln & Guba, 1985). Negative and boundary cases are required across the corpus for each construct that the instrument set out to collect.
 
-**Transferability.** Role band, firm-size band, platform type, and incident type are described without naming organizations. No claim is made that 10–15 U.S. SME managers represent all ITDRPaaS settings.
+**Transferability.** Role band, firm-size band, platform type, and incident type are described without naming organizations. No claim is made that 12 U.S. SME managers represent all ITDRPaaS settings.
 
 The main threats to those claims are organizational disclosure risk, dual identifiability, supervisor-visible recruitment, political sanitizing during member check, and researcher allegiance to the sensitizing list. Mitigations are optional artifact sharing with a verbal-reconstruction fallback, identifier stripping, individual recruitment, a seven-day factual-only member check, encrypted RAW storage, empty EMERGENT until meaning-unit lock, and at least one boundary case per construct across the corpus.
 
-Saturation is not treated as a trustworthiness badge that 10–15 interviews automatically earn. It is an analytic decision guide applied to whether new interviews are still changing the meaning-unit inventory for PQ1 and PQ2 (Malterud et al., 2016; Naeem et al., 2024).
+Saturation is not treated as a trustworthiness badge that 12 interviews automatically earn. It is an analytic decision guide applied to whether interviews in the locked corpus of 12 are still changing the meaning-unit inventory for PQ1 and PQ2 (Malterud et al., 2016; Naeem et al., 2024).
 
 ---
 
@@ -417,7 +418,7 @@ Member checking is factual only and time-bounded. Distressed participants are of
 
 ## Chapter Summary
 
-Chapter III specified a generic qualitative inquiry that uses critical-incident interviews with U.S. SME IT and network managers who can name one ITDRPaaS recovery or test event in 36 months. The sample is planned at 10 to 15 participants and is justified by information power rather than by automatic saturation. The instrument `ITDR-GQI-INT-v0.1.1` locates leverage in that event and then follows the same incident into decision rights, escalation, and recoverability proof, using skip-if-covered rules and boundary cases.
+Chapter III specified a generic qualitative inquiry that uses critical-incident interviews with U.S. SME IT and network managers who can name one ITDRPaaS recovery or test event in 36 months. The sample is locked at 12 participants and is justified by information power rather than by automatic saturation. The instrument `ITDR-GQI-INT-v0.1.1` locates leverage in that event and then follows the same incident into decision rights, escalation, and recoverability proof, using skip-if-covered rules and boundary cases.
 
 The analytic method is hybrid deductive–inductive codebook thematic analysis (Fereday & Muir-Cochrane, 2006), adapted for a single researcher. Delve is the CAQDAS that stores CLEAN transcripts, the versioned codebook, memos, and snippet URLs. It does not analyze the data. STRUCTURAL, FRAMEWORK_DEDUCTIVE, and BOUNDARY codes are imported as filing and sensitizing devices. EMERGENT stays empty until meaning units are locked. Theme names, patterned-meaning claims, and answers to PQ1 and PQ2 are reserved for Chapter IV. Interpretation is reserved for Chapter V.
 
