@@ -12,3 +12,4 @@ Working copy of the 6 Sep 2026 audit, updated for the U.S.-based reference pass.
 - Paragraph count 229 after restoring Gibran (1923) as an include-epigraph reference line (was 228). Word comments 36 (unchanged).
 - Spoken interview questions were not changed.
 - Gibran is epigraph / front matter only. It is not used in-text for SME size, salience, method, or findings. See `docs/change-tracking-update.md`.
+- Methodology citation cluster aligned and **bolded** in-text: Creswell & Poth (2024); SBA (2026); Wutich et al. (2024); Guest et al. (2020); Paulus (2023); Resnik (2018). No remaining Creswell 1998/2018, Naeem, Hennink, or Vasileiou in-text.

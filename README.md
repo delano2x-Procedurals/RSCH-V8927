@@ -6,7 +6,7 @@ The member’s two Excel workbooks (reading list and Week 7 leadership-theory al
 
 ## Paste-ready GQI and Chapter III
 
-Usage and change-tracking log (including Gibran epigraph statements): [docs/change-tracking-update.md](docs/change-tracking-update.md).
+Updated Week 8 Word file: [downloads/MW_Wk5_to_wk8_Edit_6Sep26.docx](downloads/MW_Wk5_to_wk8_Edit_6Sep26.docx) (epigraph + usage/tracking appendix). Usage log: [docs/change-tracking-update.md](docs/change-tracking-update.md).
 
 Paste-ready Chapter I Need for the Study opening: [docs/chapter-i-need-for-the-study.md](docs/chapter-i-need-for-the-study.md). States the Information Technology Management specialization, how the ITDRPaaS project aligns with it, and the needed construct (value-creation stakeholder theory; Freeman et al., 2020).
 

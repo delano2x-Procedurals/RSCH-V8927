@@ -1,7 +1,8 @@
 # Change tracking update (usage + Gibran inclusion)
 
 **Date:** 6 September 2026  
-**Working Word file:** `downloads/MW_Wk5_to_wk8_Edit_6Sep26.docx`  
+**Working Word file:** `downloads/MW_Wk5_to_wk8_Edit_6Sep26.docx` (same bytes as `downloads/MW_Wk5_to_wk8_Edit_6Sep26_updated.docx`)  
+**Word now includes:** front-matter Gibran epigraph (On Work) plus an end appendix with the usage/tracking log and all Gibran inclusion statements.  
 **Instructor file (do not overwrite):** `source/originals/MW_Wk5_to_wk8_Edit_5Sep26.docx` (Marc’s 36 comments)  
 **Course trail:** BMGT-8044 → RSCH-V8927  
 **Researcher:** Max D. Walker  
@@ -151,9 +152,28 @@ Use this file as the usage log. It says what changed, where to paste it, what mu
 - Gibran (1923) status changed from **drop** to **include-epigraph**.
 - APA line restored in the Word reference list (alphabetically between Gabriel and Gremler).
 - Register row `REF-GIBRAN-1923` added.
-- Paste-ready Gibran statements supplied below. They are **not** inserted into Alignment, Gap, method, or findings.
+- Paste-ready Gibran statements supplied below. The recommended primary line is now the Project Plan epigraph. The remaining statements sit in the Word **Usage and Tracking Update** appendix. They are **not** inserted into Alignment, Gap, method, or findings.
 
-**Length note.** Restoring one reference line moves the Word paragraph count from 228 to 229. Body nodes other than References are unchanged.
+**Length note.** The Word file is 262 paragraphs: Alignment / Gap / method body is unchanged; the added lines are the front-matter epigraph and the tracking appendix. Word comments remain 36.
+
+### Pass 6 — Scholarly clarity + citation alignment (bolded updates)
+
+**Ask:** Edit the highlighted methodology cluster for scholarly clarity; update necessary citations; **bold** the changes.
+
+**Done in the Word file** (comments still 36)
+
+| Old / problem | Now (bold in the Word file) |
+| --- | --- |
+| Creswell & Poth, 1998 / 2018 | **Creswell & Poth, 2024** |
+| Ekinci et al., 2025 (SME size) | **U.S. Small Business Administration, 2026** |
+| Vasileiou / Hennink “not statistical power” | **Wutich et al., 2024** |
+| Naeem et al., 2024 (saturation as decision) | **Guest et al., 2020** |
+| Carcary, 2020 (audit trail) | **Paulus, 2023** |
+| Miteu, 2024 (ethics) | **Resnik, 2018** |
+| “Inclusion criteria…” prose | **Inclusion.** / **Exclusion.** Term. Definition format |
+| “stakeholders-salience participants”; “Findings and will”; “Delvetool”; broken Guest 2006 sentence | Corrected scholarly wording |
+
+Malterud et al. (2016) stays (seminal information power). Guest et al. (2006) stays only for the reserved stopping-discussion sentence. Hennink & Kaiser (2022) is **not** used in-text (U.S. preference is Wutich et al., 2024).
 
 ---
 
