@@ -4,7 +4,8 @@ Word copies you can open in Microsoft Word or upload to the Capella courseroom.
 
 | File | Use this for |
 | --- | --- |
-| [WALKER_Collection_Analysis_Revision_Packet.docx](WALKER_Collection_Analysis_Revision_Packet.docx) | **Start here.** Paste-ready protocol, artifact pipeline, analysis bridge, citation/language repairs, ethics SOPs, and Project Plan paragraphs. Items marked NEW are new written efforts. |
+| [MW_Wk5_to_wk8_Edit_6Sep26.docx](MW_Wk5_to_wk8_Edit_6Sep26.docx) | **Week 8 courseroom file.** Marc’s comments remain. Alignment to the Program of Study now states the ITM specialization, project alignment, and Freeman et al. (2020) value-creation stakeholder theory. Sample locked at 12; interviews only; SME/pilot and RQ–question matrix added. |
+| [WALKER_Collection_Analysis_Revision_Packet.docx](WALKER_Collection_Analysis_Revision_Packet.docx) | Paste-ready protocol, analysis bridge, citation/language repairs, ethics SOPs, and Project Plan paragraphs. |
 | [WALKER_Alignment_Assessment_Data_Collection.docx](WALKER_Alignment_Assessment_Data_Collection.docx) | The Alignment Map score of the current draft against the gap. |
 
 GitHub download (this branch):
