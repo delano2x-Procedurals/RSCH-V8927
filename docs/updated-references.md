@@ -1,7 +1,7 @@
 # Updated references (paste-ready)
 
 **Source document:** `downloads/MW_Wk5_to_wk8_Edit_6Sep26.docx` (6 Sep 2026 Project Plan). No newer `*refs*.docx` was present.  
-**Companion:** this file is the extra deliverable for “also Provide updated references.” A sibling agent is aligning citations inside the Word file; this markdown is the swap list and the clean paste list.  
+**Companion:** this file is the extra deliverable for “also Provide updated references.” The U.S. pass actually applied in Word is [us-based-references.md](us-based-references.md). Usage / Gibran inclusion: [change-tracking-update.md](change-tracking-update.md).  
 **Verification:** every replacement below was checked against Crossref or the publisher record (authors, year, journal/book, volume/issue/pages, DOI). Do not invent citations.  
 **Word hanging indent:** after paste, select the list → Paragraph → Special: Hanging 0.5 in. Hot-link each `https://doi.org/...` URL.
 
@@ -12,7 +12,8 @@
 | Seminal / foundational **keep** (user-specified) | 14 |
 | Additional keep (current 2020–2026, or foundational for a named claim) | 32 |
 | **Replace** (older than ~2021 or wrong source for the claim) | 10 |
-| Drop (orphan, duplicate, or wrong method; not replaced so the list does not balloon) | 24 |
+| Drop (orphan, duplicate, or wrong method; not replaced so the list does not balloon) | 23 |
+| Include-epigraph (Gibran 1923; not a scholarly claim) | 1 |
 | Could not / should not update | 8 |
 
 Replacement entries in the paste list are **bold**.
@@ -27,7 +28,7 @@ Replacement entries in the paste list are **bold**.
 
 **Replace** if the source is not in those keep sets **and** (a) older than ~2021, or (b) the wrong paper for the claim.
 
-**Swap, do not balloon.** Orphans and wrong-method items (phenomenology, focus-group coding, trade magazine, *The Prophet*, Senge commentary, unused duplicate Freeman entries) are dropped rather than given a new partner.
+**Swap, do not balloon.** Orphans and wrong-method items (phenomenology, focus-group coding, trade magazine, Senge commentary, unused duplicate Freeman entries) are dropped rather than given a new partner. Gibran (1923) *The Prophet* is **include-epigraph** (front matter only), not a scholarly drop.
 
 ---
 
@@ -67,7 +68,7 @@ Replacement entries in the paste list are **bold**.
 | Freeman, Gilbert, & Hartman (1988) | **drop** | — |
 | Fusch et al. (2018) | **drop** (unused triangulation) | — |
 | Gabriel & Shafique (2024) | **drop** (unused SDG salience) | — |
-| Gibran (1923) *The prophet* | **drop** (wrong source) | — |
+| Gibran (1923) *The prophet* | **include-epigraph** (U.S. public domain; not a scholarly claim) | Gibran, K. (1923). *The prophet*. Alfred A. Knopf. |
 | Guba & Lincoln (1994) | **keep** (foundational paradigms; in-text) | Guba, E. G., & Lincoln, Y. S. (1994). Competing paradigms in qualitative research. In N. K. Denzin & Y. S. Lincoln (Eds.), *Handbook of qualitative research* (pp. 105–117). SAGE. |
 | Guest et al. (2006) | **keep** (named stopping-discussion claim only) | Guest, G., Bunce, A., & Johnson, L. (2006). How many interviews are enough? An experiment with data saturation and variability. *Field Methods, 18*(1), 59–82. https://doi.org/10.1177/1525822X05279903 |
 | Haan & Venema (2025) | **keep** (in-text; current hybrid TA) | Haan, M., & Venema, S. D. (2025). Using a blended approach to thematic analysis: A case study on fatherhood and imprisonment. *Public Opinion Quarterly, 89*(SI), 716–733. https://doi.org/10.1093/poq/nfaf033 |
@@ -177,6 +178,8 @@ Freeman, R. E., Phillips, R., & Sisodia, R. (2020). Tensions in stakeholder theo
 
 Freeman, R. E., Wicks, A. C., & Parmar, B. (2004). Stakeholder theory and the corporate objective revisited. *Organization Science, 15*(3), 364–369. https://doi.org/10.1287/orsc.1040.0066
 
+Gibran, K. (1923). *The prophet*. Alfred A. Knopf.
+
 Guba, E. G., & Lincoln, Y. S. (1994). Competing paradigms in qualitative research. In N. K. Denzin & Y. S. Lincoln (Eds.), *Handbook of qualitative research* (pp. 105–117). SAGE.
 
 Guest, G., Bunce, A., & Johnson, L. (2006). How many interviews are enough? An experiment with data saturation and variability. *Field Methods, 18*(1), 59–82. https://doi.org/10.1177/1525822X05279903
@@ -273,6 +276,7 @@ These stay. Only the metadata was wrong in the Word list.
 | Nowell et al. (2017) | Still the standard thematic-analysis + Lincoln/Guba trustworthiness paper. No cleaner 2021–2026 replacement for that exact claim |
 | Tracy (2010) | Still the standard eight “big-tent” quality criteria paper |
 | Chell (2004); Freeman (1984); Lincoln & Guba (1985) | Books / chapters. No DOI to hot-link; keep as specified |
+| Gibran (1923) *The prophet* | **include-epigraph** only. U.S. Knopf public-domain text. Not a scholarly claim. See [change-tracking-update.md](change-tracking-update.md#gibran-statements-for-inclusion) |
 
 **Not found at equivalent quality:** a 2021–2026 journal article that is specifically “stakeholder attributes in *IT disaster recovery*” to sit in Mojtahedi and Oo’s (2017) exact niche. Kujala et al. (2022) is the aligned *claim-type* swap (stakeholder engagement). Do not invent an ITDR-salience paper.
 

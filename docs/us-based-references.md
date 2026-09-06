@@ -2,7 +2,8 @@
 
 **Working Word file:** `downloads/MW_Wk5_to_wk8_Edit_6Sep26.docx`  
 **Companion copy:** `/opt/cursor/artifacts/us_based_references.md`  
-**Rule:** Prefer U.S. settings / U.S. journals / U.S. authors for empirical, practice, SME-size, cyber, resilience, and methods-application claims. Keep seminal/foundational theory even when not U.S.-authored. Do not invent citations. Same-length swaps only (no new paragraphs). Spoken interview questions unchanged. Word comments remain 36.
+**Usage log:** [change-tracking-update.md](change-tracking-update.md) (includes Gibran statements for inclusion).  
+**Rule:** Prefer U.S. settings / U.S. journals / U.S. authors for empirical, practice, SME-size, cyber, resilience, and methods-application claims. Keep seminal/foundational theory even when not U.S.-authored. Do not invent citations. Same-length swaps only (no new body paragraphs). Gibran (1923) is restored as one include-epigraph reference line. Spoken interview questions unchanged. Word comments remain 36.
 
 **U.S. test used here:** U.S. author affiliation and/or U.S. journal/publisher and/or U.S. empirical setting (or a U.S. federal source). Seminal keepers are exempt from that test.
 
@@ -10,7 +11,7 @@
 
 | Class | n |
 | --- | ---: |
-| Reference-list entries (unchanged length) | 68 |
+| Reference-list entries (Gibran restored as include-epigraph) | 69 |
 | **Already U.S.** (kept; includes U.S. seminal works) | 42 |
 | **Swapped in-text** to a verified U.S. equivalent | 10 |
 | **List slots replaced** with a new U.S. entry | 7 |
@@ -71,6 +72,7 @@ Guest et al. (2006) stays for the reserved stopping-discussion sentence only. Gu
 | Freeman et al. (2004) | Yes | Keep (seminal) | — |
 | Fusch et al. (2018) | Yes | Keep | — |
 | Gabriel & Shafique (2024) | No | **BOLD** leftover | Dorobantu et al. (2024) already covers legitimacy in informational environments |
+| Gibran (1923) *The prophet* | Yes (U.S. Knopf; public domain) | **include-epigraph** (front matter only; not a scholarly claim) | Gibran, K. (1923). *The prophet*. Alfred A. Knopf. |
 | Gremler (2004) | Yes | **Replace-in** (CIT application) | — |
 | Guba & Lincoln (1994) | Yes | Keep (paradigm chapter) | — |
 | Guest et al. (2006) | Yes | Keep (named stopping sentence only) | — |
@@ -174,6 +176,8 @@ Fusch, P., Fusch, G. E., & Ness, L. R. (2018). Denzin’s paradigm shift: Revisi
 
 **Gabriel, C., & Shafique, K. (2024). An ethical salience framework to achieve sustainable development goals. *Sustainable Development, 32*(4), 3213–3225. https://doi.org/10.1002/sd.2840**
 
+Gibran, K. (1923). *The prophet*. Alfred A. Knopf.
+
 Gremler, D. D. (2004). The critical incident technique in service research. *Journal of Service Research, 7*(1), 65–89. https://doi.org/10.1177/1094670504266138
 
 Guba, E. G., & Lincoln, Y. S. (1994). Competing paradigms in qualitative research. In N. K. Denzin & Y. S. Lincoln (Eds.), *Handbook of qualitative research* (pp. 105–117). SAGE.
@@ -258,7 +262,7 @@ Wutich, A., Beresford, M., & Bernard, H. R. (2024). Sample sizes for 10 types of
 
 ## Length and integrity
 
-- Paragraphs: 228 (unchanged).
+- Paragraphs: 229 after restoring Gibran (1923) as an include-epigraph reference line (was 228).
 - Word comments: 36 (unchanged).
 - Spoken interview stems (Q0, L, A–F) unchanged.
 - Every in-text work after the swap has a matching list entry.
