@@ -59,6 +59,10 @@ def main() -> int:
         errors.append("fashion-sample debris leaked into the insert")
     if "I will" in text or "I am" in text:
         errors.append("first-person language")
+    if "Jowsey" in text:
+        errors.append("Jowsey et al. is still present")
+    if "Nowell" not in text:
+        errors.append("missing Nowell replacement citation")
     if SOP.exists() and "Offering C detailed four-paragraph" in SOP.read_text(encoding="utf-8"):
         errors.append("SOP was modified with the courseroom analysis insert")
     if DOCX.exists():
