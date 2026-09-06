@@ -40,6 +40,9 @@ export async function initReferences() {
     { key: "item_publication_date", label: "Year" },
     { key: "item_doi", label: "DOI" },
     { key: "permalink", label: "Permalink" },
+    { key: "used_in_tab", label: "Used in tab" },
+    { key: "comps_audit_tag", label: "Comps audit tag" },
+    { key: "gap_note", label: "Gap note" },
   ]);
   renderRecords("xref-table", extra, [
     { key: "id", label: "ID" },

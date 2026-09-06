@@ -88,7 +88,7 @@ def main() -> None:
     autosize(pl)
 
     refs = wb.create_sheet("03_REFERENCES_MASTER")
-    header(refs, ["ID", "Week/section", "Type", "Title", "Author", "Journal", "Year", "DOI", "URL", "Permalink", "Student note", "UsedInTab"])
+    header(refs, ["ID", "Week/section", "Type", "Title", "Author", "Journal", "Year", "DOI", "URL", "Permalink", "Student note", "UsedInTab", "CompsAuditTag", "GapNote"])
     for rec in load("references.json"):
         refs.append([
             rec.get("id"),
@@ -103,6 +103,8 @@ def main() -> None:
             rec.get("permalink"),
             rec.get("item_student_note"),
             rec.get("used_in_tab"),
+            rec.get("comps_audit_tag"),
+            rec.get("gap_note"),
         ])
     for rec in load("extra_refs.json"):
         refs.append([

@@ -202,6 +202,8 @@ def build_structured(inventory: dict) -> dict:
             str(v) for v in rec.values() if isinstance(v, str)
         )
         rec["used_in_tab"] = "03_REFERENCES_MASTER"
+        rec["comps_audit_tag"] = rec.get("item_tags") or ""
+        rec["gap_note"] = rec.get("item_student_note") or ""
         rec["status"] = ""
         references.append(rec)
 
@@ -225,6 +227,8 @@ def build_structured(inventory: dict) -> dict:
                 "source_tab": " REFERENCES",
                 "source_row": row_num,
                 "used_in_tab": "03_REFERENCES_MASTER",
+                "comps_audit_tag": "",
+                "gap_note": "",
                 "search_text": text,
                 "status": "",
             }
