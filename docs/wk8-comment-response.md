@@ -19,6 +19,6 @@
 | C21–C26. Interviews only | Artifact collection removed. Named logs or matrices stay as spoken interview data. |
 | C27. Credibility | Member check and trustworthiness language uses credibility. |
 | C31. Audit | Dependability now cites a dated audit trail (Carcary, 2020). |
-| C34 / C35. APA / hot-links | Freeman et al. (2020) completed with DOI URL. Capella (2024), Flanagan (1954), Chell (2004), Butterfield et al. (2005), Percy et al. (2015) added. Farahbod / Freeman (1984) mash split. Remaining reference list still needs a full APA 7th pass (C34/C35 not fully closed). |
+| C34 / C35. APA / hot-links | Full APA 7th pass on the reference list: sentence-case titles, italic journal/book titles, public DOIs (no Capella proxy), hot-linked DOIs/URLs, alphabetical order, duplicates and junk rows removed. Every in-text citation now has a list entry. Dated non-seminal leftovers are **BOLD**. Freeman et al. (2020) remains complete with DOI. See [citation-alignment-audit.md](citation-alignment-audit.md). |
 
 Spoken interview wording in `docs/gqi-semistructured-interview-guide.md` is unchanged. The matrix uses those existing item IDs (Q0, L, A–F).
