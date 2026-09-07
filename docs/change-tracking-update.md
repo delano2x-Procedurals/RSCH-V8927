@@ -175,6 +175,22 @@ Use this file as the usage log. It says what changed, where to paste it, what mu
 
 Malterud et al. (2016) stays (seminal information power). Guest et al. (2006) stays only for the reserved stopping-discussion sentence. Hennink & Kaiser (2022) is **not** used in-text (U.S. preference is Wutich et al., 2024).
 
+### Pass 7 — Ethical Considerations header offering (bolded)
+
+**Ask:** Update attachment 1 so it is a good offering for the **Ethical Considerations** header; review content; provide the updated offering with changes in **BOLD**.
+
+**Done in the Word file** (comments still 36; still 262 paragraphs)
+
+- Header remains **Ethical Considerations**. Attachment 2 was a blank black strip; no header rewrite.
+- Miteu (2024) removed from the ethics node. In-text is **(Resnik, 2018)**.
+- Opening now answers the template: issues + plan for privacy, confidentiality, and data security.
+- Primary issue named as **re-identification** in 10–200 SMEs.
+- **collection remains interviews only**; member check uses **named proof** (not artifact type / optional artifact sharing).
+- Grammar and product name: **findings will be disseminated**; **Delve** (not Delvetool).
+- Para 2 labels **Data security / Confidentiality / Privacy**.
+
+Paste-ready offering: [ethical-considerations-offering.md](ethical-considerations-offering.md).
+
 ---
 
 ## In-text citation map (current Word file)
