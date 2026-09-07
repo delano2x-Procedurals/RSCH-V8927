@@ -191,6 +191,21 @@ Malterud et al. (2016) stays (seminal information power). Guest et al. (2006) st
 
 Paste-ready offering: [ethical-considerations-offering.md](ethical-considerations-offering.md).
 
+### Pass 8 — Data analysis header offering (bolded; third person; current citations)
+
+**Ask:** Update attachment 1 for the header *Articulate data analysis techniques appropriate to project framework*; review content; third person; updated references; **BOLD** changes; decide whether RAW/CLEAN must be all caps.
+
+**Done in the Word file** (comments still 36; still 262 paragraphs)
+
+- Header remains **Proposed Data Analysis Plan**. Prompt line unchanged.
+- Voice is third person (**the researcher**).
+- **RAW / CLEAN do not need all caps** in running text. Now **raw recordings** / **clean transcripts**. Codebook IDs (STRUCTURAL, FRAMEWORK_DEDUCTIVE, BOUNDARY, EMERGENT) stay all caps.
+- Braun & Clarke (2019) and Naeem et al. are not used as the method or saturation source. In-text: **Saldaña (2021)**; **Guest et al. (2020)**; **Malterud et al. (2016)**; method remains **Fereday & Muir-Cochrane (2006)**.
+- New framework-fit sentence: Mitchell et al. (1997) probes; Freeman et al. (2020) off the codebook.
+- Grammar: **Every published quotation… will receive a source check**.
+
+Paste-ready offering: [data-analysis-offering.md](data-analysis-offering.md).
+
 ---
 
 ## In-text citation map (current Word file)
