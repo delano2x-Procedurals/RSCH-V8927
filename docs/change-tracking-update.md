@@ -273,6 +273,37 @@ If the line is used, keep the Gibran (1923) reference-list entry. If no epigraph
 
 ---
 
+### Pass — Offering SOP and abstract to success (8 Sep 2026)
+
+**Ask:** Supply SOP and abstract to success for the tracking-pack offering; align to prior outputs.
+
+**Done**
+
+- Wrote [offering-sop-and-success-abstract.md](offering-sop-and-success-abstract.md) and `downloads/WALKER_Offering_SOP_and_Success_Abstract.docx`.
+- Success = Need placement + operational PQ1/PQ2 answers + inspectable ID trail + honored gates. Not a new method.
+- SOP reuses `10_WORK_SCHEDULE`, Chapter III analysis steps, revision-packet interview day, and locked facts (n = 12; `ITDR-GQI-INT-v0.1.1`; VCST on Need only).
+- Spoken protocol **not** changed.
+
+**Usage.** Paste Section 1 as the Week 10 abstract-to-success paragraph. Follow Section 3 as the operating SOP. Do not paste this as a new study.
+
+---
+
+### Pass — Weekly SOP run and document refresh (8 Sep 2026)
+
+**Ask:** Run the six weekly SOP todos; update all documents as needed.
+
+**Done**
+
+- Closed W1–W6. Results live on `15_WEEKLY_RUN` and [weekly-sop-run-2026-09-08.md](weekly-sop-run-2026-09-08.md).
+- `UL-0007` `type=no_change` because coding had not started. Nest copied to `docs/notion/interval-backups/2026-09-08-weekly/`.
+- QUAL Example4-1 headings mapped on `16_QUAL_MAP`. IRB, recruitment, collection, and analysis remain **Not started**.
+- Need OV N-10 confirm: markdown still wins if Word drifts.
+- Spoken protocol **not** changed. Sample remains **n = 12**.
+
+**Usage.** Share the weekly Word file with an advisor. Tomorrow: paste Need (do not stack), one REF- row, start IRB packet — no recruitment.
+
+---
+
 ## What is still open
 
 | Item | Status |
