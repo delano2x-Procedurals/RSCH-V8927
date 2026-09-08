@@ -9,6 +9,7 @@ Word copies you can open in Microsoft Word or upload to the Capella courseroom.
 | [WALKER_Alignment_Assessment_Data_Collection.docx](WALKER_Alignment_Assessment_Data_Collection.docx) | The Alignment Map score of the current draft against the gap. |
 | [Dissertation_Document_Tracking_Master.xlsx](Dissertation_Document_Tracking_Master.xlsx) | **One operating workbook.** Origins13 ROS template + GQI CSV nest. Bold rows = NEW / REPLACE / PARK. Includes Need overview and daily/weekly work schedule. |
 | [Dissertation_Document_Tracking_Pack.docx](Dissertation_Document_Tracking_Pack.docx) | **One consolidated Word pack.** Locked facts, bolded what/why, Need OV, SOP to completion, updated refs, parking lot. |
+| [WALKER_Offering_SOP_and_Success_Abstract.docx](WALKER_Offering_SOP_and_Success_Abstract.docx) | **NEW offering insert.** Abstract to success + daily/weekly/stage SOP aligned to Need, Chapter III, instrument v0.1.1, and the tracking workbook. |
 
 GitHub download (this branch):
 

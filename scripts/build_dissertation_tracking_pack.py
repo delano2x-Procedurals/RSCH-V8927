@@ -526,6 +526,8 @@ def build_workbook(path: Path):
         {"order": 15, "group": "Boundary", "sheet": "08_PARKING_LOT", "purpose": "Christensen, CAS, Gioia, Origins IQ", "action": "DO NOT PROMOTE"},
         {"order": 16, "group": "Collection", "sheet": "11_LEVERAGE_MEMO", "purpose": "Header-only until P01", "action": "FILL AFTER INTERVIEW"},
         {"order": 17, "group": "Audit", "sheet": "12_UPDATE_LOG", "purpose": "CSV nest history + this pack", "action": "APPEND"},
+        {"order": 18, "group": "Offering", "sheet": "13_SOP", "purpose": "Daily/weekly/stage SOP for this offering", "action": "FOLLOW"},
+        {"order": 19, "group": "Offering", "sheet": "14_SUCCESS", "purpose": "Abstract-to-success gates vs prior outputs", "action": "VIEW"},
     ]
     write_sheet(wb, "NAVIGATION", nav_headers, nav_rows)
 
@@ -643,6 +645,26 @@ def build_workbook(path: Path):
             }
         )
     write_sheet(wb, "12_UPDATE_LOG", list(ulog[0].keys()), ulog, widths={6: 50, 7: 50})
+
+    sop_rows = [
+        {"id": "SOP-D1", "cadence": "Daily", "step": "Three-task plan + writing 20–60 min", "artifact": "Current 01_LIFECYCLE stage", "stop_rule": "No mid-session edit"},
+        {"id": "SOP-D2", "cadence": "Daily", "step": "Read one source; fill allowed-use", "artifact": "03_REFERENCES", "stop_rule": "Parked sources stay parked"},
+        {"id": "SOP-W1", "cadence": "Weekly", "step": "Change log then lifecycle; confirm n=12 and v0.1.1", "artifact": "00_CHANGE_LOG; CH3_CONTROL", "stop_rule": "Need markdown wins if Word drifted"},
+        {"id": "SOP-W2", "cadence": "Weekly (coding)", "step": "Interval backup or no_change", "artifact": "docs/notion/interval-backups", "stop_rule": "Do not overwrite codebook descriptions"},
+        {"id": "SOP-G1", "cadence": "IRB gate", "step": "Consent / de-ID / member-check ready", "artifact": "revision packet §7", "stop_rule": "No recruitment"},
+        {"id": "SOP-I1", "cadence": "Interview day", "step": "Q0 first; skip-rules; CLEAN same day", "artifact": "05_INTERVIEW_ITEMS; P##", "stop_rule": "No memory-only session; no codebook words in stems"},
+        {"id": "SOP-A1", "cadence": "Analysis", "step": "MU lock before EMERGENT; two PQ answers", "artifact": "06_ANALYSIS_SOP", "stop_rule": "Not Gioia; not analyzed-using-Delve"},
+    ]
+    write_sheet(wb, "13_SOP", ["id", "cadence", "step", "artifact", "stop_rule"], sop_rows, widths={1: 10, 2: 18, 3: 48, 4: 36, 5: 40})
+
+    success_rows = [
+        {"outcome": "Need placed", "prior_output": "chapter-i-need-for-the-study.md", "pass": "VCST on Need only; ITM alignment pasted", "fail": "VCST as Delve code or theme title"},
+        {"outcome": "Gap operational", "prior_output": "PQ1 / PQ2 in Need + Ch III", "pass": "Two Chapter IV answers", "fail": "One governance theme"},
+        {"outcome": "Trail inspectable", "prior_output": "notion templates + update-log", "pass": "Every change has an ID and log row", "fail": "Second live codebook"},
+        {"outcome": "Gates honored", "prior_output": "CH3_CONTROL; parking lot", "pass": "n=12; v0.1.1; IRB before recruit; parked stays parked", "fail": "Origins IQ-01 or n=10–15 reopened"},
+        {"outcome": "Offering done (Wk 10)", "prior_output": "tracking pack xlsx + docx", "pass": "One xlsx + one Word show locks, Need OV, schedule, next status", "fail": "Treating this SOP as a new study"},
+    ]
+    write_sheet(wb, "14_SUCCESS", ["outcome", "prior_output", "pass", "fail"], success_rows, widths={1: 22, 2: 36, 3: 48, 4: 40})
 
     path.parent.mkdir(parents=True, exist_ok=True)
     wb.save(path)

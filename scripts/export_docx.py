@@ -285,10 +285,17 @@ def main():
         "Scored against The Alignment Map: Guiding Questions",
         OUT / "WALKER_Alignment_Assessment_Data_Collection.docx",
     )
+    sop = convert_md(
+        DOCS / "offering-sop-and-success-abstract.md",
+        "Offering SOP and Abstract to Success",
+        "Tracking-pack offering: how it is run, and what counts as success, aligned to prior GQI outputs",
+        OUT / "WALKER_Offering_SOP_and_Success_Abstract.docx",
+    )
     print(packet)
     print(assessment)
+    print(sop)
     if ARTIFACTS.exists():
-        for src in (packet, assessment):
+        for src in (packet, assessment, sop):
             dest = ARTIFACTS / src.name
             dest.write_bytes(src.read_bytes())
             print("artifact", dest)

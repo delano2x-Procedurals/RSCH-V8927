@@ -20,6 +20,8 @@ Interval CSV backups (Delve codebook, items, references, symbols): [docs/notion/
 
 Dissertation tracking pack (one xlsx + one Word file, bolded what/why): [downloads/Dissertation_Document_Tracking_Master.xlsx](downloads/Dissertation_Document_Tracking_Master.xlsx) and [downloads/Dissertation_Document_Tracking_Pack.docx](downloads/Dissertation_Document_Tracking_Pack.docx). Rebuild with `python3 scripts/build_dissertation_tracking_pack.py`.
 
+Offering SOP and abstract to success: [docs/offering-sop-and-success-abstract.md](docs/offering-sop-and-success-abstract.md) · [downloads/WALKER_Offering_SOP_and_Success_Abstract.docx](downloads/WALKER_Offering_SOP_and_Success_Abstract.docx).
+
 ## Open the workspace
 
 ```bash
