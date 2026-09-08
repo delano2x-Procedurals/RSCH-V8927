@@ -18,6 +18,8 @@ Symbols / original vs build-on refs: [docs/symbols-definitions-refs.md](docs/sym
 
 Interval CSV backups (Delve codebook, items, references, symbols): [docs/notion/](docs/notion/README.md).
 
+Dissertation tracking pack (one xlsx + one Word file, bolded what/why): [downloads/Dissertation_Document_Tracking_Master.xlsx](downloads/Dissertation_Document_Tracking_Master.xlsx) and [downloads/Dissertation_Document_Tracking_Pack.docx](downloads/Dissertation_Document_Tracking_Pack.docx). Rebuild with `python3 scripts/build_dissertation_tracking_pack.py`.
+
 ## Open the workspace
 
 ```bash

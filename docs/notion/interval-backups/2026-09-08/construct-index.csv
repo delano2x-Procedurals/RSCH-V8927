@@ -1,0 +1,14 @@
+construct,pq,question_ids,delve_code_id,parent_id,collectable_example,boundary_case,csv_files,instrument_version
+PQ1_claim_attention,PQ1,L1 L2 L3 A1 A2 A3 B1 B2 C1 C2 Q-close,PQ1_claim_attention,STRUCTURAL,Structural filing of claim-attention excerpts,n/a (filing label),codebook.csv,ITDR-GQI-INT-v0.1.1
+PQ2_enactment,PQ2,D1 D2 E1 E2 F1 F2 F3,PQ2_enactment,STRUCTURAL,Structural filing of enactment excerpts,n/a (filing label),codebook.csv,ITDR-GQI-INT-v0.1.1
+CONTEXT,both,Q0,CONTEXT,STRUCTURAL,Incident setting: platform type firm-size band role timing channel,n/a,codebook.csv,ITDR-GQI-INT-v0.1.1
+UNANTICIPATED,both,Q-close,UNANTICIPATED,STRUCTURAL,Content that does not map to PQ1/PQ2 framework or named boundary,Park until MU lock; do not promote from this code alone,codebook.csv,ITDR-GQI-INT-v0.1.1
+leverage_location,PQ1,L1 L2 L3 Q-close,leverage_location,FRAMEWORK_DEDUCTIVE,Named role who moved restore order delayed an action or redefined done plus what supplied that pull,No one could move the decision; pull sat nowhere the manager could name,interview-items.csv codebook.csv leverage-memo.csv symbols.csv,ITDR-GQI-INT-v0.1.1
+power,PQ1,A1 A2 A3,power,FRAMEWORK_DEDUCTIVE,Who could force delay or override,Low-power claim that still won; pressure present but unused,interview-items.csv codebook.csv symbols.csv,ITDR-GQI-INT-v0.1.1
+legitimacy,PQ1,B1 B2,legitimacy,FRAMEWORK_DEDUCTIVE,Whose claim was treated as rightful or treated as out of line,Written plan or role ignored; unofficial claim treated as rightful,interview-items.csv codebook.csv symbols.csv,ITDR-GQI-INT-v0.1.1
+urgency,PQ1,C1 C2,urgency,FRAMEWORK_DEDUCTIVE,What made restoration time-critical and whether that ranking moved,Clock did not reorder work; time pressure claimed but not acted on,interview-items.csv codebook.csv symbols.csv,ITDR-GQI-INT-v0.1.1
+decision_rights,PQ2,D1 D2,decision_rights,FRAMEWORK_DEDUCTIVE,Who was supposed to decide versus who did,Authority needed but absent; unofficial decision maker,interview-items.csv codebook.csv symbols.csv,ITDR-GQI-INT-v0.1.1
+escalation,PQ2,E1 E2,escalation,FRAMEWORK_DEDUCTIVE,Trigger and effect on speed or on done,Nothing was escalated,interview-items.csv codebook.csv symbols.csv,ITDR-GQI-INT-v0.1.1
+evidentiary_standards,PQ2,F1 F2,evidentiary_standards,FRAMEWORK_DEDUCTIVE,What counted as enough proof; whether proof was renegotiated,Restoration accepted with no reviewable proof,interview-items.csv codebook.csv symbols.csv,ITDR-GQI-INT-v0.1.1
+recoverability_assurance,PQ2,F3,recoverability_assurance,FRAMEWORK_DEDUCTIVE,Named log test approval ticket or verbal reconstruction of what that record did,Path C: no reviewable artifact named,interview-items.csv codebook.csv symbols.csv,ITDR-GQI-INT-v0.1.1
+who_cares_why_now,Gap,Q-close,leverage_location,FRAMEWORK_DEDUCTIVE,Who had to be convinced and with what,Participant says nothing further; record as closed not empty,interview-items.csv leverage-memo.csv,ITDR-GQI-INT-v0.1.1
