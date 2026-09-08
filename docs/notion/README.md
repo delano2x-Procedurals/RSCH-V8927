@@ -44,6 +44,7 @@ When Notion is available, create a parent page **ITDR-GQI audit nest** with one 
 - After each interview that is coded in Delve.
 - At least weekly while coding is active.
 - If nothing changed that week, append `type=no_change` to `update-log.csv` and still copy the running templates into a dated folder so the gap is visible.
+- Latest weekly `no_change` drop: `interval-backups/2026-09-08-weekly/` (`UL-0007`). Coding had not started; this is not a Delve export.
 
 ## How to drop a backup
 

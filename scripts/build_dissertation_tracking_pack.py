@@ -212,6 +212,24 @@ def change_rows():
             "source": "source/originals/MW_Wk5_to_wk8_Edit_5Sep26.docx",
             "artifact_now": "07_FOLDER_MAP (do-not-edit row)",
         },
+        {
+            "log_id": "CL-0013",
+            "date": TODAY,
+            "delta": "NEW",
+            "what_changed": "Weekly SOP run 2026-09-08 executed (six todos). CH3 locks confirmed. Need OV matches chapter-i markdown. Coding not started: type=no_change backup dropped. QUAL Example4-1 headings mapped to lifecycle status.",
+            "why": "Offering SOP §3.3 requires a weekly close: change log → lifecycle → locks → Need match → nest or no_change → one shareable artifact → QUAL heading status.",
+            "source": "docs/offering-sop-and-success-abstract.md §3.3",
+            "artifact_now": "15_WEEKLY_RUN; 16_QUAL_MAP; downloads/WALKER_Weekly_SOP_Run_2026-09-08.docx",
+        },
+        {
+            "log_id": "CL-0014",
+            "date": TODAY,
+            "delta": "KEEP",
+            "what_changed": "Parked items remain parked after weekly review. Codebook parents are still STRUCTURAL / FRAMEWORK_DEDUCTIVE / BOUNDARY / EMERGENT (empty). No Foucault, Gioia, or IQ-01 promotion.",
+            "why": "Success outcome 4: gates honored.",
+            "source": "04_CODEBOOK; 08_PARKING_LOT",
+            "artifact_now": "08_PARKING_LOT",
+        },
     ]
 
 
@@ -240,7 +258,11 @@ def lifecycle_rows():
                 "lives_in": artifacts,
                 "done_when": done_when,
                 "owner": "Walker",
-                "blocked_by": "",
+                "blocked_by": (
+                    "Advisor packet not yet accepted (weekly 2026-09-08)"
+                    if sid == "LC-01"
+                    else ("IRB letter (hard gate)" if sid in {"LC-06", "LC-07"} else "")
+                ),
             }
         )
     return rows
@@ -441,6 +463,7 @@ def need_rows():
         {"block_id": "N-07", "node": "PQ2", "paste_status": "Implied until official RQ locks", "text": "How do those shifts get enacted as decision rights, escalation pathways, and evidentiary / recoverability-assurance standards that managers can defend to stakeholders?"},
         {"block_id": "N-08", "node": "Who needs the study", "paste_status": "Ready", "text": "SME IT/network managers who must defend restoration; executives/customers/providers whose claims compete; IT-management scholarship lacking an incident-level enactment account."},
         {"block_id": "N-09", "node": "Unit of analysis", "paste_status": "Locked", "text": "One U.S. SME IT/network/systems/infrastructure/operations manager; one named disruption, failover, test, or operational recovery in 36 months using external/managed recovery; firm 10–200 personnel; n = 12; interviews only."},
+        {"block_id": "N-10", "node": "Weekly Need confirm (2026-09-08)", "paste_status": "Confirmed matches markdown", "text": "09_NEED_OV N-01–N-09 agree with docs/chapter-i-need-for-the-study.md: ITM specialization; VCST on Need only; Mitchell PLU on Constructs; implied PQ1/PQ2; interviews-only GQI. Markdown wins if Word drifts."},
     ]
 
 
@@ -450,7 +473,7 @@ def schedule_rows():
         {"cadence": "Daily", "block": "Structured reading", "clock": "Second block 30–60 min", "artifact": "03_REFERENCES row + note in literature matrix when a source is actually read", "metric": "1 source with allowed-use filled", "source": "Workflow synthesis matrix"},
         {"cadence": "Daily", "block": "Microbreaks", "clock": "20s every 20–30 min; 5–10 min hourly", "artifact": "None (health SOP)", "metric": "Stand/stretch logged if pain flare", "source": "Workflow ergonomics"},
         {"cadence": "Daily", "block": "End-of-day log", "clock": "Last 10 min", "artifact": "00_CHANGE_LOG only if a register actually changed; else skip", "metric": "Tomorrow’s 3 tasks written", "source": "PDCA"},
-        {"cadence": "Weekly", "block": "Sprint review", "clock": "Sunday / Friday close", "artifact": "01_LIFECYCLE status; 10_WORK_SCHEDULE checkboxes", "metric": "Pages/sections vs plan; n of sources added", "source": "Workflow weekly review"},
+        {"cadence": "Weekly", "block": "Sprint review", "clock": "Sunday / Friday close", "artifact": "01_LIFECYCLE status; 15_WEEKLY_RUN; 16_QUAL_MAP", "metric": "Six SOP todos closed; pages/sections vs plan", "source": "Workflow weekly review; offering SOP §3.3"},
         {"cadence": "Weekly", "block": "Instrument / codebook freeze check", "clock": "If any wording temptation", "artifact": "05_INTERVIEW_ITEMS status must stay active; bump version BEFORE any spoken change", "metric": "Spoken text unchanged unless version bump", "source": "docs/notion/README.md"},
         {"cadence": "Weekly (coding phase)", "block": "Interval CSV backup", "clock": "After each coded interview, else weekly no_change", "artifact": "docs/notion/interval-backups/YYYY-MM-DD/", "metric": "update-log row exists", "source": "notion README"},
         {"cadence": "Weekly", "block": "Accountability", "clock": "Advisor or writing group", "artifact": "Need OV + one appendix table from this xlsx", "metric": "One external share", "source": "Workflow accountability"},
@@ -528,6 +551,8 @@ def build_workbook(path: Path):
         {"order": 17, "group": "Audit", "sheet": "12_UPDATE_LOG", "purpose": "CSV nest history + this pack", "action": "APPEND"},
         {"order": 18, "group": "Offering", "sheet": "13_SOP", "purpose": "Daily/weekly/stage SOP for this offering", "action": "FOLLOW"},
         {"order": 19, "group": "Offering", "sheet": "14_SUCCESS", "purpose": "Abstract-to-success gates vs prior outputs", "action": "VIEW"},
+        {"order": 20, "group": "Offering", "sheet": "15_WEEKLY_RUN", "purpose": "2026-09-08 weekly SOP six-todo close", "action": "VIEW"},
+        {"order": 21, "group": "Alignment", "sheet": "16_QUAL_MAP", "purpose": "QUAL Example4-1 headings → lifecycle status", "action": "UPDATE WEEKLY"},
     ]
     write_sheet(wb, "NAVIGATION", nav_headers, nav_rows)
 
@@ -644,6 +669,20 @@ def build_workbook(path: Path):
                 "backup_folder": "docs/notion/templates",
             }
         )
+    if not any(r.get("log_id") == "UL-0007" for r in ulog):
+        ulog.append(
+            {
+                "log_id": "UL-0007",
+                "timestamp_utc": "2026-09-08T05:10:00Z",
+                "type": "no_change",
+                "instrument_version": "ITDR-GQI-INT-v0.1.1",
+                "changed_by": "researcher",
+                "files_touched": "docs/weekly-sop-run-2026-09-08.md; docs/notion/interval-backups/2026-09-08-weekly/; downloads/WALKER_Weekly_SOP_Run_2026-09-08.docx",
+                "summary": "Weekly SOP §3.3 close. Coding not started so nest copied as no_change. CH3 locks and Need OV confirmed. Spoken wording unchanged. n=12.",
+                "delve_export": "N",
+                "backup_folder": "docs/notion/interval-backups/2026-09-08-weekly",
+            }
+        )
     write_sheet(wb, "12_UPDATE_LOG", list(ulog[0].keys()), ulog, widths={6: 50, 7: 50})
 
     sop_rows = [
@@ -665,6 +704,35 @@ def build_workbook(path: Path):
         {"outcome": "Offering done (Wk 10)", "prior_output": "tracking pack xlsx + docx", "pass": "One xlsx + one Word show locks, Need OV, schedule, next status", "fail": "Treating this SOP as a new study"},
     ]
     write_sheet(wb, "14_SUCCESS", ["outcome", "prior_output", "pass", "fail"], success_rows, widths={1: 22, 2: 36, 3: 48, 4: 40})
+
+    weekly_rows = [
+        {"todo": "W1", "sop_step": "Open 00_CHANGE_LOG then 01_LIFECYCLE", "result": "PASS", "evidence": "12 prior CL rows plus CL-0013/0014 this close. LC-01–04 active/drafted; LC-05–11 not started."},
+        {"todo": "W2", "sop_step": "Confirm CH3_CONTROL n=12 and spoken v0.1.1", "result": "PASS", "evidence": "Sample locked n=12 (REPLACE vs Origins 10–15). Spoken protocol ITDR-GQI-INT-v0.1.1. VCST Need only. GQI + CIT + hybrid TA + Delve-as-store."},
+        {"todo": "W3", "sop_step": "Confirm 09_NEED_OV matches chapter-i markdown", "result": "PASS", "evidence": "N-01–N-09 match Need / ITM / VCST / PQ1 / PQ2 / unit. N-10 records this confirm. Markdown remains source of paste."},
+        {"todo": "W4", "sop_step": "Interval backup or no_change", "result": "PASS", "evidence": "Coding not started. UL-0007 type=no_change. Folder docs/notion/interval-backups/2026-09-08-weekly/."},
+        {"todo": "W5", "sop_step": "Share one artifact", "result": "PASS", "evidence": "downloads/WALKER_Weekly_SOP_Run_2026-09-08.docx (Need OV + locks + next three tasks)."},
+        {"todo": "W6", "sop_step": "Map QUAL Example4-1 headings to status", "result": "PASS", "evidence": "16_QUAL_MAP. Collection/IRB/analysis remain Not started. Need/methods drafted."},
+    ]
+    write_sheet(wb, "15_WEEKLY_RUN", ["todo", "sop_step", "result", "evidence"], weekly_rows, widths={1: 8, 2: 42, 3: 10, 4: 70})
+
+    qual_rows = [
+        {"qual_heading": "Alignment to the Program of Study", "lifecycle": "LC-01 / LC-02", "status": "Drafted / In progress", "next_action": "Paste Need four paragraphs into courseroom Alignment node; do not stack a second Need set"},
+        {"qual_heading": "Project Problem / Gap", "lifecycle": "LC-01", "status": "In progress", "next_action": "Keep gap operational (enactment), not definitional"},
+        {"qual_heading": "Supporting Evidence / Synthesis", "lifecycle": "LC-03", "status": "In progress", "next_action": "Add REF-IDs with allowed-use; do not replace Mitchell 1997"},
+        {"qual_heading": "Purpose and Project Questions", "lifecycle": "LC-02", "status": "Drafted", "next_action": "Official RQ labels may replace PQ1/PQ2 tags; unit of analysis stays locked"},
+        {"qual_heading": "Definition of Terms", "lifecycle": "LC-02", "status": "Drafted", "next_action": "Use symbols.csv original vs operational defs"},
+        {"qual_heading": "Methodological Approach", "lifecycle": "LC-04", "status": "Drafted", "next_action": "Keep GQI + CIT + hybrid TA; never “analyzed using Delve”"},
+        {"qual_heading": "Population and Sample", "lifecycle": "LC-04 / LC-06", "status": "Drafted lock / collection not started", "next_action": "n = 12; 10–200; no recruit before IRB"},
+        {"qual_heading": "Constructs / Phenomena", "lifecycle": "LC-02", "status": "Locked", "next_action": "P L U probes; Lev not a fourth attribute; VCST off Constructs"},
+        {"qual_heading": "Measures or Artifacts", "lifecycle": "LC-04", "status": "Drafted", "next_action": "Instrument v0.1.1; optional artifact Path A/B/C"},
+        {"qual_heading": "Detailed Procedures / Dependability", "lifecycle": "LC-04", "status": "Drafted", "next_action": "Revision-packet protocol + member-check + storage SOP"},
+        {"qual_heading": "Sampling Strategy / Recruitment", "lifecycle": "LC-05 / LC-06", "status": "Not started", "next_action": "Hard stop until IRB letter"},
+        {"qual_heading": "Data Collection Process", "lifecycle": "LC-07", "status": "Not started", "next_action": "Q0 first; skip-rules; CLEAN same day"},
+        {"qual_heading": "Ethical Considerations", "lifecycle": "LC-05", "status": "Not started", "next_action": "Capella IRB package from revision packet §7"},
+        {"qual_heading": "Proposed Data Analysis Plan", "lifecycle": "LC-08 / LC-09", "status": "Not started (method drafted)", "next_action": "MU lock before EMERGENT; two PQ answers"},
+        {"qual_heading": "References", "lifecycle": "LC-03", "status": "In progress", "next_action": "03_REFERENCES; parked rows stay parked"},
+    ]
+    write_sheet(wb, "16_QUAL_MAP", ["qual_heading", "lifecycle", "status", "next_action"], qual_rows, widths={1: 40, 2: 18, 3: 32, 4: 55})
 
     path.parent.mkdir(parents=True, exist_ok=True)
     wb.save(path)
@@ -932,7 +1000,7 @@ def build_docx(path: Path, refs: list[dict]):
     heading(doc, "8. How to use the companion xlsx")
     para(
         doc,
-        "Open README, then 00_CHANGE_LOG (bold rows first), then 09_NEED_OV and 10_WORK_SCHEDULE. Update 01_LIFECYCLE status only. Add literature as a new REF-ID on 03_REFERENCES; do not paste a second bibliography into Word without the ID. After interviews, fill 11_LEVERAGE_MEMO and export Delve to the dated CSV nest. Rebuild this pack with scripts/build_dissertation_tracking_pack.py if CSV templates change.",
+        "Open README, then 00_CHANGE_LOG (bold rows first), then 09_NEED_OV and 10_WORK_SCHEDULE. After a weekly SOP close, read 15_WEEKLY_RUN and 16_QUAL_MAP. Update 01_LIFECYCLE status only. Add literature as a new REF-ID on 03_REFERENCES; do not paste a second bibliography into Word without the ID. After interviews, fill 11_LEVERAGE_MEMO and export Delve to the dated CSV nest. Rebuild this pack with scripts/build_dissertation_tracking_pack.py if CSV templates change.",
     )
 
     heading(doc, "9. Parking lot and not-this rules", new=True)
@@ -952,6 +1020,31 @@ def build_docx(path: Path, refs: list[dict]):
     para(
         doc,
         "Spoken interview wording remains ITDR-GQI-INT-v0.1.1; n = 12; VCST placement on Need only; instructor original Word in source/originals/; phenomenology and confirmatory wording stay out; Delve is not the method.",
+    )
+
+    heading(doc, "11. Weekly SOP close — 8 September 2026", new=True)
+    para(
+        doc,
+        "Offering SOP §3.3 six todos all PASS. Coding had not started, so the nest copy is type=no_change (UL-0007), not a fake Delve export. Shareable memo: downloads/WALKER_Weekly_SOP_Run_2026-09-08.docx.",
+    )
+    add_table(
+        doc,
+        [
+            ["Todo", "Result", "Evidence"],
+            ["W1 Change log then lifecycle", "PASS", "CL-0013/0014; LC-01–04 active/drafted; LC-05–11 not started"],
+            ["W2 CH3 locks", "PASS", "n = 12; ITDR-GQI-INT-v0.1.1; VCST Need only"],
+            ["W3 Need OV vs markdown", "PASS", "N-01–N-09 match chapter-i; N-10 confirm"],
+            ["W4 Interval or no_change", "PASS", "UL-0007; 2026-09-08-weekly/"],
+            ["W5 Share one artifact", "PASS", "Weekly SOP run Word"],
+            ["W6 QUAL Example4-1 map", "PASS", "16_QUAL_MAP; IRB/collection/analysis not started"],
+        ],
+    )
+    mixed_para(
+        doc,
+        [
+            ("Tomorrow’s three tasks: ", True),
+            ("(1) paste the four Need paragraphs into the courseroom Alignment/Need node without stacking a second set; (2) add or verify one Chapter II REF- row with allowed-use; (3) start the IRB packet — no recruitment.", False),
+        ],
     )
 
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -995,6 +1088,24 @@ def patch_csv_templates(new_refs: list[dict]):
                     "summary": "Tracking pack v1.0. New PDF refs Joos 2019, Khurram 2015, EMR roadmap 2023, Daniel 2019 parked, Christensen 2023 parked, Wood 2021. Spoken wording unchanged. n=12.",
                     "delve_export": "N",
                     "backup_folder": "docs/notion/templates",
+                }
+            )
+    if "UL-0007" not in ul_text:
+        with ul_path.open(newline="", encoding="utf-8") as f:
+            ul_fields = csv.DictReader(f).fieldnames
+        with ul_path.open("a", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=ul_fields)
+            w.writerow(
+                {
+                    "log_id": "UL-0007",
+                    "timestamp_utc": "2026-09-08T05:10:00Z",
+                    "type": "no_change",
+                    "instrument_version": "ITDR-GQI-INT-v0.1.1",
+                    "changed_by": "researcher",
+                    "files_touched": "docs/weekly-sop-run-2026-09-08.md; docs/notion/interval-backups/2026-09-08-weekly/; downloads/WALKER_Weekly_SOP_Run_2026-09-08.docx",
+                    "summary": "Weekly SOP §3.3 close. Coding not started so nest copied as no_change. CH3 locks and Need OV confirmed. Spoken wording unchanged. n=12.",
+                    "delve_export": "N",
+                    "backup_folder": "docs/notion/interval-backups/2026-09-08-weekly",
                 }
             )
 

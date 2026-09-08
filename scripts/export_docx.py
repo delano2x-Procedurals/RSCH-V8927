@@ -291,14 +291,24 @@ def main():
         "Tracking-pack offering: how it is run, and what counts as success, aligned to prior GQI outputs",
         OUT / "WALKER_Offering_SOP_and_Success_Abstract.docx",
     )
+    weekly = convert_md(
+        DOCS / "weekly-sop-run-2026-09-08.md",
+        "Weekly SOP Run — 8 September 2026",
+        "Six-todo close: locks, Need match, no_change nest, QUAL heading map, next three tasks",
+        OUT / "WALKER_Weekly_SOP_Run_2026-09-08.docx",
+    )
     print(packet)
     print(assessment)
     print(sop)
+    print(weekly)
     if ARTIFACTS.exists():
-        for src in (packet, assessment, sop):
+        for src in (packet, assessment, sop, weekly):
             dest = ARTIFACTS / src.name
-            dest.write_bytes(src.read_bytes())
-            print("artifact", dest)
+            try:
+                dest.write_bytes(src.read_bytes())
+                print("artifact", dest)
+            except OSError as exc:
+                print("artifact_skip", dest, exc)
 
 
 if __name__ == "__main__":

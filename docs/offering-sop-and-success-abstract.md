@@ -3,7 +3,7 @@
 **Offering:** Dissertation Document Tracking Pack (one xlsx + one Word file)  
 **Course:** RSCH-V8927 (building on BMGT-8044)  
 **Instrument freeze:** `ITDR-GQI-INT-v0.1.1` (spoken wording unchanged)  
-**Companions:** [change-tracking-update.md](change-tracking-update.md) · [chapter-i-need-for-the-study.md](chapter-i-need-for-the-study.md) · [chapter-iii-methodology.md](chapter-iii-methodology.md) · [collection-analysis-revision-packet.md](collection-analysis-revision-packet.md) · downloads tracking pack
+**Companions:** [change-tracking-update.md](change-tracking-update.md) · [chapter-i-need-for-the-study.md](chapter-i-need-for-the-study.md) · [chapter-iii-methodology.md](chapter-iii-methodology.md) · [collection-analysis-revision-packet.md](collection-analysis-revision-packet.md) · [weekly-sop-run-2026-09-08.md](weekly-sop-run-2026-09-08.md) · downloads tracking pack
 
 **Paste note.** Section 1 is the courseroom **abstract to success**. Section 2 is the **SOP**. Bold marks **NEW** for this offering or a **do-not-drift** lock from prior outputs. This offering is document control. It is not a new method, codebook, or spoken protocol.
 
@@ -128,7 +128,7 @@ Follow `01_LIFECYCLE`. Do not skip gates.
 | GQI guide v0.1.1 | Question IDs and skip rules | Wording without version bump |
 | Symbols / construct index | P L U Lev DR ESC EV RA | Fourth salience attribute |
 | Revision packet | Ethics, member-check, storage, artifact paths | Phenomenology wording |
-| Tracking pack xlsx/docx | Sheets 00–12, Need OV, work schedule | Second live codebook |
+| Tracking pack xlsx/docx | Sheets 00–16, Need OV, work schedule, weekly run, QUAL map | Second live codebook |
 | Updated / U.S. references | Keep/replace/drop rules; seminal keep set | Invented citations |
 | Origins13 ROS | Input-once / ID philosophy and sheet *roles* | Origins sample 10–15; Origins IQ wording |
 
@@ -145,10 +145,13 @@ Follow `01_LIFECYCLE`. Do not skip gates.
 
 ## 6. Offering complete checklist
 
-- [ ] Abstract to success (Section 1) can be pasted without adding a new RQ.
-- [ ] Daily and weekly SOP match `10_WORK_SCHEDULE`.
-- [ ] `CH3_CONTROL` still shows n = 12 and spoken v0.1.1.
-- [ ] Need markdown and `09_NEED_OV` agree.
-- [ ] No parked item has been promoted to a Delve parent or theme title.
-- [ ] Latest interval folder or `no_change` row exists if coding has started.
-- [ ] Courseroom Word of this file is in `downloads/WALKER_Offering_SOP_and_Success_Abstract.docx`.
+Checked 8 September 2026 during the weekly SOP run.
+
+- [x] Abstract to success (Section 1) can be pasted without adding a new RQ.
+- [x] Daily and weekly SOP match `10_WORK_SCHEDULE`.
+- [x] `CH3_CONTROL` still shows n = 12 and spoken v0.1.1.
+- [x] Need markdown and `09_NEED_OV` agree (N-10 confirm).
+- [x] No parked item has been promoted to a Delve parent or theme title.
+- [x] Latest interval folder or `no_change` row exists (`2026-09-08-weekly/`; coding not started).
+- [x] Courseroom Word of this file is in `downloads/WALKER_Offering_SOP_and_Success_Abstract.docx`.
+- [x] Weekly share memo is in `docs/weekly-sop-run-2026-09-08.md` and `downloads/WALKER_Weekly_SOP_Run_2026-09-08.docx`.

@@ -22,6 +22,8 @@ Dissertation tracking pack (one xlsx + one Word file, bolded what/why): [downloa
 
 Offering SOP and abstract to success: [docs/offering-sop-and-success-abstract.md](docs/offering-sop-and-success-abstract.md) · [downloads/WALKER_Offering_SOP_and_Success_Abstract.docx](downloads/WALKER_Offering_SOP_and_Success_Abstract.docx).
 
+Latest weekly SOP close (8 Sep 2026): [docs/weekly-sop-run-2026-09-08.md](docs/weekly-sop-run-2026-09-08.md) · [downloads/WALKER_Weekly_SOP_Run_2026-09-08.docx](downloads/WALKER_Weekly_SOP_Run_2026-09-08.docx). Coding not started: `UL-0007` is `type=no_change`.
+
 ## Open the workspace
 
 ```bash

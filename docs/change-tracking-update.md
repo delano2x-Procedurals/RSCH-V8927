@@ -288,6 +288,22 @@ If the line is used, keep the Gibran (1923) reference-list entry. If no epigraph
 
 ---
 
+### Pass — Weekly SOP run and document refresh (8 Sep 2026)
+
+**Ask:** Run the six weekly SOP todos; update all documents as needed.
+
+**Done**
+
+- Closed W1–W6. Results live on `15_WEEKLY_RUN` and [weekly-sop-run-2026-09-08.md](weekly-sop-run-2026-09-08.md).
+- `UL-0007` `type=no_change` because coding had not started. Nest copied to `docs/notion/interval-backups/2026-09-08-weekly/`.
+- QUAL Example4-1 headings mapped on `16_QUAL_MAP`. IRB, recruitment, collection, and analysis remain **Not started**.
+- Need OV N-10 confirm: markdown still wins if Word drifts.
+- Spoken protocol **not** changed. Sample remains **n = 12**.
+
+**Usage.** Share the weekly Word file with an advisor. Tomorrow: paste Need (do not stack), one REF- row, start IRB packet — no recruitment.
+
+---
+
 ## What is still open
 
 | Item | Status |
