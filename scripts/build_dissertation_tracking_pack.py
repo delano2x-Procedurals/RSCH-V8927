@@ -628,19 +628,20 @@ def build_workbook(path: Path):
     write_sheet(wb, "11_LEVERAGE_MEMO", list(lev[0].keys()), lev)
 
     ulog = read_csv("update-log.csv")
-    ulog.append(
-        {
-            "log_id": "UL-0005",
-            "timestamp_utc": "2026-09-08T02:30:00Z",
-            "type": "pack_create",
-            "instrument_version": "ITDR-GQI-INT-v0.1.1",
-            "changed_by": "researcher",
-            "files_touched": "downloads/Dissertation_Document_Tracking_Master.xlsx; downloads/Dissertation_Document_Tracking_Pack.docx; docs/notion/templates/references.csv; docs/notion/templates/update-log.csv",
-            "summary": "Consolidated tracking pack. Spoken wording unchanged. New PDF refs + parking lot. Sample remains 12.",
-            "delve_export": "N",
-            "backup_folder": "docs/notion/templates",
-        }
-    )
+    if not any(r.get("log_id") == "UL-0005" for r in ulog):
+        ulog.append(
+            {
+                "log_id": "UL-0005",
+                "timestamp_utc": "2026-09-08T02:30:00Z",
+                "type": "pack_create",
+                "instrument_version": "ITDR-GQI-INT-v0.1.1",
+                "changed_by": "researcher",
+                "files_touched": "downloads/Dissertation_Document_Tracking_Master.xlsx; downloads/Dissertation_Document_Tracking_Pack.docx; docs/notion/templates/references.csv; docs/notion/templates/update-log.csv",
+                "summary": "Consolidated tracking pack. Spoken wording unchanged. New PDF refs + parking lot. Sample remains 12.",
+                "delve_export": "N",
+                "backup_folder": "docs/notion/templates",
+            }
+        )
     write_sheet(wb, "12_UPDATE_LOG", list(ulog[0].keys()), ulog, widths={6: 50, 7: 50})
 
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -928,7 +929,7 @@ def build_docx(path: Path, refs: list[dict]):
     heading(doc, "10. What will not change")
     para(
         doc,
-        "Spoken interview wording; n = 12; VCST placement on Need only; instructor original Word in source/originals/; phenomenology and confirmatory wording stay out; Delve is not the method.",
+        "Spoken interview wording remains ITDR-GQI-INT-v0.1.1; n = 12; VCST placement on Need only; instructor original Word in source/originals/; phenomenology and confirmatory wording stay out; Delve is not the method.",
     )
 
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -954,23 +955,26 @@ def patch_csv_templates(new_refs: list[dict]):
             for row in add:
                 w.writerow(row)
     ul_path = TEMPLATES / "update-log.csv"
-    with ul_path.open(newline="", encoding="utf-8") as f:
-        ul_fields = csv.DictReader(f).fieldnames
-    with ul_path.open("a", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=ul_fields)
-        w.writerow(
-            {
-                "log_id": "UL-0005",
-                "timestamp_utc": "2026-09-08T02:30:00Z",
-                "type": "pack_create",
-                "instrument_version": "ITDR-GQI-INT-v0.1.1",
-                "changed_by": "researcher",
-                "files_touched": "downloads/Dissertation_Document_Tracking_Master.xlsx; downloads/Dissertation_Document_Tracking_Pack.docx; docs/notion/templates/references.csv",
-                "summary": "Tracking pack v1.0. New PDF refs Joos 2019, Khurram 2015, EMR roadmap 2023, Daniel 2019 parked, Christensen 2023 parked, Wood 2021. Spoken wording unchanged. n=12.",
-                "delve_export": "N",
-                "backup_folder": "docs/notion/templates",
-            }
-        )
+    with ul_path.open(encoding="utf-8") as f:
+        ul_text = f.read()
+    if "UL-0005" not in ul_text:
+        with ul_path.open(newline="", encoding="utf-8") as f:
+            ul_fields = csv.DictReader(f).fieldnames
+        with ul_path.open("a", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=ul_fields)
+            w.writerow(
+                {
+                    "log_id": "UL-0005",
+                    "timestamp_utc": "2026-09-08T02:30:00Z",
+                    "type": "pack_create",
+                    "instrument_version": "ITDR-GQI-INT-v0.1.1",
+                    "changed_by": "researcher",
+                    "files_touched": "downloads/Dissertation_Document_Tracking_Master.xlsx; downloads/Dissertation_Document_Tracking_Pack.docx; docs/notion/templates/references.csv",
+                    "summary": "Tracking pack v1.0. New PDF refs Joos 2019, Khurram 2015, EMR roadmap 2023, Daniel 2019 parked, Christensen 2023 parked, Wood 2021. Spoken wording unchanged. n=12.",
+                    "delve_export": "N",
+                    "backup_folder": "docs/notion/templates",
+                }
+            )
 
 
 def main():
